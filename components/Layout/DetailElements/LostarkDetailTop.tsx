@@ -29,14 +29,17 @@ const LostarkDetailTop = () => {
             Component 단위로 구성하여 재사용성을 높였습니다.
           </div>
           <div className="flex gap-4">
-            <div className="mt-10 flex  border-black bg-black text-white hover:translate-y-[-3px] transition border rounded-full text-[14px] flex">
-              <Link href={'/LostArk'} className="p-[10px] px-[15px] flex items-center transition">
+            <div className="mt-10 flex  border-black bg-black text-white hover:translate-y-[-3px] transition border rounded-full text-[14px] ">
+              <Link
+                href={'https://junmo-github-io.vercel.app/'}
+                className="p-[10px] px-[15px] flex items-center transition"
+              >
                 홈페이지 바로가기
                 <IoIosArrowForward size={16} />
               </Link>
             </div>
-            <div className="mt-10 flex  border-black  border rounded-full text-[14px] flex">
-              <Link href={'/LostArk'} className="flex items-center p-[10px] px-[15px]">
+            <div className="mt-10 flex  border-black  border rounded-full text-[14px] ">
+              <Link href={'https://github.com/Junmovo/Konikong'} className="flex items-center p-[10px] px-[15px]">
                 GitHub
                 <FaGithub size={16} className="ml-[5px]" />
               </Link>

@@ -1,4 +1,3 @@
-import { montserrat } from './../../public/fonts/fonts';
 import styled, { keyframes } from 'styled-components';
 // 고정 이너
 const bounceAnimation = keyframes`
