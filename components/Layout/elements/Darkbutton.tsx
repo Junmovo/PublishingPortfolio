@@ -1,6 +1,6 @@
 import React from 'react';
-import { IconButtonColorProps } from '@/types/Music';
 import { cn } from '@/lib/utils';
+import { IconButtonColorProps } from '@/types/PortfolioType';
 
 const Darkbutton = ({ icon, title, className, ...props }: IconButtonColorProps) => {
   return (

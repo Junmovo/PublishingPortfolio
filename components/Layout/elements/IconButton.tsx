@@ -1,6 +1,6 @@
 'use client';
 
-import { IconButtonProps } from '@/types/Ark';
+import { IconButtonProps } from '@/types/PortfolioType';
 
 export default function IconButton({ icon, onClickIcon = () => {} }: IconButtonProps) {
   return (

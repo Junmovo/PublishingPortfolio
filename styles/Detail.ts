@@ -38,3 +38,37 @@ export const AboutMeUnderText = styled.div`
     }
   }
 `;
+
+export const DetailTitle = styled.div``;
+
+export const DetailContents = styled.div`
+  color: #4b5563;
+  padding: 24px;
+  & div {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: ${(props) => {
+      if (props.color === 'problem') {
+        return '#f87171';
+      } else if (props.color === 'solution') {
+        return '#60a5fa';
+      } else {
+        return '#f59e0b';
+      }
+    }};
+  }
+  & span {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* font-weight: 600; */
+    color: ${(props) => {
+      if (props.color === 'problem') {
+        return '#f87171';
+      } else if (props.color === 'solution') {
+        return '#60a5fa';
+      } else {
+        return '#f59e0b';
+      }
+    }};
+  }
+`;

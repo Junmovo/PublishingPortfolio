@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-5 mb-10">
+      <div className="grid grid-cols-3 gap-5 mb-20">
         <AboutMeCard title={'Next.js / React'} icon={<SiNextdotjs size={30} />}>
           <div>SSR을 활용한 작업이 가능합니다.</div>
           <div>컴포넌트를 활용하여 재사용성을 높힙니다.</div>
