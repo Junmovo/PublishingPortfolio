@@ -10,7 +10,7 @@ export default function LostArkDetail(): JSX.Element {
         <article>
           <div>
             <S.TitleText>👋 프로젝트 소개</S.TitleText>
-            <S.TitleUnderText>
+            <S.TitleUnderText className="ml-[40px]">
               코니콩은 RPG게임 로스트아크의 전적검색 시스템입니다.
               <br /> 기존의 로스트아크 전적 검색 사이트의 UI를 개선하였습니다.
               <br /> 또한 사용자가 더욱 편리하게 이용할 수 있도록 <br />
@@ -21,7 +21,7 @@ export default function LostArkDetail(): JSX.Element {
         <article>
           <div>
             <S.TitleText>🤔 어떠한 기능이 있나요?</S.TitleText>
-            <S.TitleUnderText>
+            <S.TitleUnderText className="ml-[40px]">
               <div>
                 <span>Axios</span> 및 <span>Axios Instance</span>를 활용한 코드 가독성 향상
               </div>

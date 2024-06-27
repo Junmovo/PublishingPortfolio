@@ -6,8 +6,6 @@ export const TitleText = styled.h1`
   font-weight: 600;
 `;
 export const TitleUnderText = styled.div`
-  margin-left: 40px;
-
   div {
     padding-bottom: 15px;
     padding-left: 15px;
@@ -25,5 +23,18 @@ export const TitleUnderText = styled.div`
     border-radius: 50%;
     left: 0;
     top: 10px;
+  }
+`;
+
+export const AboutMeUnderText = styled.div`
+  div {
+    padding-bottom: 15px;
+    position: relative;
+    :last-child {
+      padding-bottom: 0;
+    }
+    span {
+      font-weight: 600;
+    }
   }
 `;
