@@ -9,7 +9,7 @@ export default function LostArkDetail(): JSX.Element {
   return (
     <>
       <LostarkDetailTop />
-      <section className="grid grid-cols-2 p-[20px] gap-7">
+      <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px]">
         <article>
           <div>
             <S.TitleText>👋 프로젝트 소개</S.TitleText>

@@ -12,9 +12,9 @@ interface AboutCardProps {
 
 const AboutMeCard = ({ children, title, icon }: AboutCardProps) => {
   return (
-    <div className=" rounded-[10px] p-8 bg-slate-50 ">
+    <div className=" rounded-[10px] p-8 bg-slate-50 dark:bg-[#2525259d]">
       <div>
-        <div className="mb-4 border flex bg-white rounded-full w-[50px] h-[50px] items-center justify-center">
+        <div className="mb-4 border flex bg-white dark:bg-[#121212] dark:border-black rounded-full w-[50px] h-[50px] items-center justify-center">
           {icon}
         </div>
         <div className="items-center flex gap-4  pb-4">

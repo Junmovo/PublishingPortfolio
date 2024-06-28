@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import StyledComponentsRegistry from '@/lib/registry';
 import { NanumNeo, Tmoney, montserrat, pretendard } from '../public/fonts/fonts';
-import ConditionalHeader from '@/components/Layout/HeaderConditional';
 import { ThemeProvider } from '@/provider/ThemeProvider';
 import Header from '@/components/Layout/Header';
 

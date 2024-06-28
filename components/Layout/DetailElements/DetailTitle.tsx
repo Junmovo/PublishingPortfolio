@@ -5,7 +5,7 @@ const DetailTitle = ({ title, subTitle, date }: IDetailTitleType) => {
   return (
     <>
       <div>
-        <span className=" text-[32px] text-gray-600">{subTitle}</span>
+        <span className=" text-[32px] text-gray-600 dark:text-gray-400">{subTitle}</span>
         <h1 className="font-[800] text-[64px] mb-5">{title}</h1>
       </div>
       <div>

@@ -1,13 +1,14 @@
 import React from 'react';
 import * as S from '@/styles/Detail';
 import LostarkDetailProblemTitle from './ProblomTitle';
+import { useTheme } from 'next-themes';
 
 const LostarkDetailProblem = () => {
   return (
     <article className="p-[20px]">
       <S.TitleText>💥 문제는 없었나요?</S.TitleText>
       <div className="grid grid-cols-2 gap-10 pt-4 ">
-        <div className="flex flex-col bg-gray-50 rounded-[20px] ">
+        <div className="flex flex-col bg-gray-50 dark:bg-[#2525259d] rounded-[20px] ">
           <LostarkDetailProblemTitle title="페이지 리렌더링마다 데이터 무한 요청" />
           <S.DetailContents color="problem">
             <div>⛔ 문제발생</div>
@@ -26,7 +27,7 @@ const LostarkDetailProblem = () => {
             사이트에서 전적 갱신이라는 버튼의 이유를 알게 되었습니다.
           </S.DetailContents>
         </div>
-        <div className="flex flex-col bg-gray-50 rounded-[20px] ">
+        <div className="flex flex-col bg-gray-50 dark:bg-[#2525259d] rounded-[20px] ">
           <LostarkDetailProblemTitle title={'새로고침 시 전역변수의 값이 사라지네?'} />
           <S.DetailContents color="problem">
             <div>⛔ 문제발생</div> 최근 검색어가 저장되어야 했지만, <span>새로고침시 사라지며</span> 최근 검색어 및
@@ -45,7 +46,7 @@ const LostarkDetailProblem = () => {
             있었습니다.
           </S.DetailContents>
         </div>
-        <div className="flex flex-col bg-gray-50 rounded-[20px] ">
+        <div className="flex flex-col bg-gray-50 dark:bg-[#2525259d] rounded-[20px] ">
           <LostarkDetailProblemTitle title="JSON 파싱 후 특정 값 추출 이슈" />
           <S.DetailContents color="problem">
             <div>⛔ 문제발생</div>
