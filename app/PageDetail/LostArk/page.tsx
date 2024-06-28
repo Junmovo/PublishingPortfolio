@@ -3,6 +3,7 @@ import LostarkDetailProblem from '@/components/Layout/ProblemElements/LostarkDet
 import LostarkDetailTop from '@/components/Layout/DetailElements/LostarkDetailTop';
 import * as S from '@/styles/Detail';
 import DetailPicture from '@/components/Layout/DetailElements/DetailPicture';
+import { ImageGroup } from '@/lib/DetailImgData';
 
 export default function LostArkDetail(): JSX.Element {
   return (
@@ -46,7 +47,7 @@ export default function LostArkDetail(): JSX.Element {
         </article>
       </section>
       <LostarkDetailProblem />
-      <DetailPicture />
+      <DetailPicture ImageGroup={ImageGroup} />
     </>
   );
 }

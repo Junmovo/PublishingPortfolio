@@ -3,7 +3,7 @@ export const ListChart = [
     Title: '로스트아크 전적검색 코니콩',
     SubTitle:
       '로스트아크 OpenAPi를 활용한 캐릭터 정보검색 사이트입니다. 다양한 기능과 UI/UX를 중심으로 보다 편리하게 이용할 수 있도록 구성하였습니다.',
-    ImageSrc: '/images/KoniImage.jpg',
+    ImageSrc: '/images/Lostark/koniProjectImg.png',
     Page: '/PageDetail/LostArk',
     Tag: ['OpenAPI', 'Next.Js', 'Tailwind', 'Zustand'],
   },

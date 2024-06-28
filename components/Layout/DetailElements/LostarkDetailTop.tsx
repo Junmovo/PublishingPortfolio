@@ -4,6 +4,7 @@ import React from 'react';
 import Detailbedge from './Detailbedge';
 import DetailTitle from './DetailTitle';
 import DetailSubcontents from './DetailSubContents';
+import Image from 'next/image';
 
 const LostarkDetailTop = () => {
   return (
@@ -27,8 +28,8 @@ const LostarkDetailTop = () => {
           />
         </div>
       </div>
-      <div className="w-[600px] h-[400px] bg-gray-400 rounded-lg  mt-3 p-[20px]  shadow-[0_2px_30px_0_rgba(0,0,0,.06)] dark:bg-[#2525259d]">
-        우측사진
+      <div className="w-[600px] h-[400px] bg-gray-400 rounded-[20px] overflow-hidden  mt-3 p-[20px]  shadow-[0_2px_30px_0_rgba(0,0,0,.06)] dark:bg-[#2525259d] relative">
+        <Image src={'/images/Lostark/konimainimg.png'} fill alt="코니메인이미지" />
       </div>
     </div>
   );

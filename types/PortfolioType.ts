@@ -1,3 +1,4 @@
+import { ImageGroup } from './../lib/DetailImgData';
 import { MouseEvent } from 'react';
 
 export interface IDetailContentsType {
@@ -24,4 +25,14 @@ export interface IconButtonColorProps {
   icon?: React.ReactNode;
   title: string;
   className?: string;
+}
+
+export type ImageGroupType = {
+  preview: string;
+  src: string;
+  title: string;
+};
+
+export interface IDetailPictureProps {
+  ImageGroup: ImageGroupType[];
 }
