@@ -1,4 +1,4 @@
-import LostarkDetailTopver2 from '@/components/Layout/DetailElements/LostarkDetailTop_2';
+import LostarkDetailTopver2 from '@/app/components/Layout/DetailElements/LostarkDetailTop_2';
 
 export default function LostArkDetail(): JSX.Element {
   return (

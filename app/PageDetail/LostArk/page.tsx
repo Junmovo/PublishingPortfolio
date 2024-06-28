@@ -1,9 +1,9 @@
 'use client';
-import LostarkDetailProblem from '@/components/Layout/ProblemElements/LostarkDetailProblom';
-import LostarkDetailTop from '@/components/Layout/DetailElements/LostarkDetailTop';
-import * as S from '@/styles/Detail';
-import DetailPicture from '@/components/Layout/DetailElements/DetailPicture';
-import { ImageGroup } from '@/lib/DetailImgData';
+import LostarkDetailProblem from '@/app/components/Layout/ProblemElements/LostarkDetailProblom';
+import LostarkDetailTop from '@/app/components/Layout/DetailElements/LostarkDetailTop';
+import * as S from '@/app/styles/Detail';
+import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
+import { ImageGroup } from '@/app/lib/DetailImgData';
 
 export default function LostArkDetail(): JSX.Element {
   return (

@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import StyledComponentsRegistry from '@/lib/registry';
+import StyledComponentsRegistry from '@/app/lib/registry';
 import { NanumNeo, Tmoney, montserrat, pretendard } from '../public/fonts/fonts';
 import { ThemeProvider } from '@/provider/ThemeProvider';
-import Header from '@/components/Layout/Header';
+import Header from '@/app/components/Layout/Header';
 
 export const metadata: Metadata = {
   title: '준모 포트폴리오',
