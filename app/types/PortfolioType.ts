@@ -13,7 +13,7 @@ export interface IDetailTitleType {
 export interface IDetailSubcontentsType {
   subContents: React.ReactNode;
   HomepageLink: string;
-  githubLink: string;
+  githubLink?: string;
 }
 
 export interface IconButtonProps {

@@ -15,7 +15,7 @@ interface IHeaderProps {
 export default function Header({ position, setNavNumber }: IHeaderProps): JSX.Element {
   const pathname = usePathname();
   const handleClick = (V: string) => () => {
-    document.getElementById(V)?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(V)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
   let MenuList;
   if (pathname === '/') {

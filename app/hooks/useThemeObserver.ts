@@ -9,7 +9,6 @@ export const useThemeObserver = (
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-      console.log(stateNumber);
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setState(stateNumber);
