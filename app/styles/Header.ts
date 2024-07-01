@@ -26,14 +26,11 @@ export const HeaderInner = styled.div`
 `;
 
 export const InnerMenuWrap = styled.ul`
-  width: 30%;
   display: flex;
   align-items: center;
-
   height: 60px;
 `;
 export const InnerMenu = styled.li`
-  width: 30%;
   font-family: 'montserrat';
   font-weight: 400;
   a {

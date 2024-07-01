@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const LostarkDetailTop = () => {
   return (
-    <div className="flex justify-between items-end mt-[30px] p-[20px] border-b-[1px] pb-[40px]">
+    <div className="flex justify-between items-end mt-[30px] p-[20px] border-b-[1px] pb-[60px]">
       <div>
         <div className="">
           <Detailbedge contents="Frontend" />

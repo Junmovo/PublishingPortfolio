@@ -16,15 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="kr"
-      className={`${NanumNeo.variable} ${Tmoney.variable}  ${pretendard.variable} ${montserrat.className} `}
-    >
+    <html lang="kr" className={`${NanumNeo.variable} ${pretendard.variable} ${montserrat.className} `}>
       <StyledComponentsRegistry>
         <body className={NanumNeo.className} style={{ overflowX: 'hidden' }}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-            <Header />
-            <div className="w-[1300px] m-auto">{children}</div>
+            {children}
           </ThemeProvider>
         </body>
       </StyledComponentsRegistry>

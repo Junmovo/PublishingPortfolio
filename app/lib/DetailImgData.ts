@@ -13,7 +13,7 @@ export const ImageGroup: ImageGroupType[] = [
   },
   {
     preview: '/images/Lostark/gif/search2.gif',
-    src: '/images/Lostark/preview/Searchdetail.png',
+    src: '/images/Lostark/preview/SearchDetail.png',
     title: '메인페이지 - 검색기능',
   },
   {

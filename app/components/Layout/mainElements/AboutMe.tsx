@@ -10,7 +10,7 @@ import AboutMeCareer from './components/AboutMeCareer';
 
 const AboutMe = () => {
   return (
-    <div className="pb-[80px]">
+    <div className="pb-[80px] w-[1300px]  m-auto ">
       <div className="gap-4 grid-cols-2 grid mb-[60px]">
         <div>
           <div className="text-[40px] font-[800] mb-4">
