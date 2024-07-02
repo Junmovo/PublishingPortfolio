@@ -12,6 +12,7 @@ const DetailSubcontents = ({ HomepageLink, subContents, githubLink }: IDetailSub
         <div className="mt-10 flex  border-black bg-black text-white hover:translate-y-[-5px] transition border rounded-full text-[14px] dark:border-white">
           <Link
             href={HomepageLink}
+            target="_blank"
             className="p-[18px] w-[250px] text-center items-center px-[15px] flex justify-center transition"
           >
             홈페이지 바로가기

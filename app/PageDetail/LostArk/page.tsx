@@ -14,9 +14,11 @@ export default function LostArkDetail(): JSX.Element {
   const [MainRef] = useThemeObserver(setNavNumber, 1);
   const [ProblemRef] = useThemeObserver(setNavNumber, 2);
   const [ProjectRef] = useThemeObserver(setNavNumber, 3);
+  const MenuList = [{ contents: 'Detail' }, { contents: 'Problem & Solution' }, { contents: 'Work-Detail' }];
+
   return (
     <>
-      <Header position={navNumber} setNavNumber={setNavNumber} />
+      <Header position={navNumber} setNavNumber={setNavNumber} MenuList={MenuList} />
       <PageDetailWrapper>
         <div ref={MainRef} id="Detail">
           <LostarkDetailTop />

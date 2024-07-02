@@ -7,21 +7,20 @@ import DarkModeButton from '../commons/DarkModeButton';
 import useMoveScroll from '@/app/hooks/useMoveScroll';
 import { SetStateAction, useState } from 'react';
 import { cn } from '@/app/lib/utils';
+import { MenuItem } from '@/app/types/PortfolioType';
 
 interface IHeaderProps {
   position: number;
   setNavNumber?: React.Dispatch<React.SetStateAction<number>>;
+  MenuList: MenuItem[];
 }
-export default function Header({ position, setNavNumber }: IHeaderProps): JSX.Element {
+export default function Header({ position, setNavNumber, MenuList }: IHeaderProps): JSX.Element {
   const pathname = usePathname();
   const handleClick = (V: string) => () => {
     document.getElementById(V)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
-  let MenuList;
   if (pathname === '/') {
     MenuList = [{ contents: 'Main' }, { contents: 'About' }, { contents: 'Project' }];
-  } else {
-    MenuList = [{ contents: 'Detail' }, { contents: 'Problem & Solution' }, { contents: 'Work-Detail' }];
   }
 
   return (

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 interface IListCardProps {
   Title: string;
-  SubTitle: string;
+  SubTitle: React.ReactNode;
   ImageSrc: string;
   Page: string;
   Tag: string[];
@@ -21,9 +21,9 @@ const ListCard = ({ Title, SubTitle, ImageSrc, Page, Tag }: IListCardProps) => {
 
           <div className="p-[5px]">
             <h2 className="text-[24px] font-[700] mb-[10px]">{Title}</h2>
-            <div className="text-gray-400 text-[14px]">{SubTitle}</div>
+            <div className="text-gray-500 text-[14px]">{SubTitle}</div>
           </div>
-          <div className="p-[5px] gap-2 flex text-[14px] mt-[20px]">
+          <div className="p-[5px] gap-2 flex text-[12px] mt-[20px] flex-wrap">
             {Tag.map((tag, i) => (
               <div key={i} className=" py-[5px] px-[15px] rounded-full border border-gray-400">
                 {tag}

@@ -36,3 +36,7 @@ export type ImageGroupType = {
 export interface IDetailPictureProps {
   ImageGroup: ImageGroupType[];
 }
+
+export interface MenuItem {
+  contents: string;
+}

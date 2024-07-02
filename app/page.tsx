@@ -13,10 +13,11 @@ export default function Home() {
   const [MainRef] = useThemeObserver(setNavNumber, 1);
   const [AboutRef] = useThemeObserver(setNavNumber, 2);
   const [ProjectRef] = useThemeObserver(setNavNumber, 3);
+  const MenuList = [{ contents: 'Main' }, { contents: 'About' }, { contents: 'Project' }];
 
   return (
     <>
-      <Header position={navNumber} />
+      <Header position={navNumber} MenuList={MenuList} />
       <PortfolioPadding>
         <div id="Main" ref={MainRef}>
           <MainContents_ver2 />
