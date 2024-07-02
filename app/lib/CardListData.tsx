@@ -33,7 +33,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Feelframe/feelframe.png',
     Page: '/PageDetail/Feelframe',
-    Tag: ['PHP', 'JavaScript', 'MySql-Workbench', 'CSS'],
+    Tag: ['PHP', 'JavaScript', 'MySql-Workbench'],
   },
   {
     Title: '필카드 모바일청첩장',
@@ -46,6 +46,6 @@ export const ListChart = [
 
     ImageSrc: '/images/Feelcard/Feelcard.png',
     Page: '/PageDetail/Feelcard',
-    Tag: ['PHP', 'JavaScript', 'MySql'],
+    Tag: ['PHP', 'JavaScript', 'MySql-Workbench'],
   },
 ];

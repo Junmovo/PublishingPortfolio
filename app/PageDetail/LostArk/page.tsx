@@ -29,6 +29,7 @@ export default function LostArkDetail(): JSX.Element {
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="ml-[40px]">
                   코니콩은 RPG게임 로스트아크의 전적검색 시스템입니다.
+                  <br />
                   <br /> 기존의 로스트아크 전적 검색 사이트의 UI를 개선하였습니다.
                   <br /> 또한 사용자가 더욱 편리하게 이용할 수 있도록 <br />
                   핵심정보를 한눈에 볼 수 있게 수정하였습니다.
@@ -40,21 +41,31 @@ export default function LostArkDetail(): JSX.Element {
                 <S.TitleText>🤔 어떠한 기능이 있나요?</S.TitleText>
                 <S.TitleUnderText className="ml-[40px]">
                   <div>
-                    <span>Axios</span> 및 <span>Axios Instance</span>를 활용한 코드 가독성 향상
+                    Axios 및 Axios Instance를 활용한 코드 가독성 향상
+                    <p> - Axios baseURL을 활용하여 불필요 코드 제거</p>
                   </div>
                   <div>
-                    <span>Zustand의 전역변수</span>를 활용한 <span>최근검색어, 즐겨찾기 기능</span>
+                    Zustand의 전역변수를 활용한 최근검색어, 즐겨찾기 기능
+                    <p> - persist를 활용한 로컬스토리지 저장</p>
+                    <p> - 검색 시 Axios 요청으로 해당 캐릭터 데이터 값 저장</p>
                   </div>
                   <div>
-                    React-Query를 이용한 <span>데이터 요청 최소화</span>
+                    React-Query를 이용한 데이터 요청 최소화
+                    <p> - 데이터 캐싱의 강점을 이용하여 반복적인 데이터 요청 최소화</p>
                   </div>
                   <div>
-                    useState를 활용한 공지사항 <span>필터링기능</span>
+                    useState를 활용한 공지사항 필터링기능
+                    <p> - slice 함수와 reduce를 활용하여 10개씩 타입 분류</p>
                   </div>
-                  <div>Skeleton UI 를 활용한 사용자 경험 개선</div>
-                  <div>다크모드 제공</div>
                   <div>
-                    다른사람에게 쉽게 공유 할 수 있는 <span>URL 복사</span> 기능
+                    ShadCN 라이브러리를 활용한 사용자 경험 개선
+                    <p> - DarkMode 구현</p>
+                    <p> - 데이터 로딩 시 Skeleton UI 작업</p>
+                  </div>
+                  <div>
+                    다른사람에게 쉽게 공유 할 수 있는 URL 복사 기능
+                    <p> - ToastUI 를 활용한 정보 제공</p>
+                    <p> - clipboard를 활용한 현재 복사</p>
                   </div>
                 </S.TitleUnderText>
               </div>

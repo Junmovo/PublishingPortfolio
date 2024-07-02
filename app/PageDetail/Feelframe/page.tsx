@@ -5,10 +5,12 @@ import FeelFrameDetailTop from '@/app/components/Layout/DetailElements/Feelframe
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
 import { useThemeObserver } from '@/app/hooks/useThemeObserver';
-import { ImageFeelCardGroup } from '@/app/lib/DetailImgData';
+import { ImageFeelCardGroup, ImageFeelFrameGroup } from '@/app/lib/DetailImgData';
 import * as S from '@/app/styles/Detail';
 import { MenuItem } from '@/app/types/PortfolioType';
+import Link from 'next/link';
 import React, { useState } from 'react';
+import { IoIosArrowForward } from 'react-icons/io';
 
 const FeelcardPage = () => {
   const [navNumber, setNavNumber] = useState(1);
@@ -19,38 +21,64 @@ const FeelcardPage = () => {
     <>
       <Header position={navNumber} setNavNumber={setNavNumber} MenuList={MenuList} />
       <PageDetailWrapper>
-        <div ref={MainRef} id="Detail" className="h-[100vh]">
+        <div ref={MainRef} id="Detail">
           <FeelFrameDetailTop />
-          <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px] pb-[80px]">
+          <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px] pb-[40px]">
             <article>
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="ml-[40px]">
-                  필카드는 모바일 청첩장 제작 에디터입니다. <br />
+                  필프레임은 웨딩액자 전문 홈페이지입니다. <br />
                   <br />
-                  기존의 여러 모바일 청첩장에서 찾아볼 수 없는 기능들을 추가한 에디터 플러스(Editor Plus+)를 도입하여
-                  사용자 경험(UX)을 대폭 개선했습니다.
-                  <br></br>실시간 미리보기와 다양한 커스터마이징 옵션을 제공하여 사용성을 향상시키고,<br></br> 그 결과
-                  기존 사용률보다 1.5배 높은 성과를 달성한 바 있습니다.
+                  쇼핑몰의 취지에 맞는 기본적인 UI 디자인을 맡아, 사용자들이 쉽게 인지하고 사용할 수 있도록
+                  구성하였습니다. 또한, 담당자 전용 기능과 사용자 편의 기능까지 꼼꼼히 고민하여 만들어진 페이지입니다.
+                  <br />
+                  <br />
+                  사용자들이 보다 편리하게 이용할 수 있도록 기존의 불편한 기능들을 개선하여 새롭게 리뉴얼하였습니다.
                 </S.TitleUnderText>
               </div>
             </article>
             <article>
               <div>
-                <S.TitleText>🤔 어떠한 기능이 있나요?</S.TitleText>
+                <S.TitleText>🤔 어떠한 작업을 하셨나요?</S.TitleText>
                 <S.TitleUnderText className="ml-[40px]">
                   <div>
-                    <span>실시간 미리보기</span>를 통한 사용자 편의성 향상
+                    회원가입 비밀번호 유효성 검사 및 팝빌을 활용한 인증번호 전송
+                    <p className=""> - test 함수와 Ajax를 활용하여 유효성 검사 및 회원가입 절차 제작</p>
+                    <p className="">- 팝빌 API를 활용하여 공통 함수 제작을 통하여 재사용성을 높힘</p>
                   </div>
                   <div>
-                    메인 테마 설정, 효과 위치 조정 등 <span>실시간 변경 기능</span> 추가
+                    공동구매 생성 로직 및 가입 절차 제작
+                    <p className=""> - Workbench Group 테이블 기획 및 생성</p>
+                    <p className=""> - MySql-WorkBench 테이블을 활용하여 핸드폰 번호와 이름을 매칭시켜 유효성 확인</p>
                   </div>
                   <div>
-                    <span>컬러피커( Color Picker )</span> 를 통하여 <span>커스터마이징 색상</span> 가능
+                    액자교체 시스템 디자인 기획 및 개발
+                    <p className=""> - QR코드를 통한 배달 및 회수 시스템</p>
+                    <p className="">
+                      - 휴대폰 및 결제 번호를 통한 정보 수집 및 입력된 정보를 바탕으로 관리자 확인 가능
+                    </p>
+                    <p className="underline-offset-8	underline text-gray-400 hover:text-black transition">
+                      <Link href={'https://feelframe.co.kr/page?dir=prop&view=chfr'} target="_blank" className="flex ">
+                        - 페이지 바로가기
+                      </Link>
+                    </p>
                   </div>
-                  <div>D-Day 테마 , 캘린더 테마 설정 기능 추가 ( 한국어 영어 일반 등 )</div>
-                  <div>다이렉트 카드 제휴 사이트 디자인 및 기능 관리</div>
-                  <div>관리자 페이지를 통하여 사용자 관리 및 이벤트 혜택 제공</div>
+                  <div>
+                    액자 추천 서비스 기능
+                    <p className=""> - 원하는 분위기 및 공간을 이용하여 액자 추천 서비스 구현</p>
+                    <p className="">- 관리자 페이지 내 선택 로직에 대한 값 변경 가능</p>
+                    <p className="">- LottieFiles 를 활용한 loading 페이지 구현</p>
+                  </div>
+                  <div>
+                    관리자 페이지 Chart.js 를 활용한 월 단위 일 단위 매출 계산
+                    <p> - 라이브러리 Chart.js 활용 및 데이터 값 계산 후 표시</p>
+                  </div>
+                  <div>
+                    관리자 페이지 공지사항 업로드 및 배너 변경
+                    <p> - 업로드와 세부 내용 및 타이틀을 설정할 수 있게 변경</p>
+                    <p> - 공지사항 고정 및 최신 글 강조표시</p>
+                  </div>
                 </S.TitleUnderText>
               </div>
             </article>
@@ -58,7 +86,7 @@ const FeelcardPage = () => {
         </div>
 
         <div ref={ProjectRef} id="Work-Detail">
-          <DetailPicture ImageGroup={ImageFeelCardGroup} />
+          <DetailPicture ImageGroup={ImageFeelFrameGroup} />
         </div>
       </PageDetailWrapper>
     </>

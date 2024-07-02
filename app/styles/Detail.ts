@@ -3,15 +3,23 @@ import styled from 'styled-components';
 export const TitleText = styled.h1`
   font-size: 24px;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 800;
 `;
 export const TitleUnderText = styled.div`
   div {
     padding-bottom: 15px;
     padding-left: 15px;
     position: relative;
+    font-weight: 600;
     span {
-      font-weight: 600;
+      font-weight: 400;
+    }
+    p {
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 400;
     }
   }
   div::after {

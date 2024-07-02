@@ -21,7 +21,7 @@ const FeelFrameDetailTop = () => {
           }
         />
       </div>
-      <DetailTopImage ImageSrc="/images/Feelcard/FeelcardDetail.png" />
+      <DetailTopImage ImageSrc="/images/Feelframe/DetailMainImage.png" />
     </div>
   );
 };

@@ -57,7 +57,7 @@ const AboutMe = () => {
         <AboutMeCard title={'PHP / MySql'} icon={<FaPhp size={30} />}>
           <div>PHP를 통하여 로그인 세션 구현 한 경험이 있습니다.</div>
           <div>AJax를 활용한 CRUD 를 작업한 경험이 있습니다.</div>
-          <div>MySql 테이블 관리 및 기획한 경험이 있습니다.</div>
+          <div>MySql-Workbench 테이블 관리 및 기획한 경험이 있습니다.</div>
         </AboutMeCard>
       </div>
       <AboutMeCareer />
