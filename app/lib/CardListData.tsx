@@ -31,7 +31,7 @@ export const ListChart = [
         개선하여 사용 편의성을 한층 높였습니다.
       </>
     ),
-    ImageSrc: '/images/Feelframe/feelframe.png',
+    ImageSrc: '/images/feelframe/feelframe1.png',
     Page: '/PageDetail/Feelframe',
     Tag: ['PHP', 'JavaScript', 'MySql-Workbench'],
   },

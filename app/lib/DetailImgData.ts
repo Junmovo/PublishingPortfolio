@@ -63,33 +63,33 @@ export const ImageFeelCardGroup: ImageGroupType[] = [
 
 export const ImageFeelFrameGroup: ImageGroupType[] = [
   {
-    preview: '/images/Feelframe/preview/mainpagepreview.png',
-    src: '/images/Feelframe/preview/mainpage.png',
+    preview: '/images/feelframe/preview/mainpagepreview.png',
+    src: '/images/feelframe/preview/mainpage.png',
     title: '메인화면 구성',
   },
   {
-    preview: '/images/Feelframe/gif/password.gif',
-    src: '/images/Feelframe/preview/password.png',
+    preview: '/images/feelframe/gif/password.gif',
+    src: '/images/feelframe/preview/password.png',
     title: '회원가입 유효성 검사',
   },
   {
-    preview: '/images/Feelframe/gif/recommend.gif',
-    src: '/images/Feelframe/preview/recommend.png',
+    preview: '/images/feelframe/gif/recommend.gif',
+    src: '/images/feelframe/preview/recommend.png',
     title: '액자 추천 가이드',
   },
   {
-    preview: '/images/Feelframe/gif/search.gif',
-    src: '/images/Feelframe/preview/search.png',
+    preview: '/images/feelframe/gif/search.gif',
+    src: '/images/feelframe/preview/search.png',
     title: '고객센터 검색기능',
   },
   {
-    preview: '/images/Feelframe/preview/popbillDetail.png',
-    src: '/images/Feelframe/preview/popbill.png',
+    preview: '/images/feelframe/preview/popbillDetail.png',
+    src: '/images/feelframe/preview/popbill.png',
     title: '카카오톡 팝빌',
   },
   {
-    preview: '/images/Feelframe/preview/adminLogin.png',
-    src: '/images/Feelframe/preview/admin.png',
+    preview: '/images/feelframe/preview/adminLogin.png',
+    src: '/images/feelframe/preview/admin.png',
     title: '필프레임 관리자 로그인',
   },
 ];
