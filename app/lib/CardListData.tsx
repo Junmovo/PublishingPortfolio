@@ -46,6 +46,19 @@ export const ListChart = [
 
     ImageSrc: '/images/Feelcard/Feelcard.png',
     Page: '/PageDetail/Feelcard',
-    Tag: ['PHP', 'JavaScript', 'MySql-Workbench'],
+    Tag: ['Design', 'PHP', 'JavaScript', 'MySql-Workbench'],
+  },
+  {
+    Title: '바른보정 홈페이지 리뉴얼',
+    SubTitle: (
+      <>
+        바른보정 업로드 에디터 및 관리자 페이지를 작업하였습니다.<br></br> Tistory 블로그를 활용하여 제작한 홈페이지
+        입니다.
+      </>
+    ),
+
+    ImageSrc: '/images/barunbojung/Portfolio_main_image.png',
+    Page: '/PageDetail/Barunbojung',
+    Tag: ['Design', 'Publising', 'Tistory', 'JavaScript'],
   },
 ];

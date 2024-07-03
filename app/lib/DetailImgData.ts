@@ -93,3 +93,32 @@ export const ImageFeelFrameGroup: ImageGroupType[] = [
     title: '필프레임 관리자 로그인',
   },
 ];
+
+export const ImageBarunbojungGroup: ImageGroupType[] = [
+  {
+    preview: '/images/barunbojung/gif/main.png',
+    src: '/images/barunbojung/preview/mainpage.png',
+    title: '메인화면 구성',
+  },
+
+  {
+    preview: '/images/barunbojung/gif/login.png',
+    src: '/images/barunbojung/preview/loginpage.png',
+    title: '로그인 페이지',
+  },
+  {
+    preview: '/images/barunbojung/gif/upload.gif',
+    src: '/images/barunbojung/preview/uploadpage.png',
+    title: '업로드 시스템 - Lotties',
+  },
+  {
+    preview: '/images/barunbojung/gif/sample.png',
+    src: '/images/barunbojung/preview/samplepage.png',
+    title: '샘플 페이지 구성',
+  },
+  {
+    preview: '/images/barunbojung/gif/adminLogin.png',
+    src: '/images/barunbojung/preview/adminpage.png',
+    title: '바른보정 관리자 로그인',
+  },
+];

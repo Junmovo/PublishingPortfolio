@@ -10,7 +10,7 @@ import { cn } from '@/app/lib/utils';
 import { MenuItem } from '@/app/types/PortfolioType';
 
 interface IHeaderProps {
-  position: number;
+  position?: number;
   setNavNumber?: React.Dispatch<React.SetStateAction<number>>;
   MenuList: MenuItem[];
 }

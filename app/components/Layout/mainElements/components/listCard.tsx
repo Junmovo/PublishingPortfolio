@@ -15,8 +15,8 @@ const ListCard = ({ Title, SubTitle, ImageSrc, Page, Tag }: IListCardProps) => {
     <Link href={Page} className="group">
       <div className="flex w-full">
         <div className="w-full  mb-[30px]">
-          <div className="relative w-[100%] h-[240px] overflow-hidden rounded-[20px] mb-[20px] group-hover:translate-y-[-5px] transition duration-300	ease-out">
-            <Image src={ImageSrc} fill alt="코니" />
+          <div className="relative w-[100%] h-[240px] overflow-hidden rounded-[20px] mb-[20px] group-hover:translate-y-[-5px] transition duration-300	ease-out border">
+            <Image src={ImageSrc} fill alt={Title} />
           </div>
 
           <div className="p-[5px]">

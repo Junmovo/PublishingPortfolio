@@ -1,22 +1,6 @@
 import localFont from 'next/font/local';
 import { Montserrat } from 'next/font/google';
 
-export const Tmoney = localFont({
-  src: [
-    {
-      path: '../../public/fonts/TmoneyRoundWindRegular.woff2',
-      weight: '400',
-    },
-    {
-      path: '../../public/fonts/TmoneyRoundWindExtraBold.woff2',
-      weight: '700',
-    },
-  ],
-  display: 'swap',
-  variable: '--font-Tmoney',
-  preload: true,
-});
-
 export const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const NanumNeo = localFont({
