@@ -27,7 +27,7 @@ const LostarkDetailTop = () => {
           }
         />
       </div>
-      <DetailTopImage ImageSrc="/images/Lostark/konimainimg.png" />
+      <DetailTopImage ImageSrc="/images/Lostark/DetailMainImage.png" />
     </div>
   );
 };

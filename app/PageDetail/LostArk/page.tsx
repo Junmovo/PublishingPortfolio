@@ -52,6 +52,7 @@ export default function LostArkDetail(): JSX.Element {
                   <div>
                     React-Query를 이용한 데이터 요청 최소화
                     <p> - 데이터 캐싱의 강점을 이용하여 반복적인 데이터 요청 최소화</p>
+                    <p> - 같은요청 반복 시 gcTime 및 staleTime을 이용하여 데이터 캐싱</p>
                   </div>
                   <div>
                     useState를 활용한 공지사항 필터링기능

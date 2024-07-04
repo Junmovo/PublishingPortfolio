@@ -43,12 +43,12 @@ const FeelcardPage = () => {
                     <p> - onKeyup을 이용한 textarea 값 변경</p>
                   </div>
                   <div>
-                    메인 테마 설정, 테마 이펙트 위치 조정 등 <span>실시간 변경 기능</span> 추가
+                    메인 테마 설정, 테마 이펙트 위치 조정 등실시간 변경 기능 추가
                     <p> - PHP includes를 이용한 테마값 감지 및 변경</p>
                     <p> - 테마 이펙트 onClick을 활용한 특정값 감지</p>
                   </div>
                   <div>
-                    <span>컬러피커( Color Picker )</span> 를 통하여 <span>커스터마이징 색상</span> 가능
+                    컬러피커( Color Picker ) 를 통하여커스터마이징 색상 가능
                     <p> - color Picker 자바스크립트 라이브러리 이용</p>
                     <p> - Docs를 활용한 Change값 감지 및 청첩장 적용</p>
                   </div>

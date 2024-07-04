@@ -1,16 +1,15 @@
 'use client';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
-import FeelcardDetailTop from '@/app/components/Layout/DetailElements/FeelcardDetailTop';
 import FeelFrameDetailTop from '@/app/components/Layout/DetailElements/FeelframeDetailTop';
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
 import { useThemeObserver } from '@/app/hooks/useThemeObserver';
-import { ImageFeelCardGroup, ImageFeelFrameGroup } from '@/app/lib/DetailImgData';
+import { ImageFeelFrameGroup } from '@/app/lib/DetailImgData';
 import * as S from '@/app/styles/Detail';
 import { MenuItem } from '@/app/types/PortfolioType';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { IoIosArrowForward } from 'react-icons/io';
+import { RiShareBoxFill } from 'react-icons/ri';
 
 const FeelcardPage = () => {
   const [navNumber, setNavNumber] = useState(1);
@@ -53,15 +52,16 @@ const FeelcardPage = () => {
                     <p className=""> - MySql-WorkBench 테이블을 활용하여 핸드폰 번호와 이름을 매칭시켜 유효성 확인</p>
                   </div>
                   <div>
-                    액자교체 시스템 디자인 기획 및 개발
+                    <Link
+                      href={'https://feelframe.co.kr/page?dir=prop&view=chfr'}
+                      target="_blank"
+                      className="flex items-center hover:underline underline-offset-8 w-[50%]"
+                    >
+                      액자교체 시스템 디자인 기획 및 개발 <RiShareBoxFill size={18} className="ml-1" />
+                    </Link>
                     <p className=""> - QR코드를 통한 배달 및 회수 시스템</p>
                     <p className="">
                       - 휴대폰 및 결제 번호를 통한 정보 수집 및 입력된 정보를 바탕으로 관리자 확인 가능
-                    </p>
-                    <p className="underline-offset-8	underline text-gray-400 hover:text-black transition">
-                      <Link href={'https://feelframe.co.kr/page?dir=prop&view=chfr'} target="_blank" className="flex ">
-                        - 페이지 바로가기
-                      </Link>
                     </p>
                   </div>
                   <div>

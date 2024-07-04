@@ -21,7 +21,7 @@ const DetailSubcontents = ({ HomepageLink, subContents, githubLink }: IDetailSub
         </div>
         {githubLink ? (
           <div className="mt-10 flex  border-black  border rounded-full text-[14px] dark:border-white">
-            <Link href={githubLink} className="flex items-center p-[10px] px-[15px]">
+            <Link href={githubLink} target="_blank" className="flex items-center p-[10px] px-[15px]">
               GitHub
               <FaGithub size={16} className="ml-[5px]" />
             </Link>

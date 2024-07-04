@@ -122,3 +122,27 @@ export const ImageBarunbojungGroup: ImageGroupType[] = [
     title: '바른보정 관리자 로그인',
   },
 ];
+
+export const ImageFeelmakerGroup: ImageGroupType[] = [
+  {
+    preview: '/images/feelmaker/gif/mainPage.png',
+    src: '/images/feelmaker/preview/main.png',
+    title: '메인화면 구성',
+  },
+
+  {
+    preview: '/images/feelmaker/gif/sort.gif',
+    src: '/images/feelmaker/preview/sort.png',
+    title: '인기순 정렬',
+  },
+  {
+    preview: '/images/feelmaker/gif/makemoviepage.png',
+    src: '/images/feelmaker/preview/makemovie.png',
+    title: '동의 비동의 고객 구분',
+  },
+  {
+    preview: '/images/feelmaker/gif/randombanner.gif',
+    src: '/images/feelmaker/preview/banner.png',
+    title: '스크롤에 따른 배너 생성',
+  },
+];

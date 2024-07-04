@@ -7,7 +7,7 @@ export const ListChart = [
         다양한 기능과 UI/UX를 중심으로 보다 편리하게 이용할 수 있도록 구성하였습니다.
       </>
     ),
-    ImageSrc: '/images/Lostark/koniProjectImg.png',
+    ImageSrc: '/images/Lostark/Portfolio_main_image.png',
     Page: '/PageDetail/LostArk',
     Tag: ['OpenAPI', 'Next.Js', 'Tailwind', 'Zustand', 'React-Query'],
   },
@@ -31,9 +31,9 @@ export const ListChart = [
         개선하여 사용 편의성을 한층 높였습니다.
       </>
     ),
-    ImageSrc: '/images/feelframe/feelframe1.png',
+    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
     Page: '/PageDetail/Feelframe',
-    Tag: ['PHP', 'JavaScript', 'MySql-Workbench'],
+    Tag: ['Design', 'Publishing', 'PHP', 'JavaScript', 'MySql-Workbench'],
   },
   {
     Title: '필카드 모바일청첩장',
@@ -47,6 +47,20 @@ export const ListChart = [
     ImageSrc: '/images/Feelcard/Feelcard.png',
     Page: '/PageDetail/Feelcard',
     Tag: ['Design', 'PHP', 'JavaScript', 'MySql-Workbench'],
+  },
+  {
+    Title: '필메이커',
+    SubTitle: (
+      <>
+        웨딩 영상 전문 제작 필메이커 사이트를 유지보수 하였습니다.
+        <br />
+        오류를 수정하고, 페이지 기획 및 이벤트 디자인을 담당하였습니다. 입니다.
+      </>
+    ),
+
+    ImageSrc: '/images/feelmaker/Portfolio_main_image.png',
+    Page: '/PageDetail/Feelmaker',
+    Tag: ['Design', 'Publising', '유지보수', 'JavaScript'],
   },
   {
     Title: '바른보정 홈페이지 리뉴얼',
