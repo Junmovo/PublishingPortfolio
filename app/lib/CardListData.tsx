@@ -60,7 +60,7 @@ export const ListChart = [
 
     ImageSrc: '/images/feelmaker/Portfolio_main_image.png',
     Page: '/PageDetail/Feelmaker',
-    Tag: ['Design', 'Publising', '유지보수', 'JavaScript'],
+    Tag: ['Design', 'Publising', 'JavaScript'],
   },
   {
     Title: '바른보정 홈페이지 리뉴얼',
@@ -74,5 +74,18 @@ export const ListChart = [
     ImageSrc: '/images/barunbojung/Portfolio_main_image.png',
     Page: '/PageDetail/Barunbojung',
     Tag: ['Design', 'Publising', 'Tistory', 'JavaScript'],
+  },
+  {
+    Title: '그래픽 디자인 작업물',
+    SubTitle: (
+      <>
+        포토샵을 활용하여 다양한 디자인 작업물을 제작하였습니다. 이벤트 배너, 팝업공지, 메인배너 등 다양한 방식으로
+        디자인 된 작품들 입니다.
+      </>
+    ),
+
+    ImageSrc: '/images/design/Portfolio_main_image.png',
+    Page: '/PageDetail/Design',
+    Tag: ['Design', 'Photoshop', 'Illustrator'],
   },
 ];
