@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import * as S from '@/app/styles/Detail';
 import { Image } from 'antd';
 import { IDetailPictureProps } from '@/app/types/PortfolioType';
 
 const DetailPicture = ({ ImageGroup }: IDetailPictureProps) => {
+  useEffect(() => {
+    const preloadImages = () => {
+      ImageGroup.forEach((image) => {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.href = image.preview;
+        link.as = 'image';
+        link.type = 'image/gif';
+        document.head.appendChild(link);
+      });
+    };
+    preloadImages();
+
+    return () => {
+      ImageGroup.forEach((image) => {
+        const links = document.querySelectorAll(`link[rel='preload'][href='${image.preview}']`);
+        links.forEach((link) => link.remove());
+      });
+    };
+  }, [ImageGroup]);
+
   return (
     <article className="p-[20px]  pb-[80px]">
       <div className="text-[24px] font-[800]">💻 작업내역</div>
