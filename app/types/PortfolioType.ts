@@ -8,7 +8,7 @@ export interface IDetailContentsType {
 export interface IDetailTitleType {
   title: string;
   subTitle: string;
-  date: string;
+  date?: string;
 }
 export interface IDetailSubcontentsType {
   subContents: React.ReactNode;

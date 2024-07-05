@@ -84,7 +84,7 @@ export const ListChart = [
       </>
     ),
 
-    ImageSrc: '/images/design/Portfolio_main_image.png',
+    ImageSrc: '/images/design/designmain.png',
     Page: '/PageDetail/Design',
     Tag: ['Design', 'Photoshop', 'Illustrator'],
   },
