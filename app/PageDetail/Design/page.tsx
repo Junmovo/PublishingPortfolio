@@ -23,7 +23,6 @@ const Designpage = () => {
           <DesignDetailTop />
           <DesignDetailList />
         </div>
-        <DesignImageList />
       </PageDetailWrapper>
     </>
   );

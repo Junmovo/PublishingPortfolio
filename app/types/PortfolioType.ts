@@ -40,3 +40,15 @@ export interface IDetailPictureProps {
 export interface MenuItem {
   contents: string;
 }
+
+export interface IImageDesignGroupProps {
+  src: string;
+  type: string;
+  direction: string;
+  title: string;
+  thumb?: string;
+}
+
+export interface IFiliterDesignProps {
+  ImageList: IImageDesignGroupProps[];
+}

@@ -1,4 +1,6 @@
-export const ImageDesignGroup = [
+import { IImageDesignGroupProps } from '../types/PortfolioType';
+
+export const ImageDesignGroup: IImageDesignGroupProps[] = [
   {
     src: '/images/design/detail/왜바른보정인가.jpg',
     type: '상세',
@@ -141,6 +143,7 @@ export const ImageDesignGroup = [
   },
   {
     src: '/images/design/banner/editorplus.jpg',
+    thumb: '/images/design/banner/thumbplus.png',
     type: '상세',
     direction: 'vertical',
     title: '바른보정',
@@ -189,6 +192,7 @@ export const ImageDesignGroup = [
   },
   {
     src: '/images/design/event/pro_mode.jpg',
+    thumb: '/images/design/event/thumbeditor.png',
     type: '상세',
     direction: 'vertical',
     title: '바른보정',
@@ -278,14 +282,26 @@ export const ImageDesignGroup = [
     title: '바른보정',
   },
   {
-    src: '/images/design/addpicture/detail19_n.jpg',
-    type: '상세',
+    src: '/images/design/addpicture/newblackbig1_n.jpg',
+    type: '합성',
     direction: 'vertical',
     title: '바른보정',
   },
   {
-    src: '/images/design/addpicture/newrealacbig1_n.jpg',
-    type: '상세',
+    src: '/images/design/addpicture/realacrle.jpg',
+    type: '합성',
+    direction: 'vertical',
+    title: '바른보정',
+  },
+  {
+    src: '/images/design/addpicture/black.jpg',
+    type: '합성',
+    direction: 'vertical',
+    title: '바른보정',
+  },
+  {
+    src: '/images/design/addpicture/diasec.jpg',
+    type: '합성',
     direction: 'vertical',
     title: '바른보정',
   },
