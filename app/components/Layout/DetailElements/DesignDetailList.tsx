@@ -11,6 +11,7 @@ const menuList = [
   { title: '배너' },
   { title: '상세' },
   { title: '합성' },
+  { title: '기타' },
 ];
 
 const DesignDetailList = () => {

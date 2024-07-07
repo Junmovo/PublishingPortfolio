@@ -12,7 +12,6 @@ const DetailTopImage = ({ ImageSrc }: IDetailTopImage) => {
         src={ImageSrc}
         fill
         alt="상단메인이미지"
-        priority
         placeholder="blur"
         blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8UA8AAiUBUcc3qzwAAAAASUVORK5CYII="
       />
