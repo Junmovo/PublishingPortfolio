@@ -48,9 +48,9 @@ export default function MainContents_ver2(): JSX.Element {
           <S.TypedText ref={el} />
         </div>
         <div className="flex gap-2 mt-[10px]">
-          <S.TitleCircle>Web Project</S.TitleCircle>
-          <S.TitleCircle>About Me</S.TitleCircle>
-          <S.TitleCircle>About Me</S.TitleCircle>
+          <S.TitleCircle>Design</S.TitleCircle>
+          <S.TitleCircle>Publisher</S.TitleCircle>
+          <S.TitleCircle>Frontend</S.TitleCircle>
         </div>
       </div>
       {/* <div className="flex">우측고민</div> */}

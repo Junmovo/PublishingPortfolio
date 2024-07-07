@@ -7,13 +7,15 @@ import List2 from '@/app/components/Layout/mainElements/list_ver2';
 import PortfolioPadding from './components/commons/PortfolioPadding';
 import Header from './components/Layout/Header';
 import { useThemeObserver } from './hooks/useThemeObserver';
+import Contact from './components/Layout/mainElements/Contact';
 
 export default function Home() {
   const [navNumber, setNavNumber] = useState(1);
   const [MainRef] = useThemeObserver(setNavNumber, 1);
   const [AboutRef] = useThemeObserver(setNavNumber, 2);
   const [ProjectRef] = useThemeObserver(setNavNumber, 3);
-  const MenuList = [{ contents: 'Main' }, { contents: 'About' }, { contents: 'Project' }];
+  const [ContactRef] = useThemeObserver(setNavNumber, 4);
+  const MenuList = [{ contents: 'Main' }, { contents: 'About' }, { contents: 'Project' }, { contents: 'Contact' }];
 
   return (
     <>
@@ -27,6 +29,9 @@ export default function Home() {
         </div>
         <div id="Project" ref={ProjectRef}>
           <List2 />
+        </div>
+        <div id="Contact" ref={ContactRef}>
+          <Contact />
         </div>
       </PortfolioPadding>
     </>
