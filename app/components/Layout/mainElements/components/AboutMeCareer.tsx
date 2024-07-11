@@ -60,6 +60,9 @@ const AboutMeCareer = () => {
                     <div>
                       <span>JavaScript & jQuery 사용법을 배웠습니다.</span>
                     </div>
+                    <div>
+                      <span>웹디자인기능사 자격증을 취득하였습니다.</span>
+                    </div>
                   </S.TitleUnderText>
                 </div>
               </div>

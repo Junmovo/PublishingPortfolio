@@ -31,7 +31,7 @@ export const InnerTextwrap = styled.div`
 export const TitleCircle = styled.span`
   font-size: 14px;
   padding: 10px 20px;
-  border: 1px solid #1a1a1a;
+  border: 1px solid #000;
   border-radius: 25px;
   font-family: 'montserrat';
   display: inline-block;

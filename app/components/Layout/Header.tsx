@@ -19,9 +19,6 @@ export default function Header({ position, setNavNumber, MenuList }: IHeaderProp
   const handleClick = (V: string) => () => {
     document.getElementById(V)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
-  // if (pathname === '/') {
-  //   MenuList = [{ contents: 'Main' }, { contents: 'About' }, { contents: 'Project' }];
-  // }
 
   return (
     <>

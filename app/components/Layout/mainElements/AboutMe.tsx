@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from '@/app/styles/Detail';
-import { SiNextdotjs } from 'react-icons/si';
+import { SiAdobecreativecloud, SiAdobephotoshop, SiNextdotjs } from 'react-icons/si';
 import { SiTypescript } from 'react-icons/si';
 import { SiReactquery } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
@@ -33,7 +33,7 @@ const AboutMe = () => {
         <AboutMeCard title={'TypeScript / JavaScript'} icon={<SiTypescript size={26} color="#3178c6" />}>
           <div>타입 지정을 통하여 에러에 대한 방지를합니다.</div>
           <div>Axios를 활용한 데이터 동기 비동기처리를 이해하고 있습니다.</div>
-          <div>ES6 문법을 활용합니다.</div>
+          <div>ES6+ 문법을 활용합니다.</div>
         </AboutMeCard>
         <AboutMeCard title={'Zustand / React-Query'} icon={<SiReactquery size={30} />}>
           <div>전역 상태를 이해하고 있습니다.</div>
@@ -54,10 +54,16 @@ const AboutMe = () => {
           <div>코드의 재사용성을 높혀 가독성을 올립니다.</div>
         </AboutMeCard>
 
-        <AboutMeCard title={'PHP / MySql'} icon={<FaPhp size={30} />}>
+        <AboutMeCard title={'PHP / MySql'} icon={<FaPhp size={30} color="#777bb4" />}>
           <div>PHP를 통하여 로그인 세션 구현 한 경험이 있습니다.</div>
           <div>AJax를 활용한 CRUD 를 작업한 경험이 있습니다.</div>
           <div>MySql-Workbench 테이블 관리 및 기획한 경험이 있습니다.</div>
+        </AboutMeCard>
+
+        <AboutMeCard title={'Design Tools'} icon={<SiAdobecreativecloud size={30} color="#d32525" />}>
+          <div>Photoshop 기능을 활용하여 다양한 디자인을 구성할 수 있습니다.</div>
+          <div>AdobeXD를 활용한 UI 구성을 합니다.</div>
+          <div>Illustrator를 통한 간단한 이미지 작업이 가능합니다.</div>
         </AboutMeCard>
       </div>
       <AboutMeCareer />

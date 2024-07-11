@@ -44,7 +44,7 @@ const DesignDetailList = () => {
               key={idx}
               className={cn(
                 'px-[15px] py-[10px] cursor-pointer text-gray-500',
-                isSelected === menu.title ? 'font-[600] text-black' : ''
+                isSelected === menu.title ? 'font-[600] text-black dark:text-white' : ''
               )}
               onClick={onChangeSelect(menu.title)}
             >

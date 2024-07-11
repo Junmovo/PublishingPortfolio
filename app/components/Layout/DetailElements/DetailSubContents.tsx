@@ -9,7 +9,7 @@ const DetailSubcontents = ({ HomepageLink, subContents, githubLink }: IDetailSub
     <>
       <div className="text-gray-500 dark:text-gray-400">{subContents}</div>
       <div className="flex gap-4">
-        <div className="mt-10 flex  border-black bg-black text-white hover:translate-y-[-5px] transition border rounded-full text-[14px] dark:border-white">
+        <div className="mt-10 flex  border-black bg-black text-white hover:translate-y-[-5px] transition border rounded-full text-[14px] dark:border-gray-400">
           <Link
             href={HomepageLink}
             target="_blank"
@@ -20,7 +20,7 @@ const DetailSubcontents = ({ HomepageLink, subContents, githubLink }: IDetailSub
           </Link>
         </div>
         {githubLink ? (
-          <div className="mt-10 flex  border-black  border rounded-full text-[14px] dark:border-white">
+          <div className="mt-10 flex  border-black   border rounded-full text-[14px] dark:border-gray-400">
             <Link href={githubLink} target="_blank" className="flex items-center p-[10px] px-[15px]">
               GitHub
               <FaGithub size={16} className="ml-[5px]" />

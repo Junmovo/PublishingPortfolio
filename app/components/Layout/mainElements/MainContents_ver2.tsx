@@ -44,13 +44,19 @@ export default function MainContents_ver2(): JSX.Element {
       <div className="flex flex-col">
         <div className="text-[14px] text-gray-400">FE PortFolio</div>
         <h1 className="text-[80px] font-[800]">만나서 반가워 👋</h1>
-        <div>
+        <div className="h-[124px]">
           <S.TypedText ref={el} />
         </div>
         <div className="flex gap-2 mt-[10px]">
-          <S.TitleCircle>Design</S.TitleCircle>
-          <S.TitleCircle>Publisher</S.TitleCircle>
-          <S.TitleCircle>Frontend</S.TitleCircle>
+          <span className="text-[14px] py-[10px] px-[20px] border rounded-full font-montserrat inline-block mb-[10px] dark:border-gray-500">
+            Design
+          </span>
+          <span className="text-[14px] py-[10px] px-[20px] border rounded-full font-montserrat inline-block mb-[10px] dark:border-gray-500">
+            Publisher
+          </span>
+          <span className="text-[14px] py-[10px] px-[20px] border rounded-full font-montserrat inline-block mb-[10px] dark:border-gray-500">
+            Frontend
+          </span>
         </div>
       </div>
       {/* <div className="flex">우측고민</div> */}
