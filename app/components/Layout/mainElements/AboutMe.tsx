@@ -10,8 +10,8 @@ import AboutMeCareer from './components/AboutMeCareer';
 
 const AboutMe = () => {
   return (
-    <div className="pb-[80px] w-[1300px]  m-auto ">
-      <div className="gap-4 grid-cols-2 grid mb-[60px]">
+    <div className="pb-[80px] w-[100%] xl:w-[1300px] p-6 xl:p-0  m-auto ">
+      <div className="mb-[60px]">
         <div>
           <div className="text-[40px] font-[800] mb-4">
             안녕하세요!<br></br>프론트엔드 개발자
@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-5 mb-20">
+      <div className="grid grid-cols-1 w-full gap-5 mb-20 xl:grid-cols-3 lg:grid-cols-2">
         <AboutMeCard title={'Next.js / React'} icon={<SiNextdotjs size={30} />}>
           <div>SSR을 활용한 작업이 가능합니다.</div>
           <div>컴포넌트를 활용하여 재사용성을 높힙니다.</div>

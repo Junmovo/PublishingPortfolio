@@ -41,9 +41,12 @@ export default function MainContents_ver2(): JSX.Element {
       <S.CodeText>{'</>'}</S.CodeText>
       <S.NextJsText>Next.js</S.NextJsText>
       <S.TypeScript>TypeScript</S.TypeScript>
-      <div className="flex flex-col">
+      <div className="flex flex-col text-center md:text-left">
         <div className="text-[14px] text-gray-400">FE PortFolio</div>
-        <h1 className="text-[80px] font-[800]">만나서 반가워 👋</h1>
+        <h1 className="text-[80px] font-[800] sm:text-[80px] ">
+          만나서
+          <br className="lg:hidden" /> 반가워 <span className="hidden lg:inline">👋</span>
+        </h1>
         <div className="h-[124px]">
           <S.TypedText ref={el} />
         </div>
@@ -59,7 +62,6 @@ export default function MainContents_ver2(): JSX.Element {
           </span>
         </div>
       </div>
-      {/* <div className="flex">우측고민</div> */}
     </MainWrapper>
   );
 }

@@ -23,12 +23,18 @@ export const HeaderInner = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media only screen and (max-width: 1280px) {
+    width: 100%;
+  }
 `;
 
 export const InnerMenuWrap = styled.ul`
   display: flex;
   align-items: center;
   height: 60px;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 export const InnerMenu = styled.li`
   font-family: 'montserrat';

@@ -58,6 +58,9 @@ export const TypedText = styled.span`
   ~ .typed-cursor {
     font-size: 80px;
   }
+  @media only screen and (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
 
 export const TypeTextwrap = styled.div`
@@ -71,7 +74,7 @@ export const DesignText = styled.div`
   position: absolute;
   filter: blur(10px);
   font-family: 'montserrat';
-
+  z-index: -1;
   font-weight: 600;
 `;
 
@@ -98,7 +101,6 @@ export const TypeScript = styled(DesignText)`
   bottom: 10%;
   left: 50%;
   color: #555;
-
   rotate: -10deg;
   font-size: 80px;
   animation: ${bounceAnimation} 3s infinite alternate;

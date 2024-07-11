@@ -9,10 +9,10 @@ const config = {
       center: true,
       padding: '2rem',
       screens: {
-        sm: '640px',
+        sm: { min: '320px', max: '620px' },
         md: '768px',
         lg: '1024px',
-        xl: '1280px',
+        xl: '1300px',
         '2xl': '1400px',
       },
     },

@@ -22,7 +22,7 @@ export default function Header({ position, setNavNumber, MenuList }: IHeaderProp
 
   return (
     <>
-      <div className="w-full flex justify-center bg-inherit h-60px sticky top-0 z-10 mx-auto bg-white bg-opacity-80 backdrop-blur border-b border-opacity-10 dark:bg-black dark:bg-opacity-40 dark:border-b-gray-600">
+      <div className="w-full flex justify-center bg-inherit h-60px sticky top-0 z-10 mx-auto bg-white bg-opacity-80 backdrop-blur border-b border-opacity-10 dark:bg-black dark:bg-opacity-40 dark:border-b-gray-600 px-5 ">
         <S.HeaderInner>
           <Link href={'/'} className="font-montserrat font-[600] text-[20px]">
             JM.Portfolio
