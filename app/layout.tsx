@@ -6,10 +6,24 @@ import { ThemeProvider } from '@/provider/ThemeProvider';
 import PageTransition from './components/commons/Pagetransition';
 import Header from './components/Layout/Header';
 import Gotop from './components/commons/Gotop';
+import Head from 'next/head';
 
 export const metadata: Metadata = {
-  title: '준모 포트폴리오',
+  metadataBase: new URL('https://junmo-portfolio.vercel.app/'),
+  title: `Junmo's Portfolio`,
   description: '성장을 두려워 하지 않는 프론트엔드 강준모 포트폴리오입니다.',
+  openGraph: {
+    title: '준모 포트폴리오',
+    description: '성장을 두려워 하지 않는 프론트엔드 강준모 포트폴리오입니다.',
+    url: 'https://junmo-portfolio.vercel.app/',
+    images: [
+      {
+        url: '/images/opengraph.png',
+        width: 800,
+        height: 400,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
