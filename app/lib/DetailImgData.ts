@@ -146,3 +146,21 @@ export const ImageFeelmakerGroup: ImageGroupType[] = [
     title: '스크롤에 따른 배너 생성',
   },
 ];
+
+export const MyPortfolioImageGroup: ImageGroupType[] = [
+  {
+    preview: '/images/myPortfolio/gif/darkmode.gif',
+    src: '/images/myPortfolio/preview/darkmode.png',
+    title: '메인화면(다크모드)',
+  },
+  {
+    preview: '/images/myPortfolio/gif/scroll.gif',
+    src: '/images/myPortfolio/preview/scroll.png',
+    title: '스크롤 UI',
+  },
+  {
+    preview: '/images/myPortfolio/gif/gallery.gif',
+    src: '/images/myPortfolio/preview/preview.png',
+    title: '이미지 미리보기',
+  },
+];

@@ -33,7 +33,7 @@ const DetailPicture = ({ ImageGroup }: IDetailPictureProps) => {
         <Image.PreviewGroup>
           <div className="grid md:grid-cols-3 gap-4">
             {ImageGroup.map((items) => (
-              <div key={items.title} className="">
+              <div key={items.title} className="flex items-center justify-center flex-col">
                 <Image
                   src={items.src}
                   alt={items.title}

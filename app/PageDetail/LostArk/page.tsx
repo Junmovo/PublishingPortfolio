@@ -31,9 +31,9 @@ export default function LostArkDetail(): JSX.Element {
                 <S.TitleUnderText className="md:ml-[40px]">
                   코니콩은 RPG게임 로스트아크의 전적검색 시스템입니다.
                   <br />
-                  <br /> 기존의 로스트아크 전적 검색 사이트의 UI를 개선하였습니다.
-                  <br /> 또한 사용자가 더욱 편리하게 이용할 수 있도록 <br />
-                  핵심정보를 한눈에 볼 수 있게 수정하였습니다.
+                  <br />
+                  기존의 로스트아크 전적 검색 사이트의 UI를 대폭 개선하여,
+                  <br /> 사용자가 핵심 정보를 한눈에 볼 수 있도록 편리하게 재구성하였습니다.
                 </S.TitleUnderText>
               </div>
             </article>

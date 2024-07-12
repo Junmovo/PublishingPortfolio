@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Contact = () => {
   return (
-    <div className="xl:w-[1300px] w-full p-4 flex flex-col items-center justify-center h-[100vh] m-auto relative  text-center  overflow-hidden">
+    <div className="xl:w-[1300px] w-full p-4 flex flex-col items-center justify-center h-[100vh] m-auto relative  text-center  overflow-hidden lg:overflow-visible">
       <div className="text-center text-[50px] font-[800] font-montserrat">Thank you for Watching </div>
       <div className="text-center text-[40px] font-[400]">봐주셔서 감사합니다!😁 </div>
       <div className=" mt-4 leading-6 text-gray-700 dark:text-gray-300">

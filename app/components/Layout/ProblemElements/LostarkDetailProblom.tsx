@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes';
 
 const LostarkDetailProblem = () => {
   return (
-    <article className="p-[20px]">
+    <article className="p-[20px]  mb-[80px]">
       <S.TitleText>💥 문제는 없었나요?</S.TitleText>
       <div className="grid md:grid-cols-2 gap-10 pt-4 ">
         <div className="flex flex-col bg-gray-50 dark:bg-[#2525259d] rounded-[20px] ">
