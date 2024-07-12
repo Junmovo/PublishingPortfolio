@@ -3,11 +3,12 @@ import Detailbedge from './Detailbedge';
 import DetailTitle from './DetailTitle';
 import DetailSubcontents from './DetailSubContents';
 import DetailTopImage from './DetailTopImage';
+import DetailWrapper from './DetailWrapper';
 
 const FeelFrameDetailTop = () => {
   return (
-    <div className="flex justify-between items-end mt-[30px] p-[20px] border-b-[1px] pb-[60px]">
-      <div className=" w-[50%]">
+    <DetailWrapper>
+      <div className="w-full md:w-[50%]">
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="회사 프로젝트" />
         <DetailTitle subTitle={'또 다른 감성액자'} title={'필프레임'} date={'23.06.01 - 24.01.01'} />
@@ -22,7 +23,7 @@ const FeelFrameDetailTop = () => {
         />
       </div>
       <DetailTopImage ImageSrc="/images/feelframe/DetailMainImage.png" />
-    </div>
+    </DetailWrapper>
   );
 };
 

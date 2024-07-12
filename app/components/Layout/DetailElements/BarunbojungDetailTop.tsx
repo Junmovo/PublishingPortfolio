@@ -3,11 +3,12 @@ import Detailbedge from './Detailbedge';
 import DetailTitle from './DetailTitle';
 import DetailSubcontents from './DetailSubContents';
 import DetailTopImage from './DetailTopImage';
+import DetailWrapper from './DetailWrapper';
 
 const BarunbojungDetailTop = () => {
   return (
-    <div className="flex justify-between items-end mt-[30px] p-[20px] border-b-[1px] pb-[60px]">
-      <div className=" w-[50%]">
+    <DetailWrapper>
+      <div className="w-full md:w-[50%]">
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="Design" />
         <Detailbedge contents="회사 프로젝트" />
@@ -26,7 +27,7 @@ const BarunbojungDetailTop = () => {
         />
       </div>
       <DetailTopImage ImageSrc="/images/barunbojung/DetailMainImage.png" />
-    </div>
+    </DetailWrapper>
   );
 };
 

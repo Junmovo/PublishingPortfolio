@@ -6,11 +6,12 @@ import DetailTitle from './DetailTitle';
 import DetailSubcontents from './DetailSubContents';
 import Image from 'next/image';
 import DetailTopImage from './DetailTopImage';
+import DetailWrapper from './DetailWrapper';
 
 const LostarkDetailTop = () => {
   return (
-    <div className="flex justify-between items-end mt-[30px] p-[20px] border-b-[1px] pb-[60px]">
-      <div className="">
+    <DetailWrapper>
+      <div className="w-full md:w-[50%]">
         <Detailbedge contents="Frontend" />
         <Detailbedge contents="개인 프로젝트" />
         <DetailTitle subTitle={'게임 전적검색 사이트'} title={'코니콩'} date={'24.06.04 - 24.06.20'} />
@@ -28,7 +29,7 @@ const LostarkDetailTop = () => {
         />
       </div>
       <DetailTopImage ImageSrc="/images/Lostark/DetailMainImage.png" />
-    </div>
+    </DetailWrapper>
   );
 };
 

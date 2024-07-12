@@ -1,6 +1,7 @@
 'use client';
 import BarunbojungDetailTop from '@/app/components/Layout/DetailElements/BarunbojungDetailTop';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
+import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
 import { useThemeObserver } from '@/app/hooks/useThemeObserver';
@@ -20,7 +21,7 @@ const BarunbojungPage = () => {
       <PageDetailWrapper>
         <div ref={MainRef} id="Detail">
           <BarunbojungDetailTop />
-          <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px] pb-[80px]">
+          <DetailSection>
             <article>
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
@@ -65,7 +66,7 @@ const BarunbojungPage = () => {
                 </S.TitleUnderText>
               </div>
             </article>
-          </section>
+          </DetailSection>
         </div>
 
         <div ref={ProjectRef} id="Work-Detail">

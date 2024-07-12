@@ -3,10 +3,7 @@ import './globals.css';
 import StyledComponentsRegistry from '@/app/lib/registry';
 import { NanumNeo, montserrat, pretendard } from '../public/fonts/fonts';
 import { ThemeProvider } from '@/provider/ThemeProvider';
-import PageTransition from './components/commons/Pagetransition';
-import Header from './components/Layout/Header';
 import Gotop from './components/commons/Gotop';
-import Head from 'next/head';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://junmo-portfolio.vercel.app/'),
@@ -34,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="kr" className={`${NanumNeo.variable} ${pretendard.variable} ${montserrat.className} `}>
       <StyledComponentsRegistry>
-        <body className={NanumNeo.className} style={{ overflowX: 'hidden' }}>
+        <body className={NanumNeo.className}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
             <Gotop />
             {children}

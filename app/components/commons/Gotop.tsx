@@ -30,7 +30,7 @@ const Gotop = () => {
       onClick={onClickGotop}
       ref={headRef}
       className={cn(
-        'bottom-[30px] right-[30px] transition cursor-pointer border rounded-full p-2 opacity-0',
+        'bottom-[30px] right-[30px] transition cursor-pointer border rounded-full p-2 opacity-0 z-10 bg-white dark:bg-inherit',
         isScrolled ? 'fixed opacity-100 pointer-events-auto' : 'hidden opacity-0 pointer-events-none'
       )}
     >

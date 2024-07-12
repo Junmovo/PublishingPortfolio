@@ -3,11 +3,12 @@ import Detailbedge from './Detailbedge';
 import DetailTitle from './DetailTitle';
 import DetailSubcontents from './DetailSubContents';
 import DetailTopImage from './DetailTopImage';
+import DetailWrapper from './DetailWrapper';
 
 const FeelcardDetailTop = () => {
   return (
-    <div className="flex justify-between items-end mt-[30px] p-[20px] border-b-[1px] pb-[60px]">
-      <div className=" w-[50%]">
+    <DetailWrapper>
+      <div className="w-full md:w-[50%]">
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="회사 프로젝트" />
         <DetailTitle subTitle={'모바일 청첩장'} title={'필카드'} date={'23.10.01 - 23.12.15'} />
@@ -24,7 +25,7 @@ const FeelcardDetailTop = () => {
         />
       </div>
       <DetailTopImage ImageSrc="/images/Feelcard/FeelcardDetail.png" />
-    </div>
+    </DetailWrapper>
   );
 };
 

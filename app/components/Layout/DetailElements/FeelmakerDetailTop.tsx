@@ -3,10 +3,11 @@ import Detailbedge from './Detailbedge';
 import DetailTitle from './DetailTitle';
 import DetailSubcontents from './DetailSubContents';
 import DetailTopImage from './DetailTopImage';
+import DetailWrapper from './DetailWrapper';
 
 const FeelmakerDetailTop = () => {
   return (
-    <div className="flex justify-between items-end mt-[30px] p-[20px] border-b-[1px] pb-[60px]">
+    <DetailWrapper>
       <div className=" w-[50%]">
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="Design" />
@@ -24,7 +25,7 @@ const FeelmakerDetailTop = () => {
         />
       </div>
       <DetailTopImage ImageSrc="/images/feelmaker/DetailMainImage.png" />
-    </div>
+    </DetailWrapper>
   );
 };
 

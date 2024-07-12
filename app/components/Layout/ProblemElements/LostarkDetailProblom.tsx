@@ -7,7 +7,7 @@ const LostarkDetailProblem = () => {
   return (
     <article className="p-[20px]">
       <S.TitleText>💥 문제는 없었나요?</S.TitleText>
-      <div className="grid grid-cols-2 gap-10 pt-4 ">
+      <div className="grid md:grid-cols-2 gap-10 pt-4 ">
         <div className="flex flex-col bg-gray-50 dark:bg-[#2525259d] rounded-[20px] ">
           <LostarkDetailProblemTitle title="페이지 리렌더링마다 데이터 무한 요청" />
           <S.DetailContents color="problem">

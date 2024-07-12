@@ -8,6 +8,7 @@ import Header from '@/app/components/Layout/Header';
 import { useState } from 'react';
 import { useThemeObserver } from '@/app/hooks/useThemeObserver';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
+import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 
 export default function LostArkDetail(): JSX.Element {
   const [navNumber, setNavNumber] = useState(1);
@@ -23,11 +24,11 @@ export default function LostArkDetail(): JSX.Element {
         <div ref={MainRef} id="Detail">
           <LostarkDetailTop />
 
-          <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px] pb-[80px]">
+          <DetailSection>
             <article>
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   코니콩은 RPG게임 로스트아크의 전적검색 시스템입니다.
                   <br />
                   <br /> 기존의 로스트아크 전적 검색 사이트의 UI를 개선하였습니다.
@@ -39,7 +40,7 @@ export default function LostArkDetail(): JSX.Element {
             <article>
               <div>
                 <S.TitleText>🤔 어떠한 기능이 있나요?</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   <div>
                     Axios 및 Axios Instance를 활용한 코드 가독성 향상
                     <p> - Axios baseURL을 활용하여 불필요 코드 제거</p>
@@ -71,7 +72,7 @@ export default function LostArkDetail(): JSX.Element {
                 </S.TitleUnderText>
               </div>
             </article>
-          </section>
+          </DetailSection>
         </div>
         <div ref={ProblemRef} id="Problem & Solution">
           <LostarkDetailProblem />

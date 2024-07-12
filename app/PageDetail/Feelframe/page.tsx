@@ -1,5 +1,6 @@
 'use client';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
+import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import FeelFrameDetailTop from '@/app/components/Layout/DetailElements/FeelframeDetailTop';
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
@@ -22,11 +23,11 @@ const FeelcardPage = () => {
       <PageDetailWrapper>
         <div ref={MainRef} id="Detail">
           <FeelFrameDetailTop />
-          <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px] pb-[40px]">
+          <DetailSection>
             <article>
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   필프레임은 웨딩액자 전문 홈페이지입니다. <br />
                   <br />
                   쇼핑몰의 취지에 맞는 기본적인 UI 디자인을 맡아, 사용자들이 쉽게 인지하고 사용할 수 있도록
@@ -40,7 +41,7 @@ const FeelcardPage = () => {
             <article>
               <div>
                 <S.TitleText>🤔 어떠한 작업을 하셨나요?</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   <div>
                     회원가입 비밀번호 유효성 검사 및 팝빌을 활용한 인증번호 전송
                     <p className=""> - test 함수와 Ajax를 활용하여 유효성 검사 및 회원가입 절차 제작</p>
@@ -55,7 +56,7 @@ const FeelcardPage = () => {
                     <Link
                       href={'https://feelframe.co.kr/page?dir=prop&view=chfr'}
                       target="_blank"
-                      className="flex items-center hover:underline underline-offset-8 w-[50%]"
+                      className="flex items-center hover:underline underline-offset-8 md:w-[50%]"
                     >
                       액자교체 시스템 디자인 기획 및 개발 <RiShareBoxFill size={18} className="ml-1" />
                     </Link>
@@ -82,7 +83,7 @@ const FeelcardPage = () => {
                 </S.TitleUnderText>
               </div>
             </article>
-          </section>
+          </DetailSection>
         </div>
 
         <div ref={ProjectRef} id="Work-Detail">

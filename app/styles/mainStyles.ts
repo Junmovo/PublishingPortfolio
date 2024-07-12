@@ -58,7 +58,7 @@ export const TypedText = styled.span`
   ~ .typed-cursor {
     font-size: 80px;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     font-size: 60px;
   }
 `;
@@ -76,6 +76,9 @@ export const DesignText = styled.div`
   font-family: 'montserrat';
   z-index: -1;
   font-weight: 600;
+  @media only screen and (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
 
 export const NextJsText = styled(DesignText)`
@@ -113,4 +116,8 @@ export const CodeText = styled(DesignText)`
   right: 20%;
   font-size: 80px;
   animation: ${bounceAnimation} 3s infinite alternate;
+  @media only screen and (max-width: 768px) {
+    color: #e4e4e4;
+    filter: blur(3px);
+  }
 `;

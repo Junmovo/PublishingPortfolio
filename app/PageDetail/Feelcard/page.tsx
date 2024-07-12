@@ -1,5 +1,6 @@
 'use client';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
+import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import FeelcardDetailTop from '@/app/components/Layout/DetailElements/FeelcardDetailTop';
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
@@ -20,11 +21,11 @@ const FeelcardPage = () => {
       <PageDetailWrapper>
         <div ref={MainRef} id="Detail">
           <FeelcardDetailTop />
-          <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px] pb-[80px]">
+          <DetailSection>
             <article>
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   필카드는 모바일 청첩장 제작 에디터입니다. <br />
                   <br />
                   기존의 여러 모바일 청첩장에서 찾아볼 수 없는 기능들을 추가한 에디터 플러스(Editor Plus+)를 도입하여
@@ -37,7 +38,7 @@ const FeelcardPage = () => {
             <article>
               <div>
                 <S.TitleText>🤔 어떠한 작업을 하셨나요?</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   <div>
                     실시간 미리보기를 통한 사용자 편의성 향상
                     <p> - onKeyup을 이용한 textarea 값 변경</p>
@@ -70,7 +71,7 @@ const FeelcardPage = () => {
                 </S.TitleUnderText>
               </div>
             </article>
-          </section>
+          </DetailSection>
         </div>
 
         <div ref={ProjectRef} id="Work-Detail">

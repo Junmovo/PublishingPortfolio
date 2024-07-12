@@ -1,5 +1,6 @@
 'use client';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
+import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import FeelmakerDetailTop from '@/app/components/Layout/DetailElements/FeelmakerDetailTop';
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
@@ -20,11 +21,11 @@ const FeelmakerPage = () => {
       <PageDetailWrapper>
         <div ref={MainRef} id="Detail">
           <FeelmakerDetailTop />
-          <section className="grid grid-cols-2 p-[20px] gap-7 pt-[40px] pb-[80px]">
+          <DetailSection>
             <article>
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   필메이커는 웨딩 영상 제작 서비스입니다. <br />
                   <br />
                   필메이커 내 각종 오류들을 수정하며, 다양한 이벤트 혜택 배너 및 사용자들의 편의성을 생각하여 디자인을
@@ -37,7 +38,7 @@ const FeelmakerPage = () => {
             <article>
               <div>
                 <S.TitleText>🤔 어떠한 작업을 하셨나요?</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="md:ml-[40px]">
                   <div>
                     스크롤 시 이벤트 배너 생성
                     <p> - 랜덤 배너시 Math.random 및 sort를 활용하여 정수 변환 후 특정 숫자 일 때만 표시</p>
@@ -59,7 +60,7 @@ const FeelmakerPage = () => {
                 </S.TitleUnderText>
               </div>
             </article>
-          </section>
+          </DetailSection>
         </div>
 
         <div ref={ProjectRef} id="Work-Detail">

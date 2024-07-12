@@ -16,7 +16,7 @@ const ListCard = ({ Title, SubTitle, ImageSrc, Page, Tag }: IListCardProps) => {
       <div className="flex w-full">
         <div className="w-full  mb-[30px]">
           <div className="relative w-[100%] h-[240px] overflow-hidden rounded-[20px] mb-[20px] group-hover:translate-y-[-5px] transition duration-300	ease-out border dark:border-gray-600">
-            <Image src={ImageSrc} fill alt={Title} property="true" />
+            <Image src={ImageSrc} fill alt={Title} property="true" className="inherit" />
           </div>
 
           <div className="p-[5px]">
