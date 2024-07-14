@@ -14,7 +14,7 @@ const DesignImageList = ({ ImageList }: IFiliterDesignProps) => {
   return (
     <Image.PreviewGroup>
       <div className="relative">
-        <div className="grid grid-cols-4 gap-4 p-4 grid-flow-row-dense auto-rows-min pb-8">
+        <div className="grid md:grid-cols-4 gap-4 p-4 grid-flow-row-dense auto-rows-min pb-8">
           {ImageList.slice(0, isImagecount).map((image, index) => (
             <div
               key={index}
@@ -27,7 +27,6 @@ const DesignImageList = ({ ImageList }: IFiliterDesignProps) => {
                   src: `${image.src}`,
                   maskClassName: `${image.type === '배너' ? 'h-[200px]' : 'h-[300px]'}`,
                 }}
-                placeholder={<NextImage src={image.src} alt={'index'} fill />}
               />
             </div>
           ))}

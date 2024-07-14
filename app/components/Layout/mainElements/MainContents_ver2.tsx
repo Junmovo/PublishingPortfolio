@@ -41,7 +41,7 @@ export default function MainContents_ver2(): JSX.Element {
       <S.CodeText>{'</>'}</S.CodeText>
       <S.NextJsText>Next.js</S.NextJsText>
       <S.TypeScript>TypeScript</S.TypeScript>
-      <div className="flex flex-col text-center md:text-left">
+      <div className="flex flex-col text-center lg:text-left">
         <div className="text-[14px] text-gray-400">FE PortFolio</div>
         <h1 className="text-[80px] font-[800] sm:text-[80px] ">
           만나서

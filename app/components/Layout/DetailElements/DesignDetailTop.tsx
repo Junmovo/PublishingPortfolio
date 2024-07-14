@@ -6,8 +6,8 @@ import DetailTopImage from './DetailTopImage';
 
 const DesignDetailTop = () => {
   return (
-    <div className="flex justify-between mt-[30px] p-[20px]">
-      <div className=" w-[50%]">
+    <div className="flex w-full mt-[30px] p-[20px]">
+      <div className="w-full ">
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="Design" />
         <Detailbedge contents="회사 프로젝트" />
