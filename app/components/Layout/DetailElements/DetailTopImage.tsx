@@ -17,6 +17,7 @@ const DetailTopImage = ({ ImageSrc }: IDetailTopImage) => {
         placeholder="blur"
         blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8UA8AAiUBUcc3qzwAAAAASUVORK5CYII="
         onLoadingComplete={(e) => ref.current.remove()}
+        priority
       />
       <div className="absolute position_center" ref={ref}>
         <ClipLoader speedMultiplier={0.5}></ClipLoader>
