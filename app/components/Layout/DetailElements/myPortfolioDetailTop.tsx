@@ -17,7 +17,7 @@ const MyPortfolioDetailTop = () => {
         <DetailTitle subTitle={'개인 포트폴리오'} title={'포트폴리오'} date={'2024-06-04 ~'} />
         <DetailSubcontents
           HomepageLink="/"
-          githubLink="https://github.com/Junmovo/Konikong"
+          githubLink="https://github.com/Junmovo/JunmoPortfolio"
           subContents={
             <>
               Next.js 와 Typescript를 활용한 포트폴리오 페이지입니다.

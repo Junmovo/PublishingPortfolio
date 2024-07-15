@@ -9,7 +9,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Lostark/Portfolio_main_image.png',
     Page: '/PageDetail/LostArk',
-    Tag: ['OpenAPI', 'Next.Js', 'Tailwind', 'Zustand', 'React-Query'],
+    Tag: ['OpenAPI', 'Next.Js', 'Tailwind', 'Zustand', 'React-Query', 'PC'],
   },
   {
     Title: 'Portfolio',
@@ -21,7 +21,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/myPortfolio/Portfolio_main_image.png',
     Page: '/PageDetail/myPortfolio',
-    Tag: ['Next.Js', 'Tailwind', 'Styled-Components', 'TypeScript'],
+    Tag: ['Next.Js', 'Tailwind', 'Styled-Components', 'TypeScript', '반응형'],
   },
   {
     Title: '필프레임 홈페이지 리뉴얼',

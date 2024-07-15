@@ -5,6 +5,7 @@ import { ImageDesignGroup } from '@/app/lib/images';
 import { IFiliterDesignProps, IImageDesignGroupProps } from '@/app/types/PortfolioType';
 import PageTransition from '../../commons/Pagetransition';
 import { cn } from '@/app/lib/utils';
+import { ClipLoader } from 'react-spinners';
 
 const DesignImageList = ({ ImageList }: IFiliterDesignProps) => {
   const [isImagecount, setIsImagecount] = useState<number>(20);
