@@ -1,6 +1,6 @@
 # 프론트엔드 강준모 포트폴리오
 
-![DetailMainImage](https://github.com/user-attachments/assets/edd0d5ab-09fb-4808-a445-edbf0e7023a1)
+![githubimage](https://github.com/user-attachments/assets/e7b265f3-639e-4de0-a4c5-4987203dca9d)
 
 - Next.js와 Typescript를 이용한 프론트엔드 포트폴리오입니다.
   <br/>
@@ -105,7 +105,7 @@ export const useThemeObserver = (
 
 ### 이미지 미리보기
 
-![scroll](https://github.com/user-attachments/assets/ad632af7-884e-451b-a2fd-557b814031f8)
+![gallery](https://github.com/user-attachments/assets/8548146d-1652-4144-a304-0a28233ed41b)
 
 - Antd 라이브러리를 활용한 이미지 미리보기
 - filter, slice를 활용한 이미지 필터링 및 이미지 더보기 기능 구현
