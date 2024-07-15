@@ -16,8 +16,7 @@ const Contact = () => {
       </div>
       <div className="flex text-[14px] mt-[40px] gap-4 flex-col lg:flex-row">
         <div className="py-2 px-4 border border-gray-400 flex gap-4 items-center rounded-full text-[14px]">
-          <FaPhoneVolume size={12} />
-          010-3750-4096
+          <FaPhoneVolume size={12} />-
         </div>
         <div>
           <div className="py-2 px-4 border border-gray-400 flex gap-4 items-center rounded-full text-[14px]">

@@ -10,7 +10,7 @@ const AboutMeCareer = () => {
           <div className="md:flex mb-10 md:gap-4">
             <div className="md:mb-2 md:w-[30%] mb-[30px]">
               <div className="font-[600] mb-3 text-[20px]">Web Publisher</div>
-              <div className="font-[600] mb-1">개발팀 사원 및 리더</div>
+              <div className="font-[600] mb-1">개발팀 사원</div>
               <div className="text-[14px] text-gray-400">2022.10 - 2024.02 (1년 5개월)</div>
             </div>
             <div className=" flex flex-col gap-1  text-[16px] ">
