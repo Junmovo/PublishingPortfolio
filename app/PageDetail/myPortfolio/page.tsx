@@ -47,6 +47,11 @@ export default function Myportfolio(): JSX.Element {
                     <p> - preload를 통한 대용량 이미지 우선 다운</p>
                   </div>
                   <div>
+                    이미지 더보기 및 필터링
+                    <p> - filter를 활용한 이미지 type 구별</p>
+                    <p> - slice를 활용한 이미지 더보기 구현</p>
+                  </div>
+                  <div>
                     IntersectionObserver를 활용한 상태 바 구현
                     <p> - Hooks를 통한 재사용성 향상</p>
                     <p> - 클릭 시 해당 위치로 스크롤 구현</p>
