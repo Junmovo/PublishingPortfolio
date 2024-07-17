@@ -1,4 +1,5 @@
 'use client';
+import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import FeelFrameDetailTop from '@/app/components/Layout/DetailElements/FeelframeDetailTop';
@@ -28,13 +29,32 @@ const FeelcardPage = () => {
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
-                  필프레임은 웨딩액자 전문 홈페이지입니다. <br />
-                  <br />
-                  쇼핑몰의 취지에 맞는 기본적인 UI 디자인을 맡아, 사용자들이 쉽게 인지하고 사용할 수 있도록
-                  구성하였습니다. 또한, 담당자 전용 기능과 사용자 편의 기능까지 꼼꼼히 고민하여 만들어진 페이지입니다.
-                  <br />
-                  <br />
-                  사용자들이 보다 편리하게 이용할 수 있도록 기존의 불편한 기능들을 개선하여 새롭게 리뉴얼하였습니다.
+                  <div>회사 프로젝트</div>
+                  <div>
+                    사용기술
+                    <br />
+                    <p>
+                      <Detailbedge contents="Design" />
+                      <Detailbedge contents="Publishing" />
+                      <Detailbedge contents="PHP" />
+                      <Detailbedge contents="Javascript" />
+                      <Detailbedge contents="MySql-Workbench" />
+                    </p>
+                  </div>
+                  <div>
+                    프로젝트 설명
+                    <br />
+                    <span className="mt-2 inline-block">
+                      필프레임은 웨딩액자 전문 홈페이지입니다. <br />
+                      <br />
+                      쇼핑몰의 취지에 맞는 기본적인 UI 디자인을 맡아, 사용자들이 쉽게 인지하고 사용할 수 있도록
+                      구성하였습니다. 또한, 담당자 전용 기능과 사용자 편의 기능까지 꼼꼼히 고민하여 만들어진
+                      페이지입니다.
+                      <br />
+                      <br />
+                      사용자들이 보다 편리하게 이용할 수 있도록 기존의 불편한 기능들을 개선하여 새롭게 리뉴얼하였습니다.
+                    </span>
+                  </div>
                 </S.TitleUnderText>
               </div>
             </article>
@@ -44,13 +64,13 @@ const FeelcardPage = () => {
                 <S.TitleUnderText className="md:ml-[40px]">
                   <div>
                     회원가입 비밀번호 유효성 검사 및 팝빌을 활용한 인증번호 전송
-                    <p className=""> - test 함수와 Ajax를 활용하여 유효성 검사 및 회원가입 절차 제작</p>
-                    <p className="">- 팝빌 API를 활용하여 공통 함수 제작을 통하여 재사용성을 높힘</p>
+                    <p> - test 함수와 Ajax를 활용하여 유효성 검사 및 회원가입 절차 제작</p>
+                    <p>- 팝빌 API를 활용하여 공통 함수 제작을 통하여 재사용성을 높힘</p>
                   </div>
                   <div>
                     공동구매 생성 로직 및 가입 절차 제작
-                    <p className=""> - Workbench Group 테이블 기획 및 생성</p>
-                    <p className=""> - MySql-WorkBench 테이블을 활용하여 핸드폰 번호와 이름을 매칭시켜 유효성 확인</p>
+                    <p> - Workbench Group 테이블 기획 및 생성</p>
+                    <p> - MySql-WorkBench 테이블을 활용하여 핸드폰 번호와 이름을 매칭시켜 유효성 확인</p>
                   </div>
                   <div>
                     <Link
@@ -60,16 +80,14 @@ const FeelcardPage = () => {
                     >
                       액자교체 시스템 디자인 기획 및 개발 <RiShareBoxFill size={18} className="ml-1" />
                     </Link>
-                    <p className=""> - QR코드를 통한 배달 및 회수 시스템</p>
-                    <p className="">
-                      - 휴대폰 및 결제 번호를 통한 정보 수집 및 입력된 정보를 바탕으로 관리자 확인 가능
-                    </p>
+                    <p> - QR코드를 통한 배달 및 회수 시스템</p>
+                    <p>- 휴대폰 및 결제 번호를 통한 정보 수집 및 입력된 정보를 바탕으로 관리자 확인 가능</p>
                   </div>
                   <div>
                     액자 추천 서비스 기능
-                    <p className=""> - 원하는 분위기 및 공간을 이용하여 액자 추천 서비스 구현</p>
-                    <p className="">- 관리자 페이지 내 선택 로직에 대한 값 변경 가능</p>
-                    <p className="">- LottieFiles 를 활용한 loading 페이지 구현</p>
+                    <p> - 원하는 분위기 및 공간을 이용하여 액자 추천 서비스 구현</p>
+                    <p>- 관리자 페이지 내 선택 로직에 대한 값 변경 가능</p>
+                    <p>- LottieFiles 를 활용한 loading 페이지 구현</p>
                   </div>
                   <div>
                     관리자 페이지 Chart.js 를 활용한 월 단위 일 단위 매출 계산

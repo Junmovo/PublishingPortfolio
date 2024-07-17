@@ -1,5 +1,6 @@
 export const ListChart = [
   {
+    Type: '개인',
     Title: '로스트아크 전적검색 코니콩',
     SubTitle: (
       <>
@@ -9,9 +10,10 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Lostark/Portfolio_main_image.png',
     Page: '/PageDetail/LostArk',
-    Tag: ['OpenAPI', 'Next.Js', 'Tailwind', 'Zustand', 'React-Query', 'PC'],
+    Tag: ['OpenAPI', 'Next.js(v14)', 'Tailwind', 'Zustand', 'React-Query', 'PC'],
   },
   {
+    Type: '개인',
     Title: 'Portfolio',
     SubTitle: (
       <>
@@ -21,9 +23,11 @@ export const ListChart = [
     ),
     ImageSrc: '/images/myPortfolio/Portfolio_main_image.png',
     Page: '/PageDetail/myPortfolio',
-    Tag: ['Next.Js', 'Tailwind', 'Styled-Components', 'TypeScript', '반응형'],
+    Tag: ['Next.js(v14)', 'Tailwind', 'Styled-Components', 'TypeScript', '반응형'],
   },
   {
+    Type: '회사',
+
     Title: '필프레임 홈페이지 리뉴얼',
     SubTitle: (
       <>
@@ -36,6 +40,7 @@ export const ListChart = [
     Tag: ['Design', 'Publishing', 'PHP', 'JavaScript', 'MySql-Workbench'],
   },
   {
+    Type: '회사',
     Title: '필카드 모바일청첩장',
     SubTitle: (
       <>
@@ -49,6 +54,7 @@ export const ListChart = [
     Tag: ['Design', 'PHP', 'JavaScript', 'MySql-Workbench'],
   },
   {
+    Type: '회사',
     Title: '필메이커',
     SubTitle: (
       <>
@@ -63,6 +69,7 @@ export const ListChart = [
     Tag: ['Design', 'Publising', 'JavaScript'],
   },
   {
+    Type: '회사',
     Title: '바른보정 홈페이지 리뉴얼',
     SubTitle: (
       <>
@@ -76,6 +83,7 @@ export const ListChart = [
     Tag: ['Design', 'Publising', 'Tistory', 'JavaScript'],
   },
   {
+    Type: '회사',
     Title: '그래픽 디자인 작업물',
     SubTitle: (
       <>

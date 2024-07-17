@@ -1,5 +1,6 @@
 'use client';
 import BarunbojungDetailTop from '@/app/components/Layout/DetailElements/BarunbojungDetailTop';
+import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import Header from '@/app/components/Layout/Header';
@@ -26,14 +27,31 @@ const BarunbojungPage = () => {
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="ml-[40px]">
-                  바른보정은 사진보정 전문 서비스입니다. <br />
-                  <br />
-                  기존 시스템은 파일 업로드 기능 없이 이메일을 통해 주고받는 방식이었습니다. <br />
-                  시스템을 최신화하여 사용자 친화적인 UI/UX로 재구성함으로써, 전화번호와 이름만으로 보다 직관적이고
-                  편리한 이용 환경을 제공하게 되었습니다. <br />
-                  <br />
-                  이를 통해 사용자들이 더욱 효율적으로 작업을 진행할 수 있으며, 전반적인 서비스 만족도가 크게
-                  향상되었습니다.
+                  <div>회사 프로젝트</div>
+                  <div>
+                    사용기술
+                    <br />
+                    <p>
+                      <Detailbedge contents="Design" />
+                      <Detailbedge contents="Publising" />
+                      <Detailbedge contents="Tistory" />
+                      <Detailbedge contents="JavaScript" />
+                    </p>
+                  </div>
+                  <div>
+                    프로젝트 설명
+                    <br />
+                    <span className="mt-2 inline-block">
+                      바른보정은 사진보정 전문 서비스입니다. <br />
+                      <br />
+                      기존 시스템은 파일 업로드 기능 없이 이메일을 통해 주고받는 방식이었습니다. <br />
+                      시스템을 최신화하여 사용자 친화적인 UI/UX로 재구성함으로써, 전화번호와 이름만으로 보다 직관적이고
+                      편리한 이용 환경을 제공하게 되었습니다. <br />
+                      <br />
+                      이를 통해 사용자들이 더욱 효율적으로 작업을 진행할 수 있으며, 전반적인 서비스 만족도가 크게
+                      향상되었습니다.
+                    </span>
+                  </div>
                 </S.TitleUnderText>
               </div>
             </article>
@@ -61,7 +79,7 @@ const BarunbojungPage = () => {
                   </div>
                   <div>
                     LottieFiles를 활용한 JSON Loading 구성
-                    <p> - gif였던 로딩을 Lotties를 활용하여 용량 절감</p>
+                    <p> - gif였던 로딩을 Lotties를 활용하여 최적화 진행</p>
                   </div>
                 </S.TitleUnderText>
               </div>

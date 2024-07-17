@@ -1,4 +1,5 @@
 'use client';
+import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import FeelcardDetailTop from '@/app/components/Layout/DetailElements/FeelcardDetailTop';
@@ -26,12 +27,29 @@ const FeelcardPage = () => {
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
-                  필카드는 모바일 청첩장 제작 에디터입니다. <br />
-                  <br />
-                  기존의 여러 모바일 청첩장에서 찾아볼 수 없는 기능들을 추가한 에디터 플러스(Editor Plus+)를 도입하여
-                  사용자 경험(UX)을 대폭 개선했습니다.
-                  <br></br>실시간 미리보기와 다양한 커스터마이징 옵션을 제공하여 사용성을 향상시키고,<br></br> 그 결과
-                  기존 사용률보다 1.5배 높은 성과를 달성한 바 있습니다.
+                  <div>회사 프로젝트</div>
+                  <div>
+                    사용기술
+                    <br />
+                    <p>
+                      <Detailbedge contents="Design" />
+                      <Detailbedge contents="PHP" />
+                      <Detailbedge contents="Javascript" />
+                      <Detailbedge contents="MySql-Workbench" />
+                    </p>
+                  </div>
+                  <div>
+                    프로젝트 설명
+                    <br />
+                    <span className="mt-2 inline-block">
+                      필카드는 모바일 청첩장 제작 에디터입니다. <br />
+                      <br />
+                      기존의 여러 모바일 청첩장에서 찾아볼 수 없는 기능들을 추가한 에디터 플러스(Editor Plus+)를
+                      도입하여 사용자 경험(UX)을 대폭 개선했습니다.
+                      <br></br>실시간 미리보기와 다양한 커스터마이징 옵션을 제공하여 사용성을 향상시키고,<br></br> 그
+                      결과 기존 사용률보다 1.5배 높은 성과를 달성한 바 있습니다.
+                    </span>
+                  </div>
                 </S.TitleUnderText>
               </div>
             </article>

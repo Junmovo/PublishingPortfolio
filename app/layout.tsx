@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="kr" className={`${NanumNeo.variable} ${pretendard.variable} ${montserrat.className} `}>
+    <html lang="ko" className={`${NanumNeo.variable} ${pretendard.variable} ${montserrat.className} `}>
       <StyledComponentsRegistry>
         <body className={NanumNeo.className}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>

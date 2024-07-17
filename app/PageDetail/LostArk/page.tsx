@@ -9,6 +9,7 @@ import { useState } from 'react';
 import { useThemeObserver } from '@/app/hooks/useThemeObserver';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
+import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 
 export default function LostArkDetail(): JSX.Element {
   const [navNumber, setNavNumber] = useState(1);
@@ -29,11 +30,29 @@ export default function LostArkDetail(): JSX.Element {
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
-                  코니콩은 RPG게임 로스트아크의 전적검색 시스템입니다.
-                  <br />
-                  <br />
-                  기존의 로스트아크 전적 검색 사이트의 UI를 대폭 개선하여,
-                  <br /> 사용자가 핵심 정보를 한눈에 볼 수 있도록 편리하게 재구성하였습니다.
+                  <div>개인 프로젝트(1인)</div>
+                  <div>
+                    사용기술
+                    <br />
+                    <p>
+                      <Detailbedge contents="OpenAPI" />
+                      <Detailbedge contents="Next.js(v14)" />
+                      <Detailbedge contents="Typescript" />
+                      <Detailbedge contents="Tailwind" />
+                      <Detailbedge contents="Zustand" />
+                      <Detailbedge contents="React-Query" />
+                    </p>
+                  </div>
+                  <div>
+                    프로젝트 설명
+                    <br />
+                    <span className="mt-2 inline-block">
+                      코니콩은 RPG게임 로스트아크의 전적검색 시스템입니다.
+                      <br />
+                      기존의 로스트아크 전적 검색 사이트의 UI를 대폭 개선하여,
+                      <br /> 사용자가 핵심 정보를 한눈에 볼 수 있도록 편리하게 재구성하였습니다.
+                    </span>
+                  </div>
                 </S.TitleUnderText>
               </div>
             </article>

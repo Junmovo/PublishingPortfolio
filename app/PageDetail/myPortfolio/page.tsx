@@ -9,6 +9,7 @@ import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWr
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import MyPortfolioDetailTop from '@/app/components/Layout/DetailElements/myPortfolioDetailTop';
 import MyportfolioProblem from '@/app/components/Layout/ProblemElements/MyportfolioProblem';
+import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 
 export default function Myportfolio(): JSX.Element {
   const [navNumber, setNavNumber] = useState(1);
@@ -29,11 +30,27 @@ export default function Myportfolio(): JSX.Element {
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
-                  Next.js와 Typescript를 활용하여 제작한 포트폴리오입니다.
-                  <br />
-                  <br /> 큰 텍스트와 채도를 이용한 컬러 조합으로 가독성을 높혔으며,
-                  <br /> 각종 기능 및 디자인을 직접 구현하고 만든 포트폴리오입니다.
-                  <br />
+                  <div>개인 프로젝트(1인)</div>
+                  <div>
+                    사용기술
+                    <br />
+                    <p>
+                      <Detailbedge contents="Next14" />
+                      <Detailbedge contents="Typescript" />
+                      <Detailbedge contents="Tailwind" />
+                      <Detailbedge contents="Styled-Components" />
+                      <Detailbedge contents="반응형" />
+                    </p>
+                  </div>
+                  <div>
+                    프로젝트 설명
+                    <br />
+                    <span className="mt-2 inline-block">
+                      Next.js와 Typescript를 활용하여 제작한 포트폴리오입니다.
+                      <br /> 큰 텍스트와 채도를 이용한 컬러 조합으로 가독성을 높혔으며,
+                      <br /> 각종 기능 및 디자인을 직접 구현하고 만든 포트폴리오입니다.
+                    </span>
+                  </div>
                 </S.TitleUnderText>
               </div>
             </article>

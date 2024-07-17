@@ -1,4 +1,5 @@
 'use client';
+import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import FeelmakerDetailTop from '@/app/components/Layout/DetailElements/FeelmakerDetailTop';
@@ -26,12 +27,27 @@ const FeelmakerPage = () => {
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
-                  필메이커는 웨딩 영상 제작 서비스입니다. <br />
-                  <br />
-                  필메이커 내 각종 오류들을 수정하며, 다양한 이벤트 혜택 배너 및 사용자들의 편의성을 생각하여 디자인을
-                  수정하였습니다.
-                  <br />
-                  이를 통해 사용자들이 전반적인 서비스 만족도가 크게 향상되었습니다.
+                  <div>회사 프로젝트</div>
+                  <div>
+                    사용기술
+                    <br />
+                    <p>
+                      <Detailbedge contents="Design" />
+                      <Detailbedge contents="Publising" />
+                      <Detailbedge contents="Javascript" />
+                    </p>
+                  </div>
+                  <div>
+                    프로젝트 설명
+                    <span className="mt-2 inline-block">
+                      필메이커는 웨딩 영상 제작 서비스입니다. <br />
+                      <br />
+                      필메이커 내 각종 오류들을 수정하며, 다양한 이벤트 혜택 배너 및 사용자들의 편의성을 생각하여
+                      디자인을 수정하였습니다.
+                      <br />
+                      이를 통해 사용자들이 전반적인 서비스 만족도가 크게 향상되었습니다.
+                    </span>
+                  </div>
                 </S.TitleUnderText>
               </div>
             </article>
