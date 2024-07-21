@@ -26,6 +26,20 @@ export const ListChart = [
     Tag: ['Next.js(v14)', 'Tailwind', 'Styled-Components', 'TypeScript', '반응형'],
   },
   {
+    Type: '개인',
+    Title: '2022 Portfolio',
+    SubTitle: (
+      <>
+        디자인부터 퍼블리싱까지 직접 작업한 포트폴리오 입니다. 다양한 애니메이션과 라이브러리를 활용한 퍼블리싱
+        포트폴리오 입니다.
+      </>
+    ),
+    ImageSrc: '/images/portfolio2022/Portfolio_main_image.png',
+    Page: 'https://junmovo.github.io/Portfolio',
+    Tag: ['Design', 'Publishing', 'Javascript'],
+    Target: '_blank',
+  },
+  {
     Type: '회사',
 
     Title: '필프레임 홈페이지 리뉴얼',

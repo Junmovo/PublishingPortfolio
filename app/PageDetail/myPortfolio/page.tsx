@@ -35,7 +35,7 @@ export default function Myportfolio(): JSX.Element {
                     사용기술
                     <br />
                     <p>
-                      <Detailbedge contents="Next14" />
+                      <Detailbedge contents="Next.js(v14)" />
                       <Detailbedge contents="Typescript" />
                       <Detailbedge contents="Tailwind" />
                       <Detailbedge contents="Styled-Components" />

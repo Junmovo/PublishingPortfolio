@@ -23,6 +23,7 @@ export default function List2(): JSX.Element {
               ImageSrc={items.ImageSrc}
               Page={items.Page}
               Tag={items.Tag}
+              Target={items.Target}
             />
           ))}
         </div>
