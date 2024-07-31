@@ -19,7 +19,7 @@ const AboutMe = () => {
           </div>
           <div className="text-[18px] text-gray-400">
             디자인부터 최신 프론트엔드 기술까지 꾸준히 배워오며,<br></br> 성장에 대한 두려움 없이 책임감 있게 도전하는
-            퍼블리셔 강준모입니다.
+            강준모입니다.
           </div>
         </div>
       </div>

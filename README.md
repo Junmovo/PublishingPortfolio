@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 프론트엔드 강준모 포트폴리오
 
 ![githubimage](https://github.com/user-attachments/assets/e7b265f3-639e-4de0-a4c5-4987203dca9d)
@@ -109,3 +110,6 @@ export const useThemeObserver = (
 
 - Antd 라이브러리를 활용한 이미지 미리보기
 - filter, slice를 활용한 이미지 필터링 및 이미지 더보기 기능 구현
+=======
+# PublishingPortfolio
+>>>>>>> 99196c3522b74373a5614ff3c0b531fa00e13373
