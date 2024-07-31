@@ -10,7 +10,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Lostark/Portfolio_main_image.png',
     Page: '/PageDetail/LostArk',
-    Tag: ['OpenAPI', 'Next.js(v14)', 'Tailwind', 'Zustand', 'React-Query', 'PC'],
+    Tag: ['Frontend', 'OpenAPI', 'Next.js(v14)', 'Tailwind', 'Zustand', 'React-Query', 'PC'],
   },
   {
     Type: '개인',
@@ -37,6 +37,31 @@ export const ListChart = [
     ImageSrc: '/images/portfolio2022/Portfolio_main_image.png',
     Page: 'https://junmovo.github.io/Portfolio',
     Tag: ['Design', 'Publishing', 'Javascript'],
+    Target: '_blank',
+  },
+  {
+    Type: '개인',
+    Title: '수원화성 홍보사이트 디자인',
+    SubTitle: (
+      <>
+        수원화성에 대한 홍보와 관광지로의 수원을 알리는 홈페이지를 제작하였습니다. 화려하고 인터랙티브 한 사이트를
+        만들고 싶어 도전하게 된 웹사이트입니다.
+      </>
+    ),
+    ImageSrc: '/images/portfolio2022/suwon.png',
+    Page: 'https://junmovo.github.io/Portfolio/subpage/WP_suwon.html',
+    Tag: ['Design', 'Publishing', 'Javascript'],
+    Target: '_blank',
+  },
+  {
+    Type: '개인',
+    Title: '맥딜리버리 앱 리디자인',
+    SubTitle: (
+      <>딜리버리앱 만의 불편한 점을 찾고 수정하며 다른 배달어플에 비해 떨어지는 점을 보완하고 수정한 프로젝트입니다.</>
+    ),
+    ImageSrc: '/images/portfolio2022/mac.png',
+    Page: 'https://junmovo.github.io/Portfolio/subpage/WP_Mcdelivery.html',
+    Tag: ['Design', 'UI/UX', 'TeamProject', 'App Design'],
     Target: '_blank',
   },
   {

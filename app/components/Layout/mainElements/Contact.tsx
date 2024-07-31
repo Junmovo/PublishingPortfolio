@@ -11,12 +11,13 @@ const Contact = () => {
       <div className="text-center text-[50px] font-[800] font-montserrat">Thank you for Watching </div>
       <div className="text-center text-[40px] font-[400]">봐주셔서 감사합니다!😁 </div>
       <div className=" mt-4 leading-6 text-gray-700 dark:text-gray-300">
-        새로운 기술에 대한 두려움을 극복하고 끊임없이 성장하는 프론트엔드 개발자가 되고 싶습니다. <br></br>변화와 도전을
+        새로운 기술에 대한 두려움을 극복하고 끊임없이 성장하는 퍼블리셔가 되고 싶습니다. <br></br>변화와 도전을
         두려워하지 않으며, 항상 배우고 발전하는 자세로 나아가겠습니다.
       </div>
       <div className="flex text-[14px] mt-[40px] gap-4 flex-col lg:flex-row">
         <div className="py-2 px-4 border border-gray-400 flex gap-4 items-center rounded-full text-[14px]">
-          <FaPhoneVolume size={12} />-
+          <FaPhoneVolume size={12} />
+          010-3750-4096
         </div>
         <div>
           <div className="py-2 px-4 border border-gray-400 flex gap-4 items-center rounded-full text-[14px]">
@@ -34,8 +35,8 @@ const Contact = () => {
         </div>
         <S.FrontEndText>FrontEnd</S.FrontEndText>
         <S.CodeText>{'</>'}</S.CodeText>
-        <S.NextJsText>Next.js</S.NextJsText>
-        <S.TypeScript>TypeScript</S.TypeScript>
+        <S.NextJsText>Pubulisher</S.NextJsText>
+        <S.TypeScript>UI/UX</S.TypeScript>
       </div>
     </div>
   );

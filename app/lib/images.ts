@@ -337,4 +337,12 @@ export const ImageDesignGroup: IImageDesignGroupProps[] = [
     direction: 'vertical',
     title: '바른보정',
   },
+  {
+    src: '/images/design/banner/img0.jpg',
+    thumb: '/images/design/banner/thumbimg0.png',
+
+    type: '기타',
+    direction: 'vertical',
+    title: '바른보정',
+  },
 ];

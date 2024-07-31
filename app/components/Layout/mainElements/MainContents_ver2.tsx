@@ -9,18 +9,7 @@ export default function MainContents_ver2(): JSX.Element {
   const el = useRef<HTMLSpanElement>(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [
-        'Design',
-        'Publisher',
-        'JavaScript',
-        'FrontEnd',
-        'React',
-        'TypeScript',
-        'Next.js',
-        'Zustand',
-        'Tailwind',
-        'RestApi',
-      ],
+      strings: ['Design', 'Publisher', 'JavaScript', 'React', 'TypeScript', 'Next.js'],
       typeSpeed: 50,
       loop: true,
       smartBackspace: true,
@@ -39,10 +28,10 @@ export default function MainContents_ver2(): JSX.Element {
     <MainWrapper>
       <S.FrontEndText>FrontEnd</S.FrontEndText>
       <S.CodeText>{'</>'}</S.CodeText>
-      <S.NextJsText>Next.js</S.NextJsText>
-      <S.TypeScript>TypeScript</S.TypeScript>
+      <S.NextJsText>Publisher</S.NextJsText>
+      <S.TypeScript>UI/UX</S.TypeScript>
       <div className="flex flex-col text-center lg:text-left">
-        <div className="text-[14px] text-gray-400">FE PortFolio</div>
+        <div className="text-[14px] text-gray-400">JM PortFolio</div>
         <h1 className="text-[80px] font-[800] sm:text-[80px] ">
           만나서
           <br className="lg:hidden" /> 반가워 <span className="hidden lg:inline">👋</span>
@@ -58,7 +47,7 @@ export default function MainContents_ver2(): JSX.Element {
             Publisher
           </span>
           <span className="text-[14px] py-[10px] px-[20px] border rounded-full font-montserrat inline-block mb-[10px] dark:border-gray-500">
-            Frontend
+            UI/UX
           </span>
         </div>
       </div>

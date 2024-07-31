@@ -7,51 +7,43 @@ import { SiTailwindcss } from 'react-icons/si';
 import { FaPhp } from 'react-icons/fa';
 import AboutMeCard from './components/AboutMeCard';
 import AboutMeCareer from './components/AboutMeCareer';
+import { FaHtml5 } from 'react-icons/fa';
 
 const AboutMe = () => {
   return (
     <div className="pb-[80px] w-[100%] xl:w-[1300px] p-6 xl:p-0  m-auto ">
       <div className="mb-[60px]">
         <div>
-          <div className="text-[40px] font-[800] mb-4">
-            안녕하세요!<br></br>웹 퍼블리셔
-            <br /> 강준모입니다.
+          <div className="text-[40px] font-[800] mb-8">
+            안녕하세요!<br></br>성장을 두려워하지 않는
+            <br /> 웹 퍼블리셔 강준모입니다.
           </div>
-          <div className="text-[18px] text-gray-400">
-            디자인부터 최신 프론트엔드 기술까지 꾸준히 배워오며,<br></br> 성장에 대한 두려움 없이 책임감 있게 도전하는
-            강준모입니다.
+
+          <div className="text-[16px] mt-3 text-gray-400 leading-7">
+            디자인부터 최신 프론트엔드 기술까지 꾸준히 배워오며,
+            <br /> 사용자의 경험을 우선으로 생각하여 UI/UX를 더욱 고민하고 최상의 경험을 제공하기 위해 노력합니다.
+            <br />
+            좋아하면 더욱 잘 한다는 마음가짐으로 꾸준하게 성장하고 있습니다.
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 w-full gap-5 mb-20 xl:grid-cols-3 lg:grid-cols-2">
-        <AboutMeCard title={'Next.js / React'} icon={<SiNextdotjs size={30} />}>
-          <div>SSR을 활용한 작업이 가능합니다.</div>
-          <div>컴포넌트를 활용하여 재사용성을 높힙니다.</div>
-          <div>성능 최적화를 통한 UX 향상(Throttling과 Debouncing)</div>
-          <div>다양한 라이브러리를 활용할 수 있습니다.</div>
+        <AboutMeCard title={'HTML / CSS'} icon={<FaHtml5 size={30} color="#d86f21" />}>
+          <div>웹표준 & 웹접근성을 고려하여 시맨틱 태그를 적극 활용합니다.</div>
+          <div>미디어쿼리 이용 반응형 웹 제작합니다.</div>
+          <div>웹 사이트 구축 및 디자인을 기획 및 제작합니다.</div>
+          <div>Flex, Grid 등 다양한 레이아웃을 구성할 수 있습니다.</div>
         </AboutMeCard>
-        <AboutMeCard title={'TypeScript / JavaScript'} icon={<SiTypescript size={26} color="#3178c6" />}>
+        <AboutMeCard title={'Javascript / Typescript'} icon={<SiTypescript size={26} color="#3178c6" />}>
+          <div> 인터렉티브한 효과를 구현할 수 있습니다.</div>
           <div>타입 지정을 통하여 에러에 대한 방지를합니다.</div>
           <div>Axios를 활용한 데이터 동기 비동기처리를 이해하고 있습니다.</div>
           <div>ES6+ 문법을 활용합니다.</div>
         </AboutMeCard>
-        <AboutMeCard title={'Zustand / React-Query'} icon={<SiReactquery size={30} />}>
-          <div>전역 상태를 이해하고 있습니다.</div>
-          <div>데이터 요청에 대한 상태관리를 이용합니다.</div>
-        </AboutMeCard>
-        <AboutMeCard
-          title={
-            <>
-              <span>Tailwind /</span>
-              <br />
-              <span>Styled-Components</span>
-            </>
-          }
-          icon={<SiTailwindcss size={30} color="#38bdf8" />}
-        >
-          <div>다양한 형태의 레이아웃을 구성할 수 있습니다.</div>
-          <div>Props를 통한 동적 스타일링이 가능합니다.</div>
-          <div>코드의 재사용성을 높혀 가독성을 올립니다.</div>
+        <AboutMeCard title={'Next.js / React'} icon={<SiNextdotjs size={30} />}>
+          <div>SSR을 활용한 작업이 가능합니다.</div>
+          <div>컴포넌트를 활용하여 재사용성을 높힙니다.</div>
+          <div>성능 최적화를 통한 UX 향상(Throttling과 Debouncing)</div>
         </AboutMeCard>
 
         <AboutMeCard title={'PHP / MySql'} icon={<FaPhp size={30} color="#777bb4" />}>
