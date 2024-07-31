@@ -14,12 +14,12 @@ const AboutMe = () => {
       <div className="mb-[60px]">
         <div>
           <div className="text-[40px] font-[800] mb-4">
-            안녕하세요!<br></br>프론트엔드 개발자
+            안녕하세요!<br></br>웹 퍼블리셔
             <br /> 강준모입니다.
           </div>
           <div className="text-[18px] text-gray-400">
             디자인부터 최신 프론트엔드 기술까지 꾸준히 배워오며,<br></br> 성장에 대한 두려움 없이 책임감 있게 도전하는
-            개발자입니다.
+            퍼블리셔입니다.
           </div>
         </div>
       </div>
