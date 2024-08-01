@@ -55,6 +55,14 @@ export const ListChart = [
   },
   {
     Type: '개인',
+    Title: '(주)꽃빵 홈페이지 제작',
+    SubTitle: <>카페24를 활용한 메이크업 브랜드 회사 꽃빵의 홈페이지를 제작하였습니다.</>,
+    ImageSrc: '/images/portfolio2022/kkot.png',
+    Page: '/PageDetail/kkotppang',
+    Tag: ['Design', 'Cafe24', 'Publishing'],
+  },
+  {
+    Type: '개인',
     Title: '맥딜리버리 앱 리디자인',
     SubTitle: (
       <>딜리버리앱 만의 불편한 점을 찾고 수정하며 다른 배달어플에 비해 떨어지는 점을 보완하고 수정한 프로젝트입니다.</>

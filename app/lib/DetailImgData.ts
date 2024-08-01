@@ -164,3 +164,21 @@ export const MyPortfolioImageGroup: ImageGroupType[] = [
     title: '이미지 미리보기',
   },
 ];
+
+export const KkotppangImageGroup: ImageGroupType[] = [
+  {
+    preview: '/images/portfolio2022/previewmain.png',
+    src: '/images/portfolio2022/kkotmain.png',
+    title: '메인화면',
+  },
+  {
+    preview: '/images/portfolio2022/login.png',
+    src: '/images/portfolio2022/kkotlogin.png',
+    title: '로그인 UI',
+  },
+  {
+    preview: '/images/portfolio2022/popup.png',
+    src: '/images/portfolio2022/kkotpop.png',
+    title: '팝업 ',
+  },
+];

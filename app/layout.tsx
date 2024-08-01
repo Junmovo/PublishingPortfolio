@@ -8,10 +8,10 @@ import Gotop from './components/commons/Gotop';
 export const metadata: Metadata = {
   metadataBase: new URL('https://junmo-portfolio.vercel.app/'),
   title: `Junmo's Portfolio`,
-  description: '성장을 두려워 하지 않는 프론트엔드 강준모 포트폴리오입니다.',
+  description: '성장을 두려워 하지 않는 퍼블리셔 강준모 포트폴리오입니다.',
   openGraph: {
     title: '준모 포트폴리오',
-    description: '성장을 두려워 하지 않는 프론트엔드 강준모 포트폴리오입니다.',
+    description: '성장을 두려워 하지 않는 퍼블리셔 강준모 포트폴리오입니다.',
     url: 'https://junmo-portfolio.vercel.app/',
     images: [
       {
