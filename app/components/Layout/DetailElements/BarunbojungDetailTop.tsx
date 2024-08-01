@@ -8,7 +8,7 @@ import DetailWrapper from './DetailWrapper';
 const BarunbojungDetailTop = () => {
   return (
     <DetailWrapper>
-      <div className="w-full md:w-[50%]">
+      <div className="w-full lg:w-[50%]">
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="Design" />
         <Detailbedge contents="회사 프로젝트" />

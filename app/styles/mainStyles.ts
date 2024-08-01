@@ -59,7 +59,7 @@ export const TypedText = styled.span`
     font-size: 80px;
   }
   @media only screen and (max-width: 1024px) {
-    font-size: 60px;
+    font-size: 50px;
   }
 `;
 

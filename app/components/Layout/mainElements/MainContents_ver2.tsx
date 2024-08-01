@@ -9,7 +9,7 @@ export default function MainContents_ver2(): JSX.Element {
   const el = useRef<HTMLSpanElement>(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Design', 'Publisher', 'JavaScript', 'React', 'TypeScript', 'Next.js'],
+      strings: ['Design', 'UI/UX', 'Publisher', 'JavaScript', 'React'],
       typeSpeed: 50,
       loop: true,
       smartBackspace: true,
@@ -32,7 +32,7 @@ export default function MainContents_ver2(): JSX.Element {
       <S.TypeScript>UI/UX</S.TypeScript>
       <div className="flex flex-col text-center lg:text-left">
         <div className="text-[14px] text-gray-400">JM PortFolio</div>
-        <h1 className="text-[80px] font-[800] sm:text-[80px] ">
+        <h1 className="text-[60px] font-[800] sm:text-[80px] ">
           만나서
           <br className="lg:hidden" /> 반가워 <span className="hidden lg:inline">👋</span>
         </h1>

@@ -8,7 +8,7 @@ import DetailWrapper from './DetailWrapper';
 const KkotppangDetailTop = () => {
   return (
     <DetailWrapper>
-      <div className=" w-[50%]">
+      <div className="w-full lg:w-[50%]">
         <Detailbedge contents="Design" />
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="cafe24" />

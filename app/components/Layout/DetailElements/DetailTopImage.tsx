@@ -9,7 +9,7 @@ interface IDetailTopImage {
 const DetailTopImage = ({ ImageSrc }: IDetailTopImage) => {
   const ref = useRef<any>(null);
   return (
-    <div className="md:w-[600px] md:h-[400px] bg-gray-100 rounded-[20px] overflow-hidden  md:mt-3 p-[20px]  shadow-[0_2px_30px_0_rgba(0,0,0,.06)] dark:bg-[#2525259d] relative w-full h-[240px]">
+    <div className=" md:h-[400px] mb-[40px] lg:mb-0 bg-gray-100 rounded-[20px] overflow-hidden  md:mt-3 p-[20px]  shadow-[0_2px_30px_0_rgba(0,0,0,.06)] dark:bg-[#2525259d] relative w-full lg:w-[600px] h-[300px]">
       <Image
         src={ImageSrc}
         fill

@@ -14,7 +14,7 @@ const AboutMe = () => {
     <div className="pb-[80px] w-[100%] xl:w-[1300px] p-6 xl:p-0  m-auto ">
       <div className="mb-[60px]">
         <div>
-          <div className="text-[40px] font-[800] mb-8">
+          <div className="text-[32px] font-[800] mb-8 lg:text-[40px]">
             안녕하세요!<br></br>성장을 두려워하지 않는
             <br /> 웹 퍼블리셔 강준모입니다.
           </div>

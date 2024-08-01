@@ -11,7 +11,7 @@ import DetailWrapper from './DetailWrapper';
 const LostarkDetailTop = () => {
   return (
     <DetailWrapper>
-      <div className="w-full md:w-[50%]">
+      <div className="w-full lg:w-[50%]">
         <Detailbedge contents="Frontend" />
         <Detailbedge contents="개인 프로젝트" />
         <DetailTitle subTitle={'게임 전적검색 사이트'} title={'코니콩'} date={'24.06.04 - 24.06.20'} />

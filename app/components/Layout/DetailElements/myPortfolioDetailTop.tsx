@@ -11,7 +11,7 @@ import DetailWrapper from './DetailWrapper';
 const MyPortfolioDetailTop = () => {
   return (
     <DetailWrapper>
-      <div className="w-full md:w-[50%]">
+      <div className="w-full lg:w-[50%]">
         <Detailbedge contents="Frontend" />
         <Detailbedge contents="개인 프로젝트" />
         <DetailTitle subTitle={'개인 포트폴리오'} title={'포트폴리오'} date={'2024-06-04 ~'} />

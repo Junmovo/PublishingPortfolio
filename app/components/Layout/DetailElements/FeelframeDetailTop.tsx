@@ -8,7 +8,7 @@ import DetailWrapper from './DetailWrapper';
 const FeelFrameDetailTop = () => {
   return (
     <DetailWrapper>
-      <div className="w-full md:w-[50%]">
+      <div className="w-full lg:w-[50%]">
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="회사 프로젝트" />
         <DetailTitle subTitle={'또 다른 감성액자'} title={'필프레임'} date={'23.06.01 - 24.01.01'} />
