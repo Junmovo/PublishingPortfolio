@@ -13,7 +13,7 @@ const KkotppangDetailTop = () => {
         <Detailbedge contents="Publisher" />
         <Detailbedge contents="cafe24" />
         <Detailbedge contents="개인 프로젝트" />
-        <DetailTitle subTitle={'색조 전문 브랜드'} title={'(주)꽃빵'} date={'22.11.01 - 22.12.16'} />
+        <DetailTitle subTitle={'색조 전문 브랜드'} title={'(주)꽃빵'} date={'23.11.01 - 23.12.01'} />
         <DetailSubcontents
           HomepageLink="https://kkotppang.com/"
           subContents={
