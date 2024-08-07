@@ -38,9 +38,10 @@ const AboutMe = () => {
           <div>Flex, Grid 등 다양한 레이아웃을 구성할 수 있습니다.</div>
         </AboutMeCard>
         <AboutMeCard title={'Javascript'} icon={<IoLogoJavascript size={26} color="#F7DF1E" />}>
+          <div>라이브러리를 활용한 다양한 기능을 구현할 수 있습니다.</div>
+          <div>JQuery를 활용한 기능을 구현할 수 있습니다.</div>
           <div>인터렉티브한 효과를 구현할 수 있습니다.</div>
           <div>ES6+ 문법을 활용합니다.</div>
-          <div>JQuery를 활용한 기능을 구현할 수 있습니다.</div>
         </AboutMeCard>
 
         <AboutMeCard title={'Design Tools'} icon={<SiAdobecreativecloud size={30} color="#d32525" />}>
