@@ -56,22 +56,23 @@ const FeelmakerPage = () => {
                 <S.TitleText>🤔 어떠한 작업을 하셨나요?</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
                   <div>
-                    스크롤 시 이벤트 배너 생성
-                    <p> - 랜덤 배너시 Math.random 및 sort를 활용하여 정수 변환 후 특정 숫자 일 때만 표시</p>
-                    <p> - window.scrollTop을 활용한 배너 up/down</p>
-                  </div>
-                  <div>
-                    영상 동의 비동의 고객 할인 로직 수정
-                    <p> - 동의 작성 시 결제금액 2,000원 할인 및 페이지 내 동의 고객 리스트 레이아웃 작업</p>
-                    <p> - 동의 비동의 값의 정보를 가져와 영상별 filter 구분</p>
-                  </div>
-                  <div>
-                    인기 동영상 인기순 필터정렬
-                    <p> - 결제 완료 된 length 를 Workbendch table을 확인하여 정렬 구성</p>
-                  </div>
-                  <div>
-                    각종 이벤트 배너 및 팝업 디자인 기획 및 제작
+                    각종 이벤트 배너 및 팝업 디자인 제작
                     <p> - Photoshop을 통한 이벤트 기획 및 구성</p>
+                  </div>
+                  <div>
+                    메인 배너 및 랜딩 페이지 기획 및 제작
+                    <p> - Photoshop을 활용하여 랜딩페이지 구성</p>
+                    <p> - 공통적인 레이아웃을 통하여 통일감 구성</p>
+                  </div>
+                  <div>
+                    Swiper를 활용한 메인배너 반응형 구현
+                    <p> - BreakPoint를 활용하여 반응형 추가</p>
+                    <p> - 디바이스마다 다른 배너의 형태를 가짐</p>
+                  </div>
+                  <div>
+                    스크롤 시 이벤트 배너 생성
+                    <p> - 미디어쿼리와 자바스크립트를 활용하여 스크롤 디바이스 감지</p>
+                    <p> - window.scrollTop을 활용한 배너 up/down</p>
                   </div>
                 </S.TitleUnderText>
               </div>

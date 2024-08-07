@@ -10,7 +10,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Lostark/Portfolio_main_image.png',
     Page: '/PageDetail/LostArk',
-    Tag: ['Frontend', 'OpenAPI', 'Next.js(v14)', 'Tailwind', 'Zustand', 'React-Query', 'PC'],
+    Tag: ['Design', 'Publishing', 'Javascript', 'Next.js(v14)', 'Tailwind', 'Zustand', 'PC'],
   },
   {
     Type: '개인',
@@ -23,7 +23,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/myPortfolio/Portfolio_main_image.png',
     Page: '/PageDetail/myPortfolio',
-    Tag: ['Next.js(v14)', 'Tailwind', 'Styled-Components', 'TypeScript', '반응형'],
+    Tag: ['Design', 'Publishing', 'Javascript', 'Next.js(v14)', 'Tailwind', 'Styled-Components', '반응형'],
   },
   {
     Type: '개인',
@@ -98,7 +98,7 @@ export const ListChart = [
 
     ImageSrc: '/images/Feelcard/Feelcard.png',
     Page: '/PageDetail/Feelcard',
-    Tag: ['Design', 'PHP', 'JavaScript', 'MySql-Workbench'],
+    Tag: ['Design', 'Publishing', 'JavaScript', 'PHP', 'MySql-Workbench'],
   },
   {
     Type: '회사',

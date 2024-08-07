@@ -2,6 +2,9 @@ import React from 'react';
 import * as S from '@/app/styles/Detail';
 import { SiAdobecreativecloud, SiAdobephotoshop, SiNextdotjs } from 'react-icons/si';
 import { SiTypescript } from 'react-icons/si';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { FaReact } from 'react-icons/fa';
+
 import { SiReactquery } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
 import { FaPhp } from 'react-icons/fa';
@@ -34,13 +37,18 @@ const AboutMe = () => {
           <div>웹 사이트 구축 및 디자인을 기획 및 제작합니다.</div>
           <div>Flex, Grid 등 다양한 레이아웃을 구성할 수 있습니다.</div>
         </AboutMeCard>
-        <AboutMeCard title={'Javascript / Typescript'} icon={<SiTypescript size={26} color="#3178c6" />}>
-          <div> 인터렉티브한 효과를 구현할 수 있습니다.</div>
-          <div>타입 지정을 통하여 에러에 대한 방지를합니다.</div>
-          <div>Axios를 활용한 데이터 동기 비동기처리를 이해하고 있습니다.</div>
+        <AboutMeCard title={'Javascript'} icon={<IoLogoJavascript size={26} color="#F7DF1E" />}>
+          <div>인터렉티브한 효과를 구현할 수 있습니다.</div>
           <div>ES6+ 문법을 활용합니다.</div>
+          <div>JQuery를 활용한 기능을 구현할 수 있습니다.</div>
         </AboutMeCard>
-        <AboutMeCard title={'Next.js / React'} icon={<SiNextdotjs size={30} />}>
+
+        <AboutMeCard title={'Design Tools'} icon={<SiAdobecreativecloud size={30} color="#d32525" />}>
+          <div>Photoshop 기능을 활용하여 다양한 디자인을 구성할 수 있습니다.</div>
+          <div>Figma를 활용한 UI 구성을 합니다.</div>
+          <div>Illustrator를 통한 간단한 이미지 작업이 가능합니다.</div>
+        </AboutMeCard>
+        <AboutMeCard title={'React / Next.js'} icon={<FaReact size={30} color="#61DAFB" />}>
           <div>SSR을 활용한 작업이 가능합니다.</div>
           <div>컴포넌트를 활용하여 재사용성을 높힙니다.</div>
           <div>성능 최적화를 통한 UX 향상(Throttling과 Debouncing)</div>
@@ -50,12 +58,6 @@ const AboutMe = () => {
           <div>PHP를 통하여 로그인 세션 구현 한 경험이 있습니다.</div>
           <div>AJax를 활용한 CRUD 를 작업한 경험이 있습니다.</div>
           <div>MySql-Workbench 테이블 관리 및 기획한 경험이 있습니다.</div>
-        </AboutMeCard>
-
-        <AboutMeCard title={'Design Tools'} icon={<SiAdobecreativecloud size={30} color="#d32525" />}>
-          <div>Photoshop 기능을 활용하여 다양한 디자인을 구성할 수 있습니다.</div>
-          <div>AdobeXD를 활용한 UI 구성을 합니다.</div>
-          <div>Illustrator를 통한 간단한 이미지 작업이 가능합니다.</div>
         </AboutMeCard>
       </div>
       <AboutMeCareer />

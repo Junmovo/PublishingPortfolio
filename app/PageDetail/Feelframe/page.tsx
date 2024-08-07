@@ -63,15 +63,16 @@ const FeelcardPage = () => {
                 <S.TitleText>🤔 어떠한 작업을 하셨나요?</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
                   <div>
-                    회원가입 비밀번호 유효성 검사 및 팝빌을 활용한 인증번호 전송
-                    <p> - test 함수와 Ajax를 활용하여 유효성 검사 및 회원가입 절차 제작</p>
-                    <p>- 팝빌 API를 활용하여 공통 함수 제작을 통하여 재사용성을 높힘</p>
+                    필프레임 메인 배너 및 이벤트 배너 제작
+                    <p> - 고정적인 레이아웃으로 디자인 일관성 부여</p>
+                    <p> - 반응형 디자인을 통한 디바이스 호환성 향상</p>
                   </div>
                   <div>
-                    공동구매 생성 로직 및 가입 절차 제작
-                    <p> - Workbench Group 테이블 기획 및 생성</p>
-                    <p> - MySql-WorkBench 테이블을 활용하여 핸드폰 번호와 이름을 매칭시켜 유효성 확인</p>
+                    관리자 페이지 공지사항 업로드 및 배너 변경
+                    <p> - 업로드와 세부 내용 및 타이틀을 설정할 수 있게 변경</p>
+                    <p> - 공지사항 고정 및 최신 글 강조표시</p>
                   </div>
+
                   <div>
                     <Link
                       href={'https://feelframe.co.kr/page?dir=prop&view=chfr'}
@@ -80,8 +81,8 @@ const FeelcardPage = () => {
                     >
                       액자교체 시스템 디자인 기획 및 개발 <RiShareBoxFill size={18} className="ml-1" />
                     </Link>
+                    <p> - 랜딩페이지 디자인 및 퍼블리싱</p>
                     <p> - QR코드를 통한 배달 및 회수 시스템</p>
-                    <p>- 휴대폰 및 결제 번호를 통한 정보 수집 및 입력된 정보를 바탕으로 관리자 확인 가능</p>
                   </div>
                   <div>
                     액자 추천 서비스 기능
@@ -94,9 +95,9 @@ const FeelcardPage = () => {
                     <p> - 라이브러리 Chart.js 활용 및 데이터 값 계산 후 표시</p>
                   </div>
                   <div>
-                    관리자 페이지 공지사항 업로드 및 배너 변경
-                    <p> - 업로드와 세부 내용 및 타이틀을 설정할 수 있게 변경</p>
-                    <p> - 공지사항 고정 및 최신 글 강조표시</p>
+                    회원가입 비밀번호 유효성 검사 및 팝빌을 활용한 인증번호 전송
+                    <p> - test 함수와 Ajax를 활용하여 유효성 검사 및 회원가입 절차 제작</p>
+                    <p>- 팝빌 API를 활용하여 공통 함수 제작을 통하여 재사용성을 높힘</p>
                   </div>
                 </S.TitleUnderText>
               </div>
