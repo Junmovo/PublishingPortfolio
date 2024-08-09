@@ -45,7 +45,7 @@ const AboutMe = () => {
           <div>자연스러운 합성 디자인을 할 수 있습니다.</div>
           <div>Illustrator를 통한 간단한 이미지 작업이 가능합니다.</div>
         </AboutMeCard>
-        <AboutMeCard title={'Figma / Adobe XD'} icon={<FaFigma size={30} c />}>
+        <AboutMeCard title={'Figma / Adobe XD'} icon={<FaFigma size={30} />}>
           <div>공통 디자인을 활용하여 일관성있는 디자인을 구현합니다.</div>
           <div>Auto Layout을 활용하여 반응형을 구현합니다.</div>
           <div>인터렉션을 통한 미리보기 구현이 가능합니다.</div>
