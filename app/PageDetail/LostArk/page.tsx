@@ -10,6 +10,7 @@ import { useThemeObserver } from '@/app/hooks/useThemeObserver';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
 import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
+import Progress_Bar from '@/app/components/commons/Progress';
 
 export default function LostArkDetail(): JSX.Element {
   const [navNumber, setNavNumber] = useState(1);
@@ -31,6 +32,12 @@ export default function LostArkDetail(): JSX.Element {
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
                   <div>개인 프로젝트(1인)</div>
+                  <S.ProgressSection>
+                    <Progress_Bar per={100} title="기획" />
+                    <Progress_Bar per={100} title="개발" />
+                    <Progress_Bar per={100} title="디자인" />
+                    <Progress_Bar per={100} title="퍼블리싱" />
+                  </S.ProgressSection>
                   <div>
                     사용기술
                     <br />

@@ -1,12 +1,8 @@
 import React from 'react';
-import * as S from '@/app/styles/Detail';
-import { SiAdobecreativecloud, SiAdobephotoshop, SiNextdotjs } from 'react-icons/si';
-import { SiTypescript } from 'react-icons/si';
+import { SiAdobephotoshop } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaReact } from 'react-icons/fa';
-
-import { SiReactquery } from 'react-icons/si';
-import { SiTailwindcss } from 'react-icons/si';
+import { FaFigma } from 'react-icons/fa';
 import { FaPhp } from 'react-icons/fa';
 import AboutMeCard from './components/AboutMeCard';
 import AboutMeCareer from './components/AboutMeCareer';
@@ -44,10 +40,15 @@ const AboutMe = () => {
           <div>ES6+ 문법을 활용합니다.</div>
         </AboutMeCard>
 
-        <AboutMeCard title={'Design Tools'} icon={<SiAdobecreativecloud size={30} color="#d32525" />}>
-          <div>Photoshop 기능을 활용하여 다양한 디자인을 구성할 수 있습니다.</div>
-          <div>Figma를 활용한 UI 구성을 합니다.</div>
+        <AboutMeCard title={'Photoshop / Illustrator'} icon={<SiAdobephotoshop size={30} color="#31A8FF" />}>
+          <div>각종 랜딩페이지 및 배너 디자인을 작업합니다.</div>
+          <div>자연스러운 합성 디자인을 할 수 있습니다.</div>
           <div>Illustrator를 통한 간단한 이미지 작업이 가능합니다.</div>
+        </AboutMeCard>
+        <AboutMeCard title={'Figma / Adobe XD'} icon={<FaFigma size={30} c />}>
+          <div>공통 디자인을 활용하여 일관성있는 디자인을 구현합니다.</div>
+          <div>Auto Layout을 활용하여 반응형을 구현합니다.</div>
+          <div>인터렉션을 통한 미리보기 구현이 가능합니다.</div>
         </AboutMeCard>
         <AboutMeCard title={'React / Next.js'} icon={<FaReact size={30} color="#61DAFB" />}>
           <div>SSR을 활용한 작업이 가능합니다.</div>

@@ -1,4 +1,5 @@
 'use client';
+import Progress_Bar from '@/app/components/commons/Progress';
 import BarunbojungDetailTop from '@/app/components/Layout/DetailElements/BarunbojungDetailTop';
 import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
@@ -26,8 +27,14 @@ const BarunbojungPage = () => {
             <article>
               <div>
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
-                <S.TitleUnderText className="ml-[40px]">
+                <S.TitleUnderText className="sm:ml-[40px]">
                   <div>회사 프로젝트</div>
+                  <S.ProgressSection>
+                    <Progress_Bar per={70} title="기획" />
+                    <Progress_Bar per={60} title="개발" />
+                    <Progress_Bar per={70} title="디자인" />
+                    <Progress_Bar per={100} title="퍼블리싱" />
+                  </S.ProgressSection>
                   <div>
                     사용기술
                     <br />
@@ -55,6 +62,7 @@ const BarunbojungPage = () => {
                 </S.TitleUnderText>
               </div>
             </article>
+
             <article>
               <div>
                 <S.TitleText>🤔 어떠한 작업을 하셨나요?</S.TitleText>

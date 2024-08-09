@@ -1,4 +1,5 @@
 'use client';
+import Progress_Bar from '@/app/components/commons/Progress';
 import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
@@ -28,6 +29,12 @@ const FeelmakerPage = () => {
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
                   <div>회사 프로젝트</div>
+                  <S.ProgressSection>
+                    <Progress_Bar per={80} title="기획" />
+                    <Progress_Bar per={40} title="개발" />
+                    <Progress_Bar per={100} title="디자인" />
+                    <Progress_Bar per={100} title="퍼블리싱" />
+                  </S.ProgressSection>
                   <div>
                     사용기술
                     <br />

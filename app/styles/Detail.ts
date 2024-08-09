@@ -21,6 +21,9 @@ export const TitleUnderText = styled.div`
       font-size: 14px;
       font-weight: 400;
     }
+    :not() {
+      display: none;
+    }
   }
   div::after {
     content: '';
@@ -76,5 +79,27 @@ export const DetailContents = styled.div`
         return '#f59e0b';
       }
     }};
+  }
+`;
+export const ProgressSection = styled.section`
+  margin-bottom: 30px;
+
+  div {
+    ::after {
+      display: none;
+    }
+    padding: 0%;
+  }
+  .ant-progress-bg {
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  .ant-progress-text {
+    width: 50px !important;
+    color: #b4b4b4;
+  }
+  article {
+    ::after {
+      display: none;
+    }
   }
 `;

@@ -1,4 +1,5 @@
 'use client';
+import Progress_Bar from '@/app/components/commons/Progress';
 import Detailbedge from '@/app/components/Layout/DetailElements/Detailbedge';
 import DetailPicture from '@/app/components/Layout/DetailElements/DetailPicture';
 import DetailSection from '@/app/components/Layout/DetailElements/DetailSection';
@@ -30,6 +31,12 @@ const FeelcardPage = () => {
                 <S.TitleText>👋 프로젝트 소개</S.TitleText>
                 <S.TitleUnderText className="md:ml-[40px]">
                   <div>회사 프로젝트</div>
+                  <S.ProgressSection>
+                    <Progress_Bar per={60} title="기획" />
+                    <Progress_Bar per={80} title="개발" />
+                    <Progress_Bar per={70} title="디자인" />
+                    <Progress_Bar per={80} title="퍼블리싱" />
+                  </S.ProgressSection>
                   <div>
                     사용기술
                     <br />
@@ -68,9 +75,9 @@ const FeelcardPage = () => {
                     <p> - 반응형 디자인을 통한 디바이스 호환성 향상</p>
                   </div>
                   <div>
-                    관리자 페이지 공지사항 업로드 및 배너 변경
-                    <p> - 업로드와 세부 내용 및 타이틀을 설정할 수 있게 변경</p>
-                    <p> - 공지사항 고정 및 최신 글 강조표시</p>
+                    관리자 페이지 UI/UX 디자인 및 퍼블리싱
+                    <p> - 누구나 쉽게 보고 이해 할 수 있는 디자인</p>
+                    <p> - 편의성 최대화를 위한 요약페이지 제공</p>
                   </div>
 
                   <div>
