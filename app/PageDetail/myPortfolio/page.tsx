@@ -23,7 +23,7 @@ export default function Myportfolio(): JSX.Element {
     <>
       <Header position={navNumber} setNavNumber={setNavNumber} MenuList={MenuList} />
       <PageDetailWrapper>
-        <div ref={MainRef} id="Detail">
+        <section ref={MainRef} id="Detail">
           <MyPortfolioDetailTop />
 
           <DetailSection>
@@ -89,13 +89,13 @@ export default function Myportfolio(): JSX.Element {
               </div>
             </article>
           </DetailSection>
-        </div>
-        <div ref={ProblemRef} id="Problem & Solution">
+        </section>
+        <section ref={ProblemRef} id="Problem & Solution">
           <MyportfolioProblem />
-        </div>
-        <div ref={ProjectRef} id="Work-Detail">
+        </section>
+        <section ref={ProjectRef} id="Work-Detail">
           <DetailPicture ImageGroup={MyPortfolioImageGroup} />
-        </div>
+        </section>
       </PageDetailWrapper>
     </>
   );

@@ -26,7 +26,7 @@ const Gotop = () => {
   }, []);
 
   return (
-    <div
+    <button
       onClick={onClickGotop}
       ref={headRef}
       className={cn(
@@ -35,7 +35,7 @@ const Gotop = () => {
       )}
     >
       <MdKeyboardArrowUp size={30} />
-    </div>
+    </button>
   );
 };
 

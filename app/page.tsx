@@ -21,18 +21,18 @@ export default function Home() {
     <>
       <Header position={navNumber} MenuList={MenuList} />
       <PortfolioPadding>
-        <div id="Main" ref={MainRef}>
+        <section id="Main" ref={MainRef}>
           <MainContents_ver2 />
-        </div>
-        <div id="About" ref={AboutRef}>
+        </section>
+        <section id="About" ref={AboutRef}>
           <AboutMe />
-        </div>
-        <div id="Project" ref={ProjectRef}>
+        </section>
+        <section id="Project" ref={ProjectRef}>
           <List2 />
-        </div>
-        <div id="Contact" ref={ContactRef}>
+        </section>
+        <section id="Contact" ref={ContactRef}>
           <Contact />
-        </div>
+        </section>
       </PortfolioPadding>
     </>
   );

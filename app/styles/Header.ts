@@ -16,7 +16,7 @@ export const HeaderWrapper = styled.header`
   /* box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06); */
 `;
 
-export const HeaderInner = styled.div`
+export const HeaderInner = styled.nav`
   width: 1300px;
   height: 60px;
   margin: 0px auto;

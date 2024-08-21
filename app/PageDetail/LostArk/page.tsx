@@ -100,12 +100,12 @@ export default function LostArkDetail(): JSX.Element {
             </article>
           </DetailSection>
         </div>
-        <div ref={ProblemRef} id="Problem & Solution">
+        <section ref={ProblemRef} id="Problem & Solution">
           <LostarkDetailProblem />
-        </div>
-        <div ref={ProjectRef} id="Work-Detail">
+        </section>
+        <section ref={ProjectRef} id="Work-Detail">
           <DetailPicture ImageGroup={ImageGroup} />
-        </div>
+        </section>
       </PageDetailWrapper>
     </>
   );

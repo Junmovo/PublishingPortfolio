@@ -23,7 +23,7 @@ const FeelcardPage = () => {
     <>
       <Header position={navNumber} setNavNumber={setNavNumber} MenuList={MenuList} />
       <PageDetailWrapper>
-        <div ref={MainRef} id="Detail">
+        <section ref={MainRef} id="Detail">
           <FeelFrameDetailTop />
           <DetailSection>
             <article>
@@ -110,11 +110,11 @@ const FeelcardPage = () => {
               </div>
             </article>
           </DetailSection>
-        </div>
+        </section>
 
-        <div ref={ProjectRef} id="Work-Detail">
+        <section ref={ProjectRef} id="Work-Detail">
           <DetailPicture ImageGroup={ImageFeelFrameGroup} />
-        </div>
+        </section>
       </PageDetailWrapper>
     </>
   );

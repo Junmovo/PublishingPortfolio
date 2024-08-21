@@ -21,7 +21,7 @@ const FeelmakerPage = () => {
     <>
       <Header position={navNumber} setNavNumber={setNavNumber} MenuList={MenuList} />
       <PageDetailWrapper>
-        <div ref={MainRef} id="Detail">
+        <section ref={MainRef} id="Detail">
           <KkotppangDetailTop />
           <DetailSection>
             <article>
@@ -85,11 +85,11 @@ const FeelmakerPage = () => {
               </div>
             </article>
           </DetailSection>
-        </div>
+        </section>
 
-        <div ref={ProjectRef} id="Work-Detail">
+        <section ref={ProjectRef} id="Work-Detail">
           <DetailPicture ImageGroup={KkotppangImageGroup} />
-        </div>
+        </section>
       </PageDetailWrapper>
     </>
   );

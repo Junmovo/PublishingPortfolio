@@ -10,7 +10,7 @@ import { FaHtml5 } from 'react-icons/fa';
 
 const AboutMe = () => {
   return (
-    <div className="pb-[80px] w-[100%] xl:w-[1300px] p-6 xl:p-0  m-auto ">
+    <article className="pb-[80px] w-[100%] xl:w-[1300px] p-6 xl:p-0  m-auto ">
       <div className="mb-[60px]">
         <div>
           <div className="text-[32px] font-[800] mb-8 lg:text-[40px]">
@@ -57,13 +57,13 @@ const AboutMe = () => {
         </AboutMeCard>
 
         <AboutMeCard title={'PHP / MySql'} icon={<FaPhp size={30} color="#777bb4" />}>
-          <div>PHP를 통하여 로그인 세션 구현 한 경험이 있습니다.</div>
+          <div>PHP를 통하여 사이트와 카페24를 관리하였습니다.</div>
           <div>AJax를 활용한 CRUD 를 작업한 경험이 있습니다.</div>
           <div>MySql-Workbench 테이블 관리 및 기획한 경험이 있습니다.</div>
         </AboutMeCard>
       </div>
       <AboutMeCareer />
-    </div>
+    </article>
   );
 };
 

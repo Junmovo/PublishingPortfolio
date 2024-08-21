@@ -3,7 +3,7 @@ import * as S from '@/app/styles/Detail';
 
 const AboutMeCareer = () => {
   return (
-    <div>
+    <article>
       <div className="flex flex-col">
         <div className="font-[600] text-[24px] mb-8">🏆 커리어 및 자격증</div>
         <div className="md:ml-10">
@@ -70,7 +70,7 @@ const AboutMeCareer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
