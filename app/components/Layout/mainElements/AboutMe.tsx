@@ -12,18 +12,16 @@ const AboutMe = () => {
   return (
     <article className="pb-[80px] w-[100%] xl:w-[1300px] p-6 xl:p-0  m-auto ">
       <div className="mb-[60px]">
-        <div>
-          <div className="text-[32px] font-[800] mb-8 lg:text-[40px]">
-            안녕하세요!<br></br>성장을 두려워하지 않는
-            <br /> 웹 퍼블리셔 강준모입니다.
-          </div>
+        <div className="text-[32px] font-[800] mb-8 lg:text-[40px]">
+          안녕하세요!<br></br>성장을 두려워하지 않는
+          <br /> 웹 퍼블리셔 강준모입니다.
+        </div>
 
-          <div className="text-[16px] mt-3 text-gray-400 leading-7">
-            디자인부터 최신 프론트엔드 기술까지 꾸준히 배워오며,
-            <br /> 사용자의 경험을 우선으로 생각하여 UI/UX를 더욱 고민하고 최상의 경험을 제공하기 위해 노력합니다.
-            <br />
-            좋아하면 더욱 잘 한다는 마음가짐으로 꾸준하게 성장하고 있습니다.
-          </div>
+        <div className="text-[16px] mt-3 text-gray-400 leading-7">
+          디자인부터 최신 프론트엔드 기술까지 꾸준히 배워오며,
+          <br /> 사용자의 경험을 우선으로 생각하여 UI/UX를 더욱 고민하고 최상의 경험을 제공하기 위해 노력합니다.
+          <br />
+          좋아하면 더욱 잘 한다는 마음가짐으로 꾸준하게 성장하고 있습니다.
         </div>
       </div>
       <div className="grid grid-cols-1 w-full gap-5 mb-20 xl:grid-cols-3 lg:grid-cols-2">

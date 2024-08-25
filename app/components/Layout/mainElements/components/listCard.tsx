@@ -20,7 +20,7 @@ const ListCard = ({ Title, SubTitle, ImageSrc, Page, Tag, Target }: IListCardPro
             <Image src={ImageSrc} fill alt={Title} property="true" className="inherit" />
           </div>
           <div className="p-[5px]">
-            <h2 className="text-[24px] font-[700] mb-[10px]">{Title}</h2>
+            <h3 className="text-[24px] font-[700] mb-[10px]">{Title}</h3>
             <div className="text-gray-500 text-[14px] dark:text-gray-400">{SubTitle}</div>
           </div>
           <div className="p-[5px] gap-2 flex text-[12px] mt-[20px] flex-wrap">

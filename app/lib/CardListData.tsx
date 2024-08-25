@@ -49,7 +49,7 @@ export const ListChart = [
       </>
     ),
     ImageSrc: '/images/portfolio2022/suwon.png',
-    Page: 'https://junmovo.github.io/Portfolio/subpage/WP_suwon.html',
+    Page: 'https://junmovo.github.io/Portfolio/Suwon/suwon.html',
     Tag: ['Design', 'Publishing', 'Javascript'],
     Target: '_blank',
   },
