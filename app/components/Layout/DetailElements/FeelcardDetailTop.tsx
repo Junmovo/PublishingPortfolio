@@ -13,7 +13,7 @@ const FeelcardDetailTop = () => {
         <Detailbedge contents="회사 프로젝트" />
         <DetailTitle subTitle={'모바일 청첩장'} title={'필카드'} date={'23.10.01 - 23.12.15'} />
         <DetailSubcontents
-          HomepageLink="https://smartstore.naver.com/feelframe/products/6804568774?"
+          HomepageLink="https://feelmaker.co.kr/sample_0"
           subContents={
             <>
               모바일 청첩장을 간단하게 만들 수 있는 에디터 필카드입니다.

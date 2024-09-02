@@ -55,7 +55,7 @@ const AboutMeCareer = () => {
                       <span>사용자의 UI/UX를 고려하여, 사용성을 높혔습니다.</span>
                     </div>
                     <div>
-                      <span>웹표준을 준수하여 작업하는 방법을 배웠습니다.(HMTL5/CSS)</span>
+                      <span>웹표준을 준수하여 작업하는 방법을 배웠습니다.(HTML5/CSS)</span>
                     </div>
                     <div>
                       <span>JavaScript & jQuery 사용법을 배웠습니다.</span>
