@@ -7,6 +7,9 @@ import { FaPhp } from 'react-icons/fa';
 import AboutMeCard from './components/AboutMeCard';
 import AboutMeCareer from './components/AboutMeCareer';
 import { FaHtml5 } from 'react-icons/fa';
+import { SiAdobeillustrator } from "react-icons/si";
+import { SiAdobeaftereffects } from "react-icons/si";
+import { SiAdobepremierepro } from "react-icons/si";
 
 const AboutMe = () => {
   return (
@@ -14,7 +17,7 @@ const AboutMe = () => {
       <div className="mb-[60px]">
         <div className="text-[32px] font-[800] mb-8 lg:text-[40px]">
           안녕하세요!<br></br>성장을 두려워하지 않는
-          <br /> 웹 퍼블리셔 강준모입니다.
+          <br /> 웹 디자이너 강준모입니다.
         </div>
 
         <div className="text-[16px] mt-3 text-gray-400 leading-7">
@@ -25,6 +28,23 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 w-full gap-5 mb-20 xl:grid-cols-3 lg:grid-cols-2">
+        <AboutMeCard title={'Photoshop / Illustrator'} icon={<SiAdobephotoshop size={30} color="#31A8FF" />}>
+          <div>각종 랜딩페이지 및 배너 디자인을 작업합니다.</div>
+          <div>Photoshop을 활용한 이미지 보정, 합성 및 그래픽 디자인이 가능합니다.</div>
+          <div>Illustrator를 활용하여 전단지, X배너, 리플릿 등 인쇄물을 제작한 경험이 있습니다.</div>
+        </AboutMeCard>
+        <AboutMeCard title={'Figma'} icon={<FaFigma size={30} />}>
+          <div>컴포넌트 기반으로 유지보수가 용이한 UI를 설계합니다</div>
+          <div>Auto Layout을 활용한 반응형 디자인 및 협업이 가능합니다.</div>
+          <div>팀원들과 실시간 피드백 및 디자인 시스템을 공유하며 협업한 경험이 있습니다.</div>
+        </AboutMeCard>
+
+        <AboutMeCard title={'After Effects / Premiere Pro'} icon={<SiAdobeaftereffects size={30} color="#777bb4" />}>
+          <div>모션 그래픽 및 UI 인터랙션 영상을 제작한 경험이 있습니다.</div>
+          <div>키프레임, 마스크를 활용한 애니메이션 작업이 가능합니다.</div>
+          <div>Lottie 애니메이션을 활용한 작업이 가능합니다.</div>
+        </AboutMeCard>
+
         <AboutMeCard title={'HTML / CSS'} icon={<FaHtml5 size={30} color="#d86f21" />}>
           <div>웹표준 & 웹접근성을 고려하여 시맨틱 태그를 적극 활용합니다.</div>
           <div>미디어쿼리 이용 반응형 웹 제작합니다.</div>
@@ -37,28 +57,19 @@ const AboutMe = () => {
           <div>인터렉티브한 효과를 구현할 수 있습니다.</div>
           <div>ES6+ 문법을 활용합니다.</div>
         </AboutMeCard>
-
-        <AboutMeCard title={'Photoshop / Illustrator'} icon={<SiAdobephotoshop size={30} color="#31A8FF" />}>
-          <div>각종 랜딩페이지 및 배너 디자인을 작업합니다.</div>
-          <div>자연스러운 합성 디자인을 할 수 있습니다.</div>
-          <div>Illustrator를 통한 간단한 이미지 작업이 가능합니다.</div>
-        </AboutMeCard>
-        <AboutMeCard title={'Figma / Adobe XD'} icon={<FaFigma size={30} />}>
-          <div>공통 디자인을 활용하여 일관성있는 디자인을 구현합니다.</div>
-          <div>Auto Layout을 활용하여 반응형을 구현합니다.</div>
-          <div>인터렉션을 통한 미리보기 구현이 가능합니다.</div>
-        </AboutMeCard>
+        
         <AboutMeCard title={'React / Next.js'} icon={<FaReact size={30} color="#61DAFB" />}>
           <div>SSR을 활용한 작업이 가능합니다.</div>
           <div>컴포넌트를 활용하여 재사용성을 높힙니다.</div>
           <div>성능 최적화를 통한 UX 향상(Throttling과 Debouncing)</div>
         </AboutMeCard>
 
-        <AboutMeCard title={'PHP / MySql'} icon={<FaPhp size={30} color="#777bb4" />}>
+        {/* <AboutMeCard title={'PHP / MySql'} icon={<FaPhp size={30} color="#777bb4" />}>
           <div>PHP를 통하여 사이트와 카페24를 관리하였습니다.</div>
           <div>AJax를 활용한 CRUD 를 작업한 경험이 있습니다.</div>
           <div>MySql-Workbench 테이블 관리 및 기획한 경험이 있습니다.</div>
-        </AboutMeCard>
+        </AboutMeCard> */}
+
       </div>
       <AboutMeCareer />
     </article>
