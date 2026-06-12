@@ -9,7 +9,7 @@ export default function MainContents_ver2(): JSX.Element {
   const el = useRef<HTMLSpanElement>(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Design', 'UI/UX', 'Publisher', 'JavaScript', 'React'],
+      strings: ['Design', 'UI/UX','Figma','AfterEffect', 'Publisher', 'JavaScript', 'React'],
       typeSpeed: 50,
       loop: true,
       smartBackspace: true,

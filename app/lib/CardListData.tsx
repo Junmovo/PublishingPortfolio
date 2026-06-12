@@ -72,6 +72,73 @@ export const ListChart = [
     Tag: ['Design', 'UI/UX', 'TeamProject', 'App Design'],
     Target: '_blank',
   },
+
+  {
+    Type: '회사',
+    Title: '디자인 작업물(24년 ~ 26년)',
+    SubTitle: (
+      <>
+        2024~2026년 동안 진행한 디자인 프로젝트입니다. 웹 배너, 상세페이지, 광고 소재, SNS 콘텐츠 등 다양한 콘텐츠를 제작하였으며, 브랜드 아이덴티티와 고려한 디자인 작업을 수행하였습니다.
+      </>
+    ),
+
+    ImageSrc: '/images/design/designmain.png',
+    Page: '/PageDetail/Design',
+    Tag: ['Design', 'Photoshop', 'Illustrator','Figma'],
+  },
+
+  {
+    Type: '회사',
+    Title: '엘리아영어 홈페이지',
+    SubTitle: (
+      <>
+        엘리아영어 프랜차이즈 홈페이지의 UI/UX 디자인을 담당하였으며, 스크롤 기반 애니메이션과 반응형 웹 구조를 적용하여 사용자 경험을 향상시켰습니다.
+      </>
+    ),
+    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    Page: '/PageDetail/Feelframe',
+    Tag: ['Design', 'Homepage','UIUX' ,'Publishing'],
+  },
+
+  {
+    Type: '회사',
+    Title: 'E-Cloud AI 홈페이지 리뉴얼',
+    SubTitle: (
+      <>
+        E-Cloud AI 공식 홈페이지의 디자인 리뉴얼 및 퍼블리싱을 진행하였으며, 최신 디자인 트렌드를 반영한 심플한 레이아웃과 반응형 웹 구조를 적용하였습니다.
+      </>
+    ),
+    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    Page: '/PageDetail/Feelframe',
+    Tag: ['Design', 'Renewal','UIUX' ,'Publishing'],
+  },
+
+  {
+    Type: '회사',
+    Title: '국어하다 관리자페이지',
+    SubTitle: (
+      <>
+        어린이 대상 교육 콘텐츠 랜딩페이지 구축과 관리자 대시보드 디자인 및 퍼블리싱을 담당하였으며, 사용자 편의성을 고려한 UI/UX 개선 작업을 수행하였습니다.
+      </>
+    ),
+    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    Page: '/PageDetail/Feelframe',
+    Tag: ['Design', 'UI/UX', ,'Publishing'],
+  },
+
+  {
+    Type: '회사',
+    Title: '외대HS',
+    SubTitle: (
+      <>
+        외대HS 랜딩페이지 및 이벤트 페이지 제작을 담당하였으며, 전단지, X배너 등 다양한 온·오프라인 홍보물 디자인을 통해 마케팅 및 프로모션 활동을 지원하였습니다.
+      </>
+    ),
+    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    Page: '/PageDetail/Feelframe',
+    Tag: ['Design', 'Figma', 'Offline','Publishing'],
+  },
+
   {
     Type: '회사',
 

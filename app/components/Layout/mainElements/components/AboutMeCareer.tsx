@@ -7,6 +7,35 @@ const AboutMeCareer = () => {
       <div className="flex flex-col">
         <div className="font-[600] text-[24px] mb-8">🏆 커리어 및 자격증</div>
         <div className="md:ml-10">
+          
+        <div className="md:flex mb-10 md:gap-4">
+            <div className="md:mb-2 md:w-[30%] mb-[30px]">
+              <div className="font-[600] mb-3 text-[20px]">Web Publisher</div>
+              <div className="font-[600] mb-1">디자인팀 사원</div>
+              <div className="text-[14px] text-gray-400">2024.09 - 재직중</div>
+            </div>
+            <div className=" flex flex-col gap-1  text-[16px] ">
+              <div className="font-[600] text-[18px] mb-2">E-Cloud AI</div>
+              <div>
+                <S.TitleUnderText>
+                  <div>
+                    <span>AI 학습 콘텐츠 및 교육 서비스 화면을 다수 제작하였으며 사용성을 고려한 UI/UX 디자인을 진행하였습니다.</span>
+                  </div>
+                  <div>
+                    <span>
+                      배너, 프로모션 페이지, 카드뉴스, 광고 디자인하여 브랜드 홍보와 프로모션 운영을 지원하였습니다.
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      웹디자인, 퍼블리싱, 사이트 유지보수 등 자사 웹서비스 전반의 구축 및 운영 업무를 담당하였습니다.
+                    </span>
+                  </div>
+                </S.TitleUnderText>
+              </div>
+            </div>
+          </div>
+
           <div className="md:flex mb-10 md:gap-4">
             <div className="md:mb-2 md:w-[30%] mb-[30px]">
               <div className="font-[600] mb-3 text-[20px]">Web Publisher</div>
