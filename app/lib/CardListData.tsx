@@ -123,7 +123,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
     Page: '/PageDetail/Feelframe',
-    Tag: ['Design', 'UI/UX', ,'Publishing'],
+    Tag: ['Design', 'UI/UX','Publishing'],
   },
 
   {
