@@ -11,7 +11,8 @@ const DesignDetailTop = () => {
         <Detailbedge contents="Design" />
         <Detailbedge contents="Photoshop" />
         <Detailbedge contents="Illustrator" />
-        <DetailTitle subTitle={'그래픽 디자인'} title={'디자인 작업물'} />
+        <Detailbedge contents="Figma" />
+        <DetailTitle subTitle={'24-26 그래픽 디자인'} title={'디자인 작업물'} />
       </div>
     </div>
   );

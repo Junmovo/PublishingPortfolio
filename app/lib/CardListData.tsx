@@ -83,7 +83,7 @@ export const ListChart = [
     ),
 
     ImageSrc: '/images/design/designmain.png',
-    Page: '/PageDetail/Design',
+    Page: '/PageDetail/Design26',
     Tag: ['Design', 'Photoshop', 'Illustrator','Figma'],
   },
 
@@ -98,6 +98,19 @@ export const ListChart = [
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
     Page: '/PageDetail/Feelframe',
     Tag: ['Design', 'Homepage','UIUX' ,'Publishing'],
+  },
+
+  {
+    Type: '회사',
+    Title: 'ELAVERSE 학습화면',
+    SubTitle: (
+      <>
+        엘리아영어의 학습 세계관을 시각적으로 구현한 아동용 학습 화면입니다. 연령층의 이해도를 고려하여 UI/UX를 설계하였으며, 학습에 대한 흥미와 집중도를 높일 수 있는 디자인을 적용하였습니다.
+      </>
+    ),
+    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    Page: '/PageDetail/Feelframe',
+    Tag: ['Design', 'Education','UIUX' ,'Figma'],
   },
 
   {

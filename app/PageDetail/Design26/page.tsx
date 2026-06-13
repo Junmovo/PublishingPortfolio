@@ -1,0 +1,29 @@
+'use client';
+import React, { useState } from 'react';
+
+import Header from '@/app/components/Layout/Header';
+import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
+import { useThemeObserver } from '@/app/hooks/useThemeObserver';
+import { MenuItem } from '@/app/types/PortfolioType';
+import DesignDetailTop from '@/app/components/Layout/DetailElements/DesignDetailTop';
+import DesignDetailList from '@/app/components/Layout/DetailElements/DesignDetailList26';
+
+const Designpage26 = () => {
+  const [navNumber, setNavNumber] = useState(1);
+  const [MainRef] = useThemeObserver(setNavNumber, 1);
+  const [ProjectRef] = useThemeObserver(setNavNumber, 2);
+  const MenuList: MenuItem[] = [];
+  return (
+    <>
+      <Header position={navNumber} setNavNumber={setNavNumber} MenuList={MenuList} />
+      <PageDetailWrapper>
+        <div ref={MainRef} id="Detail">
+          <DesignDetailTop />
+          <DesignDetailList />
+        </div>
+      </PageDetailWrapper>
+    </>
+  );
+};
+
+export default Designpage26;
