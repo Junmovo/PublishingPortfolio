@@ -96,7 +96,7 @@ export const ListChart = [
       </>
     ),
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
-    Page: '/PageDetail/Feelframe',
+    Page: '/PageDetail/EleaEnglish',
     Tag: ['Design', 'Homepage','UIUX' ,'Publishing'],
   },
 
@@ -109,7 +109,7 @@ export const ListChart = [
       </>
     ),
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
-    Page: '/PageDetail/Feelframe',
+    Page: '/PageDetail/Elaverse',
     Tag: ['Design', 'Education','UIUX' ,'Figma'],
   },
 
@@ -122,20 +122,20 @@ export const ListChart = [
       </>
     ),
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
-    Page: '/PageDetail/Feelframe',
+    Page: '/PageDetail/ECloudAI',
     Tag: ['Design', 'Renewal','UIUX' ,'Publishing'],
   },
 
   {
     Type: '회사',
-    Title: '국어하다 관리자페이지',
+    Title: '국어하다',
     SubTitle: (
       <>
         어린이 대상 교육 콘텐츠 랜딩페이지 구축과 관리자 대시보드 디자인 및 퍼블리싱을 담당하였으며, 사용자 편의성을 고려한 UI/UX 개선 작업을 수행하였습니다.
       </>
     ),
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
-    Page: '/PageDetail/Feelframe',
+    Page: '/PageDetail/Korean',
     Tag: ['Design', 'UI/UX','Publishing'],
   },
 
@@ -148,7 +148,7 @@ export const ListChart = [
       </>
     ),
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
-    Page: '/PageDetail/Feelframe',
+    Page: '/PageDetail/HS',
     Tag: ['Design', 'Figma', 'Offline','Publishing'],
   },
 
