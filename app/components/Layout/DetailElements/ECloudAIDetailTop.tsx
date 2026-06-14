@@ -22,7 +22,7 @@ const ECloudAIDetailTop = () => {
           }
         />
       </div>
-      <DetailTopImage ImageSrc="/images/Feelcard/FeelcardDetail.png" />
+      <DetailTopImage ImageSrc="/images/ECloudAI/ECLOUDAIDetail.png" />
     </DetailWrapper>
   );
 };

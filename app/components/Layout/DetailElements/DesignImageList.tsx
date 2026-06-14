@@ -19,14 +19,26 @@ const DesignImageList = ({ ImageList }: IFiliterDesignProps) => {
           {ImageList.slice(0, isImagecount).map((image, index) => (
             <div
               key={index}
-              className={`relative overflow-hidden  ${image.type === '배너' ? 'col-span-2 h-[200px]' : 'h-[300px]'}`}
+              className={`relative overflow-hidden  ${image.type === '배너'
+                    ? 'col-span-2 h-[200px]'
+                    : image.type === '긴배너'
+                      ? 'col-span-2 h-[300px]'
+                      : 'h-[300px]'
+                }
+              `}
             >
               <Image
                 src={image.thumb ?? image.src}
                 alt={`Image ${index + 1}`}
                 preview={{
                   src: `${image.src}`,
-                  maskClassName: `${image.type === '배너' ? 'h-[200px]' : 'h-[300px]'}`,
+                  maskClassName: `${image.type === '배너'
+                    ? 'col-span-2 h-[200px]'
+                    : image.type === '긴배너'
+                      ? 'col-span-2 h-[300px]'
+                      : 'h-[300px]'
+                    }
+                  }`,
                 }}
               />
             </div>

@@ -28,7 +28,7 @@ const DetailPicture = ({ ImageGroup }: IDetailPictureProps) => {
   return (
     <article className="p-[20px]  pb-[80px]">
       <div className="text-[24px] font-[800]">💻 작업내역</div>
-      <div className="text-gray-500 mb-6 ml-10 text-[16px]">클릭 시 미리보기가 가능합니다.(Gif)</div>
+      <div className="text-gray-500 mb-6 ml-10 text-[16px]">클릭 시 미리보기가 가능합니다.</div>
       <div>
         <Image.PreviewGroup>
           <div className="grid md:grid-cols-3 gap-4">

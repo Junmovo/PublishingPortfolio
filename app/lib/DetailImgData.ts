@@ -182,3 +182,31 @@ export const KkotppangImageGroup: ImageGroupType[] = [
     title: '팝업 ',
   },
 ];
+
+export const ElaverseImageGroup: ImageGroupType[] = [
+  {
+    preview: '/images/Elaverse/preview/keystone_intro_프리뷰.png',
+    src: '/images/Elaverse/preview/keystone_intro_프리뷰.png',
+    title: '학습 메인화면',
+  },
+  {
+    preview: '/images/Elaverse/preview/Intro.png',
+    src: '/images/Elaverse/preview/Intro.png',
+    title: '테스트 메인화면 UI',
+  },
+  {
+    preview: '/images/Elaverse/preview/DD.png',
+    src: '/images/Elaverse/preview/DD.png',
+    title: '테스트 화면',
+  },
+  {
+    preview: '/images/Elaverse/preview/report.png',
+    src: '/images/Elaverse/preview/monthlyThumb.png',
+    title: '학습 결과화면 리포트',
+  },
+  {
+    preview: '/images/Elaverse/preview/260429_MonthlyTest_1.png',
+    src: '/images/Elaverse/preview/260429_MonthlyTest_1.png',
+    title: '학습 결과화면 종합',
+  },
+];

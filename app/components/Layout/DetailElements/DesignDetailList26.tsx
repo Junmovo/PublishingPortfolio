@@ -10,8 +10,6 @@ const menuList = [
   { title: '이벤트' },
   { title: '배너' },
   { title: '상세' },
-  { title: '합성' },
-  { title: '기타' },
 ];
 
 const DesignDetailList26 = () => {

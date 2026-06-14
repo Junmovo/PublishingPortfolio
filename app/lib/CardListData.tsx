@@ -95,7 +95,7 @@ export const ListChart = [
         엘리아영어 프랜차이즈 홈페이지의 UI/UX 디자인을 담당하였으며, 스크롤 기반 애니메이션과 반응형 웹 구조를 적용하여 사용자 경험을 향상시켰습니다.
       </>
     ),
-    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    ImageSrc: '/images/EleaEnglish/EleaEnglish.png',
     Page: '/PageDetail/EleaEnglish',
     Tag: ['Design', 'Homepage','UIUX' ,'Publishing'],
   },
@@ -108,7 +108,7 @@ export const ListChart = [
         엘리아영어의 학습 세계관을 시각적으로 구현한 아동용 학습 화면입니다. 연령층의 이해도를 고려하여 UI/UX를 설계하였으며, 학습에 대한 흥미와 집중도를 높일 수 있는 디자인을 적용하였습니다.
       </>
     ),
-    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    ImageSrc: '/images/Elaverse/Elaverse.png',
     Page: '/PageDetail/Elaverse',
     Tag: ['Design', 'Education','UIUX' ,'Figma'],
   },
@@ -121,7 +121,7 @@ export const ListChart = [
         E-Cloud AI 공식 홈페이지의 디자인 리뉴얼 및 퍼블리싱을 진행하였으며, 최신 디자인 트렌드를 반영한 심플한 레이아웃과 반응형 웹 구조를 적용하였습니다.
       </>
     ),
-    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    ImageSrc: '/images/ECloudAI/ECLOUDAI.png',
     Page: '/PageDetail/ECloudAI',
     Tag: ['Design', 'Renewal','UIUX' ,'Publishing'],
   },
@@ -134,7 +134,7 @@ export const ListChart = [
         어린이 대상 교육 콘텐츠 랜딩페이지 구축과 관리자 대시보드 디자인 및 퍼블리싱을 담당하였으며, 사용자 편의성을 고려한 UI/UX 개선 작업을 수행하였습니다.
       </>
     ),
-    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    ImageSrc: '/images/Korean/Korean.png',
     Page: '/PageDetail/Korean',
     Tag: ['Design', 'UI/UX','Publishing'],
   },
@@ -147,7 +147,7 @@ export const ListChart = [
         외대HS 랜딩페이지 및 이벤트 페이지 제작을 담당하였으며, 전단지, X배너 등 다양한 온·오프라인 홍보물 디자인을 통해 마케팅 및 프로모션 활동을 지원하였습니다.
       </>
     ),
-    ImageSrc: '/images/feelframe/Portfolio_main_image.png',
+    ImageSrc: '/images/HS/HS.png',
     Page: '/PageDetail/HS',
     Tag: ['Design', 'Figma', 'Offline','Publishing'],
   },

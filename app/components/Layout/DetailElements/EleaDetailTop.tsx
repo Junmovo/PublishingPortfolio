@@ -22,7 +22,7 @@ const EleaDetailTop = () => {
           }
         />
       </div>
-      <DetailTopImage ImageSrc="/images/Feelcard/FeelcardDetail.png" />
+      <DetailTopImage ImageSrc="/images/EleaEnglish/EleaEnglishDetail.png" />
     </DetailWrapper>
   );
 };

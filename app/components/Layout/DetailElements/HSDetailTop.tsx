@@ -22,7 +22,7 @@ const HSDetailTop = () => {
           }
         />
       </div>
-      <DetailTopImage ImageSrc="/images/Feelcard/FeelcardDetail.png" />
+      <DetailTopImage ImageSrc="/images/HS/HSDetail.png" />
     </DetailWrapper>
   );
 };
