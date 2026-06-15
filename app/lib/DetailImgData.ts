@@ -210,3 +210,49 @@ export const ElaverseImageGroup: ImageGroupType[] = [
     title: '학습 결과화면 종합',
   },
 ];
+
+export const HSImageGroup: ImageGroupType[] = [
+  {
+    preview: '/images/HS/preview/landing.png',
+    src: '/images/HS/preview/thumb_landing.png',
+    title: '사업설명회 랜딩페이지',
+  },
+  {
+    preview: '/images/HS/preview/instafeed.png',
+    src: '/images/HS/preview/thumb_instafeed.png',
+    title: '사업설명회 인스타그램',
+  },
+  {
+    preview: '/images/HS/preview/Speech Contest.png',
+    src: '/images/HS/preview/thumb_speechcontest.png',
+    title: '스피치 콘테스트 홍보물',
+  },
+];
+
+export const KoreanImageGroup: ImageGroupType[] = [
+  {
+    preview: '/images/Korean/preview/korean_admin.png',
+    src: '/images/Korean/preview/thumb_korean_admin.png',
+    title: '선생님 관리자페이지',
+  },
+  {
+    preview: '/images/Korean/preview/korean_study.png',
+    src: '/images/Korean/preview/thumb_korean_study.png',
+    title: '교과하다 학습화면',
+  },
+  {
+    preview: '/images/Korean/preview/korean_landing.png',
+    src: '/images/Korean/preview/thumb_korean_landing.png',
+    title: '랜딩페이지',
+  },
+  {
+    preview: '/images/Korean/preview/korean_report.png',
+    src: '/images/Korean/preview/thumb_korean_report.png',
+    title: '학습 결과 리포트(인쇄)',
+  },
+  {
+    preview: '/images/Korean/preview/korean_bill.png',
+    src: '/images/Korean/preview/thumb_korean_bill.png',
+    title: '청구서 및 안내팝업',
+  },
+];

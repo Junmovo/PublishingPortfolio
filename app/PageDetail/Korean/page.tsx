@@ -7,7 +7,7 @@ import KoreanDetailTop from '@/app/components/Layout/DetailElements/KoreanDetail
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
 import { useThemeObserver } from '@/app/hooks/useThemeObserver';
-import { ImageFeelCardGroup } from '@/app/lib/DetailImgData';
+import { KoreanImageGroup } from '@/app/lib/DetailImgData';
 import * as S from '@/app/styles/Detail';
 import { MenuItem } from '@/app/types/PortfolioType';
 import React, { useState } from 'react';
@@ -87,7 +87,7 @@ const Korean = () => {
         </section>
 
         <section ref={ProjectRef} id="Work-Detail">
-          <DetailPicture ImageGroup={ImageFeelCardGroup} />
+          <DetailPicture ImageGroup={KoreanImageGroup} />
         </section>
       </PageDetailWrapper>
     </>
