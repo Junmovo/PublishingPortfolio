@@ -264,33 +264,19 @@ export const KoreanImageGroup: ImageGroupType[] = [
 
 export const ECloudAIImageGroup: ImageGroupType[] = [
   {
-    preview: '/images/ECloudAI/preview/korean_admin.png',
-    src: '/images/ECloudAI/preview/thumb_korean_admin.png',
-    title: '선생님 관리자페이지',
+    preview: '/images/ECloudAI/preview/logo_guide.png',
+    src: '/images/ECloudAI/preview/thumb_logo_guide.png',
+    title: '로고 제작 가이드',
   },
   {
-    preview: '/images/ECloudAI/preview/korean_study.png',
-    src: '/images/ECloudAI/preview/thumb_korean_study.png',
-    title: '교과하다 학습화면',
+    preview: '/images/ECloudAI/preview/main_renual260604.png',
+    src: '/images/ECloudAI/preview/thumb_main_renual260604.png',
+    title: '홈페이지 리뉴얼',
   },
   {
-    preview: '/images/ECloudAI/preview/korean_landing.png',
-    src: '/images/ECloudAI/preview/thumb_korean_landing.png',
-    title: '랜딩페이지',
+    preview: '/images/ECloudAI/preview/Aibanner.png',
+    src: '/images/ECloudAI/preview/thumb_Aibanner.png',
+    title: 'AI 활용 메인 배너영상',
   },
-  {
-    preview: '/images/ECloudAI/preview/korean_report.png',
-    src: '/images/ECloudAI/preview/thumb_korean_report.png',
-    title: '학습 결과 리포트(인쇄)',
-  },
-  {
-    preview: '/images/ECloudAI/preview/korean_bill.png',
-    src: '/images/ECloudAI/preview/thumb_korean_bill.png',
-    title: '청구서 및 안내팝업',
-  },
-  {
-    preview: '/images/ECloudAI/preview/korean_replat.png',
-    src: '/images/ECloudAI/preview/thumb_korean_replat.png',
-    title: '국어하다 리플렛(인쇄)',
-  },
+  
 ];
