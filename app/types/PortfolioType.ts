@@ -52,3 +52,12 @@ export interface IImageDesignGroupProps {
 export interface IFiliterDesignProps {
   ImageList: IImageDesignGroupProps[];
 }
+
+export interface IAIMovieProps {
+  id: number;
+  title: string;
+  category?: string;
+  imageSrc: string;
+  videoSrc: string;
+  prompt: string;
+}

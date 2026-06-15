@@ -55,12 +55,26 @@ export const ListChart = [
   },
   {
     Type: '개인',
-    Title: '(주)꽃빵 홈페이지 제작',
-    SubTitle: <>카페24를 활용한 메이크업 브랜드 회사 꽃빵의 홈페이지를 제작하였습니다.</>,
-    ImageSrc: '/images/portfolio2022/kkot.png',
-    Page: '/PageDetail/kkotppang',
-    Tag: ['Design', 'Cafe24', 'Publishing'],
+    Title: '영상 포트폴리오',
+    SubTitle: (
+      <>
+      광고 영상, 오프닝 시퀀스 등 다양한 프로젝트를 기반으로 시각적으로 풀어낸 영상 작업입니다.        
+      </>
+    ),
+    ImageSrc: '/images/notefolio/thumb_movie.png',
+    Page: 'https://notefolio.net/junmofolio/281541',
+    Tag: ['Design', 'After Effects', 'Premiere Pro'],
+    Target: '_blank',
   },
+  
+  // {
+  //   Type: '개인',
+  //   Title: '(주)꽃빵 홈페이지 제작',
+  //   SubTitle: <>카페24를 활용한 메이크업 브랜드 회사 꽃빵의 홈페이지를 제작하였습니다.</>,
+  //   ImageSrc: '/images/portfolio2022/kkot.png',
+  //   Page: '/PageDetail/kkotppang',
+  //   Tag: ['Design', 'Cafe24', 'Publishing'],
+  // },
   {
     Type: '개인',
     Title: '맥딜리버리 앱 리디자인',
@@ -72,20 +86,33 @@ export const ListChart = [
     Tag: ['Design', 'UI/UX', 'TeamProject', 'App Design'],
     Target: '_blank',
   },
-
-  {
+{
     Type: '회사',
-    Title: '디자인 작업물(24년 ~ 26년)',
+    Title: '그래픽 디자인 작업물',
     SubTitle: (
       <>
-        2024~2026년 동안 진행한 디자인 프로젝트입니다. 웹 배너, 상세페이지, 광고 소재, SNS 콘텐츠 등 다양한 콘텐츠를 제작하였으며, 브랜드 아이덴티티와 고려한 디자인 작업을 수행하였습니다.
+        포토샵을 활용하여 다양한 디자인 작업물을 제작하였습니다. 이벤트 배너, 팝업공지, 메인배너 등 다양한 방식으로
+        디자인 된 작품들 입니다.
       </>
     ),
 
     ImageSrc: '/images/design/designmain.png',
-    Page: '/PageDetail/Design26',
+    Page: '/PageDetail/Design',
     Tag: ['Design', 'Photoshop', 'Illustrator','Figma'],
   },
+  // {
+  //   Type: '회사',
+  //   Title: '디자인 작업물(24년 ~ 26년)',
+  //   SubTitle: (
+  //     <>
+  //       2024~2026년 동안 진행한 디자인 프로젝트입니다. 웹 배너, 상세페이지, 광고 소재, SNS 콘텐츠 등 다양한 콘텐츠를 제작하였으며, 브랜드 아이덴티티와 고려한 디자인 작업을 수행하였습니다.
+  //     </>
+  //   ),
+
+  //   ImageSrc: '/images/design/designmain.png',
+  //   Page: '/PageDetail/Design26',
+  //   Tag: ['Design', 'Photoshop', 'Illustrator','Figma'],
+  // },
 
   {
     Type: '회사',
@@ -209,18 +236,5 @@ export const ListChart = [
     Page: '/PageDetail/Barunbojung',
     Tag: ['Design', 'Publising', 'Tistory', 'JavaScript'],
   },
-  {
-    Type: '회사',
-    Title: '그래픽 디자인 작업물',
-    SubTitle: (
-      <>
-        포토샵을 활용하여 다양한 디자인 작업물을 제작하였습니다. 이벤트 배너, 팝업공지, 메인배너 등 다양한 방식으로
-        디자인 된 작품들 입니다.
-      </>
-    ),
-
-    ImageSrc: '/images/design/designmain.png',
-    Page: '/PageDetail/Design',
-    Tag: ['Design', 'Photoshop', 'Illustrator'],
-  },
+  
 ];

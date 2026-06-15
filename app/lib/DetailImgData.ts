@@ -185,15 +185,22 @@ export const KkotppangImageGroup: ImageGroupType[] = [
 
 export const ElaverseImageGroup: ImageGroupType[] = [
   {
-    preview: '/images/Elaverse/preview/keystone_intro_프리뷰.png',
+    preview: '/images/Elaverse/preview/activity.png',
     src: '/images/Elaverse/preview/keystone_intro_프리뷰.png',
-    title: '학습 메인화면',
+    title: '학습 화면',
   },
+  {
+    preview: '/images/Elaverse/preview/meta_guide.png',
+    src: '/images/Elaverse/preview/thumb_meta_guide.png',
+    title: '학습 게임화면',
+  },
+
   {
     preview: '/images/Elaverse/preview/Intro.png',
     src: '/images/Elaverse/preview/Intro.png',
     title: '테스트 메인화면 UI',
   },
+  
   {
     preview: '/images/Elaverse/preview/DD.png',
     src: '/images/Elaverse/preview/DD.png',
@@ -271,7 +278,7 @@ export const ECloudAIImageGroup: ImageGroupType[] = [
   {
     preview: '/images/ECloudAI/preview/main_renual260604.png',
     src: '/images/ECloudAI/preview/thumb_main_renual260604.png',
-    title: '홈페이지 리뉴얼',
+    title: '홈페이지 리뉴얼(진행중)',
   },
   {
     preview: '/images/ECloudAI/preview/Aibanner.png',
@@ -279,4 +286,23 @@ export const ECloudAIImageGroup: ImageGroupType[] = [
     title: 'AI 활용 메인 배너영상',
   },
   
+];
+
+export const EleaEnglishImageGroup: ImageGroupType[] = [
+  // {
+  //   preview: '/images/EleaEnglish/preview/logo_guide.png',
+  //   src: '/images/EleaEnglish/preview/thumb_logo_guide.png',
+  //   title: '메인페이지',
+  // },
+  
+  {
+    preview: '/images/EleaEnglish/preview/business.png',
+    src: '/images/EleaEnglish/preview/thumb_business.png',
+    title: '서브페이지(사업안내)',
+  },
+  {
+    preview: '/images/EleaEnglish/preview/blogskin.png',
+    src: '/images/EleaEnglish/preview/thumb_blogskin.png',
+    title: '엘리아영어 블로그스킨',
+  },
 ];

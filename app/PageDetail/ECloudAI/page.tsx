@@ -11,6 +11,8 @@ import { ECloudAIImageGroup } from '@/app/lib/DetailImgData';
 import * as S from '@/app/styles/Detail';
 import { MenuItem } from '@/app/types/PortfolioType';
 import React, { useState } from 'react';
+import Link from 'next/link';
+import { RiShareBoxFill } from 'react-icons/ri';
 
 const ECloudAI = () => {
   const [navNumber, setNavNumber] = useState(1);
@@ -69,7 +71,15 @@ const ECloudAI = () => {
                   </div>
 
                   <div>
-                    AI 기반 메인 히어로 배너 영상 제작
+                    <Link
+                      href={'/PageDetail/AIMovie'}
+                      target="_blank"
+                      className="flex items-center hover:underline underline-offset-8"
+                    >
+                      AI 기반 메인 히어로 배너 영상 제작 <span className="ml-2 inline-block rounded-md bg-black px-2.5 py-1 text-xs font-semibold text-white cursor-pointer">
+                      클릭 시 이동합니다.
+                    </span>
+                    </Link>
                     <p>- AI 생성 도구(Higgsfield, ChatGPT)를 활용한 영상 콘셉트 기획 및 프롬프트 설계</p>
                     <p>- 브랜드 메시지와 서비스 방향성에 맞는 AI 영상 콘텐츠 제작</p>
                     <p>- Photoshop을 활용한 후반 보정 및 합성 작업으로 완성도 향상</p>

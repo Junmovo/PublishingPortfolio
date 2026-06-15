@@ -7,7 +7,7 @@ import EleaDetailTop from '@/app/components/Layout/DetailElements/EleaDetailTop'
 import Header from '@/app/components/Layout/Header';
 import PageDetailWrapper from '@/app/components/Layout/mainElements/PageDetailWrapper';
 import { useThemeObserver } from '@/app/hooks/useThemeObserver';
-import { ImageFeelCardGroup } from '@/app/lib/DetailImgData';
+import { EleaEnglishImageGroup } from '@/app/lib/DetailImgData';
 import * as S from '@/app/styles/Detail';
 import { MenuItem } from '@/app/types/PortfolioType';
 import React, { useState } from 'react';
@@ -86,7 +86,7 @@ const EleaEnglishPage = () => {
         </section>
 
         <section ref={ProjectRef} id="Work-Detail">
-          <DetailPicture ImageGroup={ImageFeelCardGroup} />
+          <DetailPicture ImageGroup={EleaEnglishImageGroup} />
         </section>
       </PageDetailWrapper>
     </>
