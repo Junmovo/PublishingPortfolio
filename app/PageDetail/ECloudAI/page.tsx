@@ -40,7 +40,7 @@ const ECloudAI = () => {
                     사용기술
                     <br />
                     <p>
-                      <Detailbedge contents="UIUX" />
+                      <Detailbedge contents="UI/UX" />
                       <Detailbedge contents="Design" />
                       <Detailbedge contents="Figma" />
                       <Detailbedge contents="Publishing" />
@@ -77,7 +77,7 @@ const ECloudAI = () => {
                       className="flex items-center hover:underline underline-offset-8"
                     >
                       AI 기반 메인 히어로 배너 영상 제작 <span className="ml-2 inline-block rounded-md bg-black px-2.5 py-1 text-xs font-semibold text-white cursor-pointer">
-                      클릭 시 이동합니다.
+                      보러가기
                     </span>
                     </Link>
                     <p>- AI 생성 도구(Higgsfield, ChatGPT)를 활용한 영상 콘셉트 기획 및 프롬프트 설계</p>

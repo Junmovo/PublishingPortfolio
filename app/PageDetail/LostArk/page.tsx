@@ -53,7 +53,7 @@ export default function LostArkDetail(): JSX.Element {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       코니콩은 RPG게임 로스트아크의 전적검색 시스템입니다.
                       <br />
                       기존의 로스트아크 전적 검색 사이트의 UI를 대폭 개선하여,

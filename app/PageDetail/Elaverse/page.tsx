@@ -46,7 +46,7 @@ const Elaverse = () => {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       ELAVERSE는 학습 세계관을 시각적으로 구현한 아동용 학습화면입니다. <br />
                       <br />
                       아동 학습 콘텐츠의 연령별 특성을 반영한 UI/UX 설계 프로젝트입니다. After Effects를 활용한 모션 그래픽 및 애니메이션 제작을 진행하였으며, 학습 화면, 리포트 페이지, 상세 페이지 등 다양한 서비스 화면을 팀 협업을 통해 구축하였습니다.

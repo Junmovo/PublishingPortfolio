@@ -37,7 +37,7 @@ const Korean = () => {
                     사용기술
                     <br />
                     <p>
-                      <Detailbedge contents="UIUX" />
+                      <Detailbedge contents="UI/UX" />
                       <Detailbedge contents="Design" />
                       <Detailbedge contents="Figma" />
                       <Detailbedge contents="Illustrator" />
@@ -46,7 +46,7 @@ const Korean = () => {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       외대HS어학원 프랜차이즈 브랜드의 온·오프라인 홍보 디자인을 담당하였습니다.<br/><br/>
                       전단지, X배너, 홍보물 등 다양한 마케팅 콘텐츠를 제작하였으며, 각 지점의 니즈와 타겟층을 고려한 맞춤형 디자인을 제공하였습니다.
                     </span>

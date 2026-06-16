@@ -52,7 +52,7 @@ export default function Myportfolio(): JSX.Element {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       Next.js와 Typescript를 활용하여 제작한 포트폴리오입니다.
                       <br /> 큰 텍스트와 채도를 이용한 컬러 조합으로 가독성을 높혔으며,
                       <br /> 각종 기능 및 디자인을 직접 구현하고 만든 포트폴리오입니다.

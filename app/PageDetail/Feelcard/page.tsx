@@ -49,7 +49,7 @@ const FeelcardPage = () => {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       필카드는 모바일 청첩장 제작 에디터입니다. <br />
                       <br />
                       기존의 여러 모바일 청첩장에서 찾아볼 수 없는 기능들을 추가한 에디터 플러스(Editor Plus+)를

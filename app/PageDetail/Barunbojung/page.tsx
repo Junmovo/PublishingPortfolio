@@ -48,7 +48,7 @@ const BarunbojungPage = () => {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       바른보정은 사진보정 전문 서비스입니다. <br />
                       <br />
                       기존 시스템은 파일 업로드 기능 없이 이메일을 통해 주고받는 방식이었습니다. <br />

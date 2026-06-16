@@ -38,7 +38,7 @@ const Korean = () => {
                     사용기술
                     <br />
                     <p>
-                      <Detailbedge contents="UIUX" />
+                      <Detailbedge contents="UI/UX" />
                       <Detailbedge contents="Design" />
                       <Detailbedge contents="Figma" />
                       <Detailbedge contents="Publishing" />
@@ -47,7 +47,7 @@ const Korean = () => {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       국어하다는 어린이를 위한 국어 학습 프로그램 프로젝트입니다.<br/><br/>
                       학부모를 주요 사용자로 고려한 서비스 랜딩페이지 및 프로모션 페이지를 제작하였으며, 어린이 연령층의 특성을 반영한 학습 화면 UI/UX를 설계하였습니다.
                     </span>

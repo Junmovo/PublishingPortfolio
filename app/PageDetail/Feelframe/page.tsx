@@ -51,7 +51,7 @@ const FeelcardPage = () => {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       필프레임은 웨딩액자 전문 홈페이지입니다. <br />
                       <br />
                       쇼핑몰의 취지에 맞는 기본적인 UI 디자인을 맡아, 사용자들이 쉽게 인지하고 사용할 수 있도록

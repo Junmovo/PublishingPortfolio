@@ -46,7 +46,7 @@ const FeelmakerPage = () => {
                   </div>
                   <div>
                     프로젝트 설명
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       필메이커는 웨딩 영상 제작 서비스입니다. <br />
                       <br />
                       필메이커 내 각종 오류들을 수정하며, 다양한 이벤트 혜택 배너 및 사용자들의 편의성을 생각하여

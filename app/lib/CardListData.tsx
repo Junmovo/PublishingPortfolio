@@ -1,6 +1,19 @@
 export const ListChart = [
   {
     Type: '개인',
+    Title: '영상 포트폴리오',
+    SubTitle: (
+      <>
+      광고 영상, 오프닝 시퀀스 등 다양한 프로젝트를 기반으로 시각적으로 풀어낸 영상 작업입니다.        
+      </>
+    ),
+    ImageSrc: '/images/notefolio/thumb_movie.png',
+    Page: 'https://notefolio.net/junmofolio/281541',
+    Tag: ['UI/UX', 'After Effects', 'Premiere Pro'],
+    Target: '_blank',
+  },
+  {
+    Type: '개인',
     Title: '로스트아크 전적검색 코니콩',
     SubTitle: (
       <>
@@ -53,19 +66,7 @@ export const ListChart = [
     Tag: ['UI/UX', 'Publishing', 'Javascript'],
     Target: '_blank',
   },
-  {
-    Type: '개인',
-    Title: '영상 포트폴리오',
-    SubTitle: (
-      <>
-      광고 영상, 오프닝 시퀀스 등 다양한 프로젝트를 기반으로 시각적으로 풀어낸 영상 작업입니다.        
-      </>
-    ),
-    ImageSrc: '/images/notefolio/thumb_movie.png',
-    Page: 'https://notefolio.net/junmofolio/281541',
-    Tag: ['UI/UX', 'After Effects', 'Premiere Pro'],
-    Target: '_blank',
-  },
+ 
   
   // {
   //   Type: '개인',
@@ -129,7 +130,7 @@ export const ListChart = [
 
   {
     Type: '회사',
-    Title: 'ELAVERSE 학습 화면',
+    Title: 'ELAVERSE',
     SubTitle: (
       <>
         엘리아영어의 학습 세계관을 시각적으로 구현한 아동용 학습 화면입니다. 연령층의 이해도를 고려하여 UI/UX를 담당하였으며, 학습에 대한 흥미와 집중도를 높일 수 있는 디자인을 적용하였습니다.
