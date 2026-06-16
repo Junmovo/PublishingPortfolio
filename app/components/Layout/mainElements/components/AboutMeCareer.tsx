@@ -19,16 +19,16 @@ const AboutMeCareer = () => {
               <div>
                 <S.TitleUnderText>
                   <div>
-                    <span>AI 학습 콘텐츠 및 교육 서비스 화면을 다수 제작하였으며 사용성을 고려한 UI/UX 디자인을 진행하였습니다.</span>
+                    <span>AI 학습 콘텐츠 및 교육 서비스 UI/UX 디자인</span>
                   </div>
                   <div>
                     <span>
-                      배너, 프로모션 페이지, 카드뉴스, 광고 디자인하여 브랜드 홍보와 프로모션 운영을 지원하였습니다.
+                      프로모션 페이지, 광고 소재 등 브랜드 홍보 및 프로모션 운영 지원
                     </span>
                   </div>
                   <div>
                     <span>
-                      웹디자인, 퍼블리싱, 사이트 유지보수 등 자사 웹서비스 전반의 구축 및 운영 업무를 담당하였습니다.
+                      웹 디자인 및 퍼블리싱을 통한 웹 서비스 전반의 구축 및 운영
                     </span>
                   </div>
                 </S.TitleUnderText>
@@ -47,19 +47,19 @@ const AboutMeCareer = () => {
               <div>
                 <S.TitleUnderText>
                   <div>
-                    <span>웹디자인, 퍼블리싱, 사이트 유지보수 등 전반적인 사이트 제작업무를 담당하였습니다.</span>
+                    <span>웹디자인, 퍼블리싱, 사이트 유지보수 등 전반적인 사이트 제작 업무 담당</span>
                   </div>
                   <div>
                     <span>
-                      자사 관리자 페이지 기능 개발을 하였으며, 매출 및 판매량을 종합하여 쉽게 파악할 수 있는 UI로
-                      변경하였습니다.
+                      관리자 페이지 기능 개발 및 UI 고도화<br />
+                      매출·판매 데이터 모니터링을 위한 대시보드 구조 개선
                     </span>
                   </div>
                   <div>
-                    <span>포토샵을 활용한 각종 이벤트 디자인 및 기획을 담당하였습니다.</span>
+                    <span>Photoshop을 활용한 이벤트 디자인 및 기획 담당</span>
                   </div>
                   <div>
-                    <span>PHP 및 MySql-Workbench을 활용하여 기능을 개발하였습니다.</span>
+                    <span>PHP 및 MySQL Workbench를 활용한 기능 개발</span>
                   </div>
                 </S.TitleUnderText>
               </div>
@@ -78,19 +78,19 @@ const AboutMeCareer = () => {
                 <div>
                   <S.TitleUnderText>
                     <div>
-                      <span>(스마트웹&콘텐츠개발)반응형 UI/UX 웹퍼블리셔 전문가 양성과정</span>
+                      <span>(스마트웹&콘텐츠개발) 반응형 UI/UX 웹퍼블리셔 전문가 양성과정</span>
                     </div>
                     <div>
-                      <span>사용자의 UI/UX를 고려하여, 사용성을 높혔습니다.</span>
+                      <span>UI/UX를 고려한 사용성 중심의 화면 설계 학습</span>
                     </div>
                     <div>
-                      <span>웹표준을 준수하여 작업하는 방법을 배웠습니다.(HTML5/CSS)</span>
+                      <span>웹표준 기반 HTML5/CSS 퍼블리싱 학습</span>
                     </div>
                     <div>
-                      <span>JavaScript & jQuery 사용법을 배웠습니다.</span>
+                      <span>JavaScript 및 jQuery 기본 문법과 활용법 학습</span>
                     </div>
                     <div>
-                      <span>웹디자인기능사 자격증을 취득하였습니다.</span>
+                      <span>웹디자인기능사 자격증 취득</span>
                     </div>
                   </S.TitleUnderText>
                 </div>

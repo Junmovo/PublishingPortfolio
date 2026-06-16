@@ -21,35 +21,32 @@ const AboutMe = () => {
         </div>
 
         <div className="text-[16px] mt-3 text-gray-400 leading-7">
-          디자인부터 최신 프론트엔드 기술까지 꾸준히 배워오며,
-          <br /> 사용자의 경험을 우선으로 생각하여 UI/UX를 더욱 고민하고 최상의 경험을 제공하기 위해 노력합니다.
-          <br />
-          좋아하면 더욱 잘 한다는 마음가짐으로 꾸준하게 성장하고 있습니다.
+          UI/UX와 프론트엔드, 모션그래픽까지 다양한 방식의 사용자 경험을 탐구하고 있습니다.<br/>
+          끊임없는 학습과 고민을 통해 더 나은 인터페이스와 경험을 구현하고자 노력합니다.
         </div>
       </div>
       <div className="grid grid-cols-1 w-full gap-5 mb-20 xl:grid-cols-3 lg:grid-cols-2">
         <AboutMeCard title={'Photoshop / Illustrator'} icon={<SiAdobephotoshop size={30} color="#31A8FF" />}>
-          <div>각종 랜딩페이지 및 배너 디자인을 작업합니다.</div>
-          <div>Photoshop을 활용한 이미지 보정, 합성 및 그래픽 디자인이 가능합니다.</div>
-          <div>Illustrator를 활용하여 전단지, X배너, 리플릿 등 인쇄물을 제작한 경험이 있습니다.</div>
+          <div>웹사이트 및 프로모션 페이지에 필요한 비주얼 콘텐츠를 제작할 수 있습니다.</div>
+          <div>Photoshop으로 이미지 보정, 합성, 배너 디자인 작업을 진행하였습니다.</div>
+          <div>Illustrator를 활용해 전단지, X배너 등 인쇄물 디자인을 제작하였습니다.</div>
         </AboutMeCard>
         <AboutMeCard title={'Figma'} icon={<FaFigma size={30} />}>
-          <div>컴포넌트 기반으로 유지보수가 용이한 UI를 설계합니다</div>
+          <div>컴포넌트 기반으로 유지보수가 용이한 UI를 설계합니다.</div>
           <div>Auto Layout을 활용한 반응형 디자인 및 협업이 가능합니다.</div>
           <div>팀원들과 실시간 피드백 및 디자인 시스템을 공유하며 협업한 경험이 있습니다.</div>
         </AboutMeCard>
 
         <AboutMeCard title={'After Effects / Premiere Pro'} icon={<SiAdobeaftereffects size={30} color="#777bb4" />}>
-          <div>모션 그래픽 및 UI 인터랙션 영상을 제작한 경험이 있습니다.</div>
-          <div>키프레임, 마스크를 활용한 애니메이션 작업이 가능합니다.</div>
+          <div>모션 그래픽 및 UI 인터랙션 영상을 제작이 가능합니다.</div>
+          <div>Premiere Pro를 활용한 영상 편집 및 콘텐츠 제작이 가능하며, After Effects를 통해 모션그래픽과 UI 인터랙션을 구현할 수 있습니다.</div>
           <div>Lottie 애니메이션을 활용한 작업이 가능합니다.</div>
         </AboutMeCard>
 
         <AboutMeCard title={'HTML / CSS'} icon={<FaHtml5 size={30} color="#d86f21" />}>
-          <div>웹표준 & 웹접근성을 고려하여 시맨틱 태그를 적극 활용합니다.</div>
-          <div>미디어쿼리 이용 반응형 웹 제작합니다.</div>
-          <div>웹 사이트 구축 및 디자인을 기획 및 제작합니다.</div>
-          <div>Flex, Grid 등 다양한 레이아웃을 구성할 수 있습니다.</div>
+          <div>웹표준과 웹접근성을 고려한 시맨틱 마크업이 가능합니다.</div>
+          <div>미디어쿼리와 Flex, Grid를 활용하여 다양한 디바이스에 대응하는 반응형 웹을 구현할 수 있습니다.</div>
+          <div>유지보수와 확장성을 고려한 구조적인 레이아웃 설계가 가능합니다.</div>
         </AboutMeCard>
         <AboutMeCard title={'Javascript'} icon={<IoLogoJavascript size={26} color="#F7DF1E" />}>
           <div>라이브러리를 활용한 다양한 기능을 구현할 수 있습니다.</div>

@@ -31,7 +31,7 @@ export default function MainContents_ver2(): JSX.Element {
       <S.NextJsText>Publisher</S.NextJsText>
       <S.TypeScript>UI/UX</S.TypeScript>
       <div className="flex flex-col text-center lg:text-left">
-        <div className="text-[14px] text-gray-400">JM PortFolio</div>
+        <div className="text-[14px] text-gray-400">준모 Portfolio</div>
         <h2 className="text-[60px] font-[800] sm:text-[80px] ">
           만나서
           <br className="lg:hidden" /> 반가워 <span className="hidden lg:inline">👋</span>
@@ -48,6 +48,9 @@ export default function MainContents_ver2(): JSX.Element {
           </span>
           <span className="text-[14px] py-[10px] px-[20px] border rounded-full font-montserrat inline-block mb-[10px] dark:border-gray-500">
             UI/UX
+          </span>
+          <span className="text-[14px] py-[10px] px-[20px] border rounded-full font-montserrat inline-block mb-[10px] dark:border-gray-500">
+            Motion Graphic
           </span>
         </div>
       </div>

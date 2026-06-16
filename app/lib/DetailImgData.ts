@@ -289,11 +289,11 @@ export const ECloudAIImageGroup: ImageGroupType[] = [
 ];
 
 export const EleaEnglishImageGroup: ImageGroupType[] = [
-  // {
-  //   preview: '/images/EleaEnglish/preview/logo_guide.png',
-  //   src: '/images/EleaEnglish/preview/thumb_logo_guide.png',
-  //   title: '메인페이지',
-  // },
+  {
+    preview: '/images/EleaEnglish/preview/elea_english_main.png',
+    src: '/images/EleaEnglish/preview/thumb_elea_english_main.png',
+    title: '메인페이지',
+  },
   
   {
     preview: '/images/EleaEnglish/preview/business.png',

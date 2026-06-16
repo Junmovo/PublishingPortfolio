@@ -10,7 +10,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Lostark/Portfolio_main_image.png',
     Page: '/PageDetail/LostArk',
-    Tag: ['Design', 'Publishing', 'Javascript', 'Next.js(v14)', 'Tailwind', 'Zustand', 'PC'],
+    Tag: ['UI/UX', 'Publishing', 'Javascript', 'Next.js(v14)', 'Tailwind', 'Zustand', 'PC'],
   },
   {
     Type: '개인',
@@ -23,7 +23,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/myPortfolio/Portfolio_main_image.png',
     Page: '/PageDetail/myPortfolio',
-    Tag: ['Design', 'Publishing', 'Javascript', 'Next.js(v14)', 'Tailwind', 'Styled-Components', '반응형'],
+    Tag: ['UI/UX', 'Publishing', 'Javascript', 'Next.js(v14)', 'Tailwind', 'Styled-Components', '반응형'],
   },
   {
     Type: '개인',
@@ -36,7 +36,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/portfolio2022/Portfolio_main_image.png',
     Page: 'https://junmovo.github.io/Portfolio',
-    Tag: ['Design', 'Publishing', 'Javascript'],
+    Tag: ['UI/UX', 'Publishing', 'Javascript'],
     Target: '_blank',
   },
   {
@@ -50,7 +50,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/portfolio2022/suwon.png',
     Page: 'https://junmovo.github.io/Portfolio/Suwon/suwon.html',
-    Tag: ['Design', 'Publishing', 'Javascript'],
+    Tag: ['UI/UX', 'Publishing', 'Javascript'],
     Target: '_blank',
   },
   {
@@ -63,7 +63,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/notefolio/thumb_movie.png',
     Page: 'https://notefolio.net/junmofolio/281541',
-    Tag: ['Design', 'After Effects', 'Premiere Pro'],
+    Tag: ['UI/UX', 'After Effects', 'Premiere Pro'],
     Target: '_blank',
   },
   
@@ -73,7 +73,7 @@ export const ListChart = [
   //   SubTitle: <>카페24를 활용한 메이크업 브랜드 회사 꽃빵의 홈페이지를 제작하였습니다.</>,
   //   ImageSrc: '/images/portfolio2022/kkot.png',
   //   Page: '/PageDetail/kkotppang',
-  //   Tag: ['Design', 'Cafe24', 'Publishing'],
+  //   Tag: ['UI/UX', 'Cafe24', 'Publishing'],
   // },
   {
     Type: '개인',
@@ -83,7 +83,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/portfolio2022/mac.png',
     Page: 'https://junmovo.github.io/Portfolio/subpage/WP_Mcdelivery.html',
-    Tag: ['Design', 'UI/UX', 'TeamProject', 'App Design'],
+    Tag: ['UI/UX', 'App Design'],
     Target: '_blank',
   },
 {
@@ -98,7 +98,7 @@ export const ListChart = [
 
     ImageSrc: '/images/design/designmain.png',
     Page: '/PageDetail/Design',
-    Tag: ['Design', 'Photoshop', 'Illustrator','Figma'],
+    Tag: ['UI/UX', 'Photoshop', 'Illustrator','Figma'],
   },
   // {
   //   Type: '회사',
@@ -116,7 +116,7 @@ export const ListChart = [
 
   {
     Type: '회사',
-    Title: '엘리아영어 홈페이지',
+    Title: '엘리아영어',
     SubTitle: (
       <>
         엘리아영어 프랜차이즈 홈페이지의 UI/UX 디자인을 담당하였으며, 스크롤 기반 애니메이션과 반응형 웹 구조를 적용하여 사용자 경험을 향상시켰습니다.
@@ -124,20 +124,20 @@ export const ListChart = [
     ),
     ImageSrc: '/images/EleaEnglish/EleaEnglish.png',
     Page: '/PageDetail/EleaEnglish',
-    Tag: ['Design', 'Homepage','UIUX' ,'Publishing'],
+    Tag: ['UI/UX','Publishing'],
   },
 
   {
     Type: '회사',
-    Title: 'ELAVERSE 학습화면',
+    Title: 'ELAVERSE 학습 화면',
     SubTitle: (
       <>
-        엘리아영어의 학습 세계관을 시각적으로 구현한 아동용 학습 화면입니다. 연령층의 이해도를 고려하여 UI/UX를 설계하였으며, 학습에 대한 흥미와 집중도를 높일 수 있는 디자인을 적용하였습니다.
+        엘리아영어의 학습 세계관을 시각적으로 구현한 아동용 학습 화면입니다. 연령층의 이해도를 고려하여 UI/UX를 담당하였으며, 학습에 대한 흥미와 집중도를 높일 수 있는 디자인을 적용하였습니다.
       </>
     ),
     ImageSrc: '/images/Elaverse/Elaverse.png',
     Page: '/PageDetail/Elaverse',
-    Tag: ['Design', 'Education','UIUX' ,'Figma'],
+    Tag: ['UI/UX','Figma'],
   },
 
   {
@@ -150,7 +150,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/ECloudAI/ECLOUDAI.png',
     Page: '/PageDetail/ECloudAI',
-    Tag: ['Design', 'Renewal','UIUX' ,'Publishing'],
+    Tag: ['UI/UX', 'Renewal','Publishing'],
   },
 
   {
@@ -163,7 +163,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Korean/Korean.png',
     Page: '/PageDetail/Korean',
-    Tag: ['Design', 'UI/UX','Publishing'],
+    Tag: ['UI/UX','Publishing'],
   },
 
   {
@@ -176,7 +176,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/HS/HS.png',
     Page: '/PageDetail/HS',
-    Tag: ['Design', 'Figma', 'Offline','Publishing'],
+    Tag: ['UI/UX', 'Figma', 'Offline','Publishing'],
   },
 
   {
@@ -191,7 +191,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/feelframe/Portfolio_main_image.png',
     Page: '/PageDetail/Feelframe',
-    Tag: ['Design', 'Publishing', 'PHP', 'JavaScript', 'MySql-Workbench'],
+    Tag: ['UI/UX', 'Publishing', 'PHP', 'JavaScript', 'MySql-Workbench'],
   },
   {
     Type: '회사',
@@ -205,7 +205,7 @@ export const ListChart = [
 
     ImageSrc: '/images/Feelcard/Feelcard.png',
     Page: '/PageDetail/Feelcard',
-    Tag: ['Design', 'Publishing', 'JavaScript', 'PHP', 'MySql-Workbench'],
+    Tag: ['UI/UX', 'Publishing', 'JavaScript', 'PHP', 'MySql-Workbench'],
   },
   {
     Type: '회사',
@@ -220,7 +220,7 @@ export const ListChart = [
 
     ImageSrc: '/images/feelmaker/Portfolio_main_image.png',
     Page: '/PageDetail/Feelmaker',
-    Tag: ['Design', 'Publising', 'JavaScript'],
+    Tag: ['UI/UX', 'Publising', 'JavaScript'],
   },
   {
     Type: '회사',
@@ -234,7 +234,7 @@ export const ListChart = [
 
     ImageSrc: '/images/barunbojung/Portfolio_main_image.png',
     Page: '/PageDetail/Barunbojung',
-    Tag: ['Design', 'Publising', 'Tistory', 'JavaScript'],
+    Tag: ['UI/UX', 'Publising', 'Tistory', 'JavaScript'],
   },
   
 ];
