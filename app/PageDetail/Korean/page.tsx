@@ -39,7 +39,6 @@ const Korean = () => {
                     <br />
                     <p>
                       <Detailbedge contents="UI/UX" />
-                      <Detailbedge contents="Design" />
                       <Detailbedge contents="Figma" />
                       <Detailbedge contents="Publishing" />
                     </p>

@@ -40,6 +40,7 @@ const Korean = () => {
                       <Detailbedge contents="UI/UX" />
                       <Detailbedge contents="Design" />
                       <Detailbedge contents="Figma" />
+                      <Detailbedge contents="indesign" />
                       <Detailbedge contents="Illustrator" />
                     </p>
                   </div>

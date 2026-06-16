@@ -196,16 +196,17 @@ export const ElaverseImageGroup: ImageGroupType[] = [
   },
 
   {
-    preview: '/images/Elaverse/preview/Intro.png',
-    src: '/images/Elaverse/preview/Intro.png',
-    title: '테스트 메인화면 UI',
+    preview: '/images/Elaverse/preview/비행기로딩.gif',
+    src: '/images/Elaverse/preview/thumb_gif.png',
+    title: '로딩 애니메이션',
   },
-  
+
   {
-    preview: '/images/Elaverse/preview/DD.png',
+    preview: '/images/Elaverse/preview/thumb_Intro.png',
     src: '/images/Elaverse/preview/DD.png',
-    title: '테스트 화면',
+    title: '테스트화면',
   },
+
   {
     preview: '/images/Elaverse/preview/report.png',
     src: '/images/Elaverse/preview/monthlyThumb.png',

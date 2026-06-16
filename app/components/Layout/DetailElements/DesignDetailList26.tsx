@@ -6,7 +6,7 @@ import PageTransition from '../../commons/Pagetransition';
 
 const menuList = [
   { title: '전체' },
-  { title: '팝업' },
+  { title: '카드뉴스' },
   { title: '이벤트' },
   { title: '배너' },
   { title: '상세' },

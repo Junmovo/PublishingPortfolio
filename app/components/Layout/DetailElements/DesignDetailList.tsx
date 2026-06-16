@@ -6,6 +6,7 @@ import PageTransition from '../../commons/Pagetransition';
 
 const menuList = [
   { title: '전체' },
+  { title: '카드뉴스' },
   { title: '팝업' },
   { title: '이벤트' },
   { title: '배너' },
@@ -22,6 +23,13 @@ const DesignDetailList = () => {
     if (selected === '전체') {
       return ImageDesignGroup;
     }
+
+    if (selected === '배너') {
+      return ImageDesignGroup.filter(
+        (el) => el.type === '배너' || el.type === '긴배너'
+      );
+    }
+
     return ImageDesignGroup.filter((el) => el.type === selected);
   };
 

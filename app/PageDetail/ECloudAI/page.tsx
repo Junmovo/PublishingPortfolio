@@ -41,7 +41,7 @@ const ECloudAI = () => {
                     <br />
                     <p>
                       <Detailbedge contents="UI/UX" />
-                      <Detailbedge contents="Design" />
+                      <Detailbedge contents="AI" />
                       <Detailbedge contents="Figma" />
                       <Detailbedge contents="Publishing" />
                     </p>

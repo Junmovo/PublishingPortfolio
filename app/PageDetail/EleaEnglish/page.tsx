@@ -38,9 +38,8 @@ const EleaEnglishPage = () => {
                     사용기술
                     <br />
                     <p>
-                      <Detailbedge contents="Design" />
+                      <Detailbedge contents="UI/UX" />
                       <Detailbedge contents="Publishing" />
-                      <Detailbedge contents="UIUX" />
                     </p>
                   </div>
                   <div>
@@ -62,7 +61,7 @@ const EleaEnglishPage = () => {
                   <div>
                     화면 설계 및 UI/UX 개선
                     <p> - 사용자 동선을 고려한 화면 구조 및 레이아웃 설계</p>
-                    <p> - 콘텐츠 전달력을 높이기 위한 UI/UX 개선 작업</p>
+                    <p> - 콘텐츠 전달력을 높이기 위한 리스트 구조 개선(설명회 신청)</p>
                     <p> - 사용자 피드백을 반영한 디자인 고도화</p>
                   </div>
 

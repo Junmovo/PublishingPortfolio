@@ -37,8 +37,7 @@ const Elaverse = () => {
                     사용기술
                     <br />
                     <p>
-                      <Detailbedge contents="UIUX" />
-                      <Detailbedge contents="Design" />
+                      <Detailbedge contents="UI/UX" />
                       <Detailbedge contents="Figma" />
                       <Detailbedge contents="After Effect" />
                     </p>
@@ -61,9 +60,10 @@ const Elaverse = () => {
                 <S.TitleUnderText className="md:ml-[40px]">
                   <div>
                     화면 설계 및 UI/UX 기획 디자인
-                    <p> - 아동 학습 서비스 특성을 고려한 화면 구조 및 레이아웃 설계</p>
-                    <p> - 콘텐츠 전달력을 높이기 위한 UI/UX 개선 작업</p>
-                    <p> - 운영 중 사용자 피드백을 반영한 디자인 고도화</p>
+                      <p> - 아동 학습 서비스 특성을 고려한 화면 구조 및 레이아웃 설계</p>
+                      <p> - 학습 화면에서 불필요한 스크롤을 줄이고 한눈에 학습 흐름을 파악할 수 있도록 레이아웃 개선</p>
+                      <p> - 폰트, 버튼, 시각 요소를 최소화하여 콘텐츠 집중도와 가독성 향상</p>
+                      <p> - 퀴즈, 미션 등 다양한 학습 게임 화면 디자인 진행</p>
                   </div>
 
                   <div>

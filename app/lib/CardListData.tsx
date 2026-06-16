@@ -97,9 +97,9 @@ export const ListChart = [
       </>
     ),
 
-    ImageSrc: '/images/design/designmain.png',
+    ImageSrc: '/images/design/aituhmb2.png',
     Page: '/PageDetail/Design',
-    Tag: ['UI/UX', 'Photoshop', 'Illustrator','Figma'],
+    Tag: ['UI/UX', 'Photoshop', 'Illustrator','AI'],
   },
   // {
   //   Type: '회사',
@@ -117,15 +117,15 @@ export const ListChart = [
 
   {
     Type: '회사',
-    Title: '엘리아영어',
+    Title: 'E-Cloud AI 홈페이지 리뉴얼',
     SubTitle: (
       <>
-        엘리아영어 프랜차이즈 홈페이지의 UI/UX 디자인을 담당하였으며, 스크롤 기반 애니메이션과 반응형 웹 구조를 적용하여 사용자 경험을 향상시켰습니다.
+        E-Cloud AI 공식 홈페이지의 디자인 리뉴얼 및 퍼블리싱을 진행하였으며, 최신 디자인 트렌드를 반영한 심플한 레이아웃과 반응형 웹 구조를 적용하였습니다.
       </>
     ),
-    ImageSrc: '/images/EleaEnglish/EleaEnglish.png',
-    Page: '/PageDetail/EleaEnglish',
-    Tag: ['UI/UX','Publishing'],
+    ImageSrc: '/images/ECloudAI/aithumb.png',
+    Page: '/PageDetail/ECloudAI',
+    Tag: ['UI/UX', 'AI','Figma','Publishing'],
   },
 
   {
@@ -138,20 +138,21 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Elaverse/Elaverse.png',
     Page: '/PageDetail/Elaverse',
-    Tag: ['UI/UX','Figma'],
+    Tag: ['UI/UX','Figma','After Effects'],
   },
 
+  
   {
     Type: '회사',
-    Title: 'E-Cloud AI 홈페이지 리뉴얼',
+    Title: '엘리아영어',
     SubTitle: (
       <>
-        E-Cloud AI 공식 홈페이지의 디자인 리뉴얼 및 퍼블리싱을 진행하였으며, 최신 디자인 트렌드를 반영한 심플한 레이아웃과 반응형 웹 구조를 적용하였습니다.
+        엘리아영어 프랜차이즈 홈페이지의 UI/UX 디자인을 담당하였으며, 스크롤 기반 애니메이션과 반응형 웹 구조를 적용하여 사용자 경험을 향상시켰습니다.
       </>
     ),
-    ImageSrc: '/images/ECloudAI/ECLOUDAI.png',
-    Page: '/PageDetail/ECloudAI',
-    Tag: ['UI/UX', 'Renewal','Publishing'],
+    ImageSrc: '/images/EleaEnglish/EleaEnglish.png',
+    Page: '/PageDetail/EleaEnglish',
+    Tag: ['UI/UX','Figma','Publishing'],
   },
 
   {
@@ -164,7 +165,7 @@ export const ListChart = [
     ),
     ImageSrc: '/images/Korean/Korean.png',
     Page: '/PageDetail/Korean',
-    Tag: ['UI/UX','Publishing'],
+    Tag: ['UI/UX','Figma','Publishing'],
   },
 
   {
