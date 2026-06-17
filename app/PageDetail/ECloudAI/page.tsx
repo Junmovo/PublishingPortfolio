@@ -49,7 +49,7 @@ const ECloudAI = () => {
                   <div>
                     프로젝트 설명
                     <br />
-                    <span className="mt-2 inline-block">
+                    <span className="mt-2 inline-block text-[15px]">
                       E-Cloud AI 기업 기술 홈페이지 리뉴얼 프로젝트입니다.<br/><br/>
                       투자사 유치를 위한 최신 웹 디자인 트렌드를 반영하여 UI/UX를 개선하였습니다.<br/>다양한 인터랙션 요소와 반응형 웹 환경을 고려한 설계를 통해 사용자 경험을 향상시키고, 기업의 기술력과 핵심 가치를 효과적으로 전달할 수 있도록 디자인을 진행하고 있습니다.
                       
