@@ -277,7 +277,7 @@ export const ECloudAIImageGroup: ImageGroupType[] = [
     title: '로고 제작 가이드',
   },
   {
-    preview: '/images/ECloudAI/preview/main_renual260604.png',
+    preview: '/images/ECloudAI/preview/main_ver2_260604.png',
     src: '/images/ECloudAI/preview/thumb_main_renual260604.png',
     title: '홈페이지 리뉴얼(진행중)',
   },
